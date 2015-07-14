@@ -1,0 +1,68 @@
+2015-07-14 06:22:44+0000 [-] Log opened.
+2015-07-14 06:22:44+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-14 06:22:44+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-14 06:22:44+0000 [-] AmpServerFactory starting on 5000
+2015-07-14 06:22:44+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f0c9e5ff8c0>
+2015-07-14 06:22:44+0000 [-] Site starting on 5001
+2015-07-14 06:22:44+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f0c9e588a70>
+2015-07-14 06:22:44+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37893))
+2015-07-14 06:23:19+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:23:19+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'evennia.commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:23:19+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'contribs.commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:23:30+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37893))
+2015-07-14 06:23:30+0000 [-] Received SIGINT, shutting down.
+2015-07-14 06:23:30+0000 [-] (TCP Port 5001 Closed)
+2015-07-14 06:23:30+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f0c9e588a70>
+2015-07-14 06:23:30+0000 [-] (TCP Port 5000 Closed)
+2015-07-14 06:23:30+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f0c9e5ff8c0>
+2015-07-14 06:23:30+0000 [-] Main loop terminated.
+2015-07-14 06:23:30+0000 [-] Server Shut Down.
+2015-07-14 06:24:24+0000 [-] Log opened.
+2015-07-14 06:24:24+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-14 06:24:24+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-14 06:24:24+0000 [-] AmpServerFactory starting on 5000
+2015-07-14 06:24:24+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc35ab86d88>
+2015-07-14 06:24:24+0000 [-] Site starting on 5001
+2015-07-14 06:24:24+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc35aab3098>
+2015-07-14 06:24:24+0000 [-] (TCP Port 5001 Closed)
+2015-07-14 06:24:24+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc35aab3098>
+2015-07-14 06:24:24+0000 [-] (TCP Port 5000 Closed)
+2015-07-14 06:24:24+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc35ab86d88>
+2015-07-14 06:24:24+0000 [-] Main loop terminated.
+2015-07-14 06:24:24+0000 [-] Server Shut Down.
+2015-07-14 06:24:25+0000 [-] Log opened.
+2015-07-14 06:24:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-14 06:24:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-14 06:24:25+0000 [-] AmpServerFactory starting on 5000
+2015-07-14 06:24:25+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f54e8df7bd8>
+2015-07-14 06:24:25+0000 [-] Site starting on 5001
+2015-07-14 06:24:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f54e8d7cab8>
+2015-07-14 06:24:25+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37895))
+2015-07-14 06:24:33+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:24:33+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'evennia.commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:24:33+0000 [AMPProtocol,0,127.0.0.1] [EE] (Unsuccessfully tried 'contribs.commands.' + 'default_cmdsets.UnloggedinCmdSet').
+2015-07-14 06:25:15+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37895))
+2015-07-14 06:25:15+0000 [-] Received SIGINT, shutting down.
+2015-07-14 06:25:15+0000 [-] (TCP Port 5001 Closed)
+2015-07-14 06:25:15+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f54e8d7cab8>
+2015-07-14 06:25:15+0000 [-] (TCP Port 5000 Closed)
+2015-07-14 06:25:15+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f54e8df7bd8>
+2015-07-14 06:25:15+0000 [-] Main loop terminated.
+2015-07-14 06:25:15+0000 [-] Server Shut Down.
+2015-07-14 16:33:11+0000 [-] Log opened.
+2015-07-14 16:33:11+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-14 16:33:11+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-14 16:33:11+0000 [-] AmpServerFactory starting on 5000
+2015-07-14 16:33:11+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa08cd9d8c0>
+2015-07-14 16:33:11+0000 [-] Site starting on 5001
+2015-07-14 16:33:11+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa08cd27a70>
+2015-07-14 16:33:11+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37901))
+2015-07-14 16:33:24+0000 [-] /root/mud/evennia/evennia/web/urls.py:39: django.utils.deprecation.RemovedInDjango19Warning: Default value of 'RedirectView.permanent' will change from True to False in Django 1.9. Set an explicit value to silence this warning.
+2015-07-14 16:34:41+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 37901))
+2015-07-14 16:34:41+0000 [-] Received SIGINT, shutting down.
+2015-07-14 16:34:41+0000 [-] (TCP Port 5001 Closed)
+2015-07-14 16:34:41+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa08cd27a70>
+2015-07-14 16:34:41+0000 [-] (TCP Port 5000 Closed)
+2015-07-14 16:34:41+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa08cd9d8c0>
+2015-07-14 16:34:41+0000 [-] Main loop terminated.
+2015-07-14 16:34:41+0000 [-] Server Shut Down.
