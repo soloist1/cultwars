@@ -79,11 +79,16 @@ class Command(BaseCommand):
         """
         self.caller.msg("Command called!")
 
-    def at_post_cmd(self):
+  #  def at_post_cmd(self):
         """
         This hook is called after `self.func()`.
         """
-        pass
+
+                   
+  #      prompt = "HP:2, MP:1,SP:3" 
+  #      self.caller.msg(prompt=prompt)
+
+   #     pass
 
 
 class MuxCommand(default_cmds.MuxCommand):
@@ -128,6 +133,9 @@ class MuxCommand(default_cmds.MuxCommand):
         # printing the ingoing variables as a demo.
         super(MuxCommand, self).func()
 
+
+
+
 class CmdAbilities(Command):
 
     key = "abilities"
@@ -164,3 +172,85 @@ class CmdAttack(Command):
         character2 = self.caller.search(self.args)
 
         rules.roll_challenge(character1, character2, "combat")
+
+
+
+
+
+class CmdLook(MuxCommand):
+    """
+    look at location or object
+
+    Usage:
+      look
+      look <obj>
+      look *<player>
+
+    Observes your location or objects in your vicinity.
+    """
+    key = "look"
+    aliases = ["l", "ls"]
+    locks = "cmd:all()"
+    arg_regex = r"\s|$"
+
+    def func(self):
+        """
+        Handle the looking.
+        """
+        caller = self.caller
+        args = self.args
+        if args:
+            # Use search to handle duplicate/nonexistant results.
+            looking_at_obj = caller.search(args, use_nicks=True)
+            if not looking_at_obj:
+                return
+        else:
+            looking_at_obj = caller.location
+            if not looking_at_obj:
+                caller.msg("You have no location to look at!")
+                return
+
+        if not hasattr(looking_at_obj, 'return_appearance'):
+            # this is likely due to us having a player instead
+            looking_at_obj = looking_at_obj.character
+        if not looking_at_obj.access(caller, "view"):
+            caller.msg("Could not find '%s'." % args)
+            return
+        # get object's appearance
+        caller.msg(looking_at_obj.return_appearance(caller))
+        # the object's at_desc() method.
+        looking_at_obj.at_desc(looker=caller)
+
+
+        hp, mp, sta = self.caller.get_stats()
+       # prompt = "[{rHP{y 3,{b MP{y 4,{g STA{y 5{n]-> "
+       # self.caller.msg(prompt=prompt)
+        prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]-> " % (hp, mp, sta)
+        self.caller.msg(prompt=prompt)
+        
+
+
+
+class CmdTarget(default_cmds.MuxCommand):
+            """
+            Simple command example
+
+            Usage: 
+              target <text>
+
+            This command simply echoes target text back to the caller.
+            """
+
+            key = "target"
+            locks = "cmd:all()"
+
+            def func(self):
+                "This actually does things" 
+                if not self.args:
+                    self.caller.msg("You didn't enter anything!")           
+                else:
+                    self.caller.msg("You are now targeting: '%s'" % self.args)
+
+
+
+

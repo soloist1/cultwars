@@ -31,8 +31,10 @@ class Character(DefaultCharacter):
     def at_object_creation(self):
         "This is called when object is first created, only."   
         self.db.level = 1 
-        self.db.HP = 100
+        self.db.HP = 10
         self.db.XP = 0
+#	self.db.MP = 5
+#        self.db.STA = 60
         self.db.STR = randint(1, 10)
         self.db.combat = randint(5, 10)
 
@@ -42,6 +44,15 @@ class Character(DefaultCharacter):
         scores as a tuple (str,agi,mag)
         """
         return self.db.STR, self.db.XP, self.db.HP, self.db.combat, self.db.level
+
+
+    def get_stats(self):
+
+        self.db.HP = 10
+        self.db.MP = 5
+        self.db.STA = 60
+      
+        return self.db.HP, self.db.MP, self.db.STA
 
     def at_after_move(self, source_location):
         """
