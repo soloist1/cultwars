@@ -31,37 +31,32 @@ class Character(DefaultCharacter):
     def at_object_creation(self):
         "This is called when object is first created, only."   
         self.db.level = 1 
-        self.db.HP = 10
         self.db.XP = 0
-	self.db.MP = 5
-        self.db.STA = 60
-        self.db.STR = randint(1, 10)
         self.db.combat = randint(5, 10)
         self.db.strength = 0
         self.db.dexterity = 0
         self.db.charisma = 0
         self.db.intelligence = 0 
         self.db.stamina = 0
+        self.db.hitpoints = 0
+        self.db.manapoints = 0
 
     def get_abilities(self):
         """
         Simple access method to return ability 
         scores as a tuple (str,agi,mag)
         """
-        return self.db.STR, self.db.XP, self.db.HP, self.db.combat, self.db.level
+        return  self.db.XP, self.db.hitpoints, self.db.manapoints, self.db.combat, self.db.level
 
 
     def get_stats(self):
 
-        self.db.HP = 10
-        self.db.MP = 5
-        self.db.STA = 60
       
-        return self.db.HP, self.db.MP, self.db.STA
+        return self.db.hitpoints, self.db.manapoints, self.db.stamina
         
     def get_my_stats(self):
  
-        return self.db.strength, self.db.dexterity, self.db.charisma, self.db.intelligence, self.db.stamina
+        return self.db.strength, self.db.dexterity, self.db.charisma, self.db.intelligence, self.db.stamina, self.db.hitpoints, self.db.manapoints
 
     def at_after_move(self, source_location):
         """

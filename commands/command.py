@@ -147,8 +147,8 @@ class CmdAbilities(Command):
     help_category = "General"
 
     def func(self):
-         hp, xp, str, combat, level = self.caller.get_abilities()
-         string = "HP: %s, XP: %s, STR: %s, COMBAT: %s, LEVEL: %s" % (hp, xp, str, combat, level)
+         xp, hitpoints, manapoints, combat, level = self.caller.get_abilities()
+         string = "XP: %s, HP: %s, MP: %s, COMBAT: %s, LEVEL: %s" % (xp, hitpoints, manapoints, combat, level)
          self.caller.msg(string)
 
 
@@ -161,13 +161,15 @@ class CmdMyStats(Command):
     help_category = "General"
 
     def func(self):
-         strength, dexterity, charisma, intelligence, stamina = self.caller.get_my_stats()
+         strength, dexterity, charisma, intelligence, stamina, hitpoints, manapoints = self.caller.get_my_stats()
 
          self.caller.msg("Strength: %i." % strength)
          self.caller.msg("Dexterity: %i." % dexterity)
          self.caller.msg("Charisma: %i." % charisma)
          self.caller.msg("Intelligence: %i." % intelligence)
          self.caller.msg("Stamina: %i." % stamina)
+         self.caller.msg("HP: %i." % hitpoints)
+         self.caller.msg("MP: %i." % manapoints)
 
 class CmdAttack(Command):
     """
@@ -241,8 +243,8 @@ class CmdLook(MuxCommand):
         looking_at_obj.at_desc(looker=caller)
 
        ## Command line prompt stuffz
-        hp, mp, sta = self.caller.get_stats()
-        prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]-> " % (hp, mp, sta)
+        hitpoints, manapoints, stamina = self.caller.get_stats()
+        prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]-> " % (hitpoints, manapoints, stamina)
         self.caller.msg(prompt=prompt)
         
 
@@ -286,6 +288,14 @@ class CmdGenStats(Command):
 
     def func(self):
         "This performs the actual command"
+
+        hitpoints = random.randint(5,10)
+        self.caller.db.hitpoints = hitpoints
+        self.caller.msg("Your current hitpoints was set to %i." % hitpoints)
+
+        manapoints = random.randint(5,10)
+        self.caller.db.manapoints = manapoints
+        self.caller.msg("Your current manapoints was set to %i." % manapoints)
 
         strength = random.randint(1, 18)
         self.caller.db.strength = strength
@@ -347,6 +357,13 @@ class CmdCreateNPC(Command):
 
        #Let's set the initial stats for the NPC  --SG
 
+        hitpoints = random.randint(5,10)
+        npc.db.hitpoints = hitpoints
+        caller.msg("Your current hitpoints was set to %i." % hitpoints)
+
+        manapoints = random.randint(5,10)
+        npc.db.manapoints = manapoints
+        caller.msg("Your current manapoints was set to %i." % manapoints)
        
         strength = random.randint(1, 18)
         npc.db.strength = strength
@@ -373,3 +390,42 @@ class CmdCreateNPC(Command):
         message = "%s's Stamina was set to %i.\n"
         caller.msg(message % (name, stamina))
 
+
+class CmdNPC(Command):
+    """
+    controls an NPC
+
+    Usage: 
+        +npc <name> = <command>
+
+    This causes the npc to perform a command as itself. It will do so
+    with its own permissions and accesses. 
+    """
+    key = "+npc"
+    locks = "call:not perm(nonpcs)"
+    help_category = "mush"
+
+    def parse(self):
+        "Simple split of the = sign"
+        name, cmdname = None, None
+        if "=" in self.args:
+            name, cmdname = [part.strip() 
+                             for part in self.args.rsplit("=", 1)]
+        self.name, self.cmdname = name, cmdname
+
+    def func(self):
+        "Run the command"
+        caller = self.caller
+        if not self.cmdname:
+            caller.msg("Usage: +npc <name> = <command>")
+            return
+        npc = caller.search(self.name)   
+        if not npc:
+            return
+        if not npc.access(caller, "edit"):
+            caller.msg("You may not order this NPC to do anything.")
+            return
+        # send the command order
+        npc.execute_cmd(self.cmdname)
+        caller.msg("You told %s to do '%s'." % (npc.key, self.cmdname))
+      #  npc.execute_cmd(self.cmdname, sessid=self.caller.sessid)

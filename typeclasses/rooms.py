@@ -10,7 +10,7 @@ from evennia import utils
 from characters import Character
 from npc import Npc
 from commands.default_cmdsets import ChargenCmdset
-from commands.default_cmdsets import NPCCmdset
+#from commands.default_cmdsets import NPCCmdset
 
 class Room(DefaultRoom):
     """
@@ -45,13 +45,13 @@ class ChargenRoom(Room):
         "this is called only at first creation"
         self.cmdset.add(ChargenCmdset, permanent=True)
 
-class NPCRoom(Room):
+#class NPCRoom(Room):
 
-    """
-    This room class is used by NPC-generation rooms. It makes
-    the NPCCmdset available.
-    """
-    def at_object_creation(self):
-        "this is called only at first creation"
-        self.cmdset.add(NPCCmdset, permanent=True)
+#    """
+#    This room class is used by NPC-generation rooms. It makes
+#    the NPCCmdset available.
+#    """
+#    def at_object_creation(self):
+#        "this is called only at first creation"
+#        self.cmdset.add(NPCCmdset, permanent=True)
 

@@ -30,19 +30,27 @@ CONNECTION_SCREEN = \
  If you have spaces in your username, enclose it in quotes.
  Enter {whelp{n for more info. {wlook{n will re-show this screen.
 
-          {r**** {mNew Commands{r ****{n
+           {r**** {mNew Commands{r ****{n
 
  {ytarget -{n echoes target string
  {yabilities -{n shows some initial generic abilities
  {y+genstats -{r ONLY IN CREATION ROOM{n generates some base stats
  {ymystats -{n (alias - mstat) shows your base stats
- {y+createnpc {rNPC NAME{n-{r ONLY IN NPC ROOM{n will spawn a new npc 
+ {y+createnpc {rNPC NAME {n will spawn a new npc 
     initial stats will be rolled for the npc when created
+ {y+npc {rNPC NAME{n = {rACTION (ex. say Hello.){n
+    makes NPC perform action
 
           {r**** {mNew Locations{r ****{n
 
  {yCharacter Creation Room {Wdbref #91 -{n north of Infirmary
- {yNPC Room {Wdbref #99 -{n east of Character Creation
+ 
  {yEquipment Room {Wdbref #95 -{n west of Character Creation
+
+
+         {r**** {mFixes/Changes{r ****{n 
+
+ Prompt now displays your true stats
+ Workaround for capitalize() for npc generation, see comments
 {b=============================================================={n"""\
  % (settings.SERVERNAME)
