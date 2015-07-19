@@ -7,7 +7,10 @@ Commands describe the input the player can do to the game.
 
 from evennia import Command as BaseCommand
 from evennia import default_cmds
+from evennia import create_object
+from evennia import utils
 from world import rules
+import random
 
 class Command(BaseCommand):
     """
@@ -150,6 +153,22 @@ class CmdAbilities(Command):
 
 
 
+class CmdMyStats(Command):
+
+    key = "mystats"
+    aliases = ["mstat"]
+    lock = "cmd:all()"
+    help_category = "General"
+
+    def func(self):
+         strength, dexterity, charisma, intelligence, stamina = self.caller.get_my_stats()
+
+         self.caller.msg("Strength: %i." % strength)
+         self.caller.msg("Dexterity: %i." % dexterity)
+         self.caller.msg("Charisma: %i." % charisma)
+         self.caller.msg("Intelligence: %i." % intelligence)
+         self.caller.msg("Stamina: %i." % stamina)
+
 class CmdAttack(Command):
     """
     attack an opponent
@@ -221,10 +240,8 @@ class CmdLook(MuxCommand):
         # the object's at_desc() method.
         looking_at_obj.at_desc(looker=caller)
 
-
+       ## Command line prompt stuffz
         hp, mp, sta = self.caller.get_stats()
-       # prompt = "[{rHP{y 3,{b MP{y 4,{g STA{y 5{n]-> "
-       # self.caller.msg(prompt=prompt)
         prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]-> " % (hp, mp, sta)
         self.caller.msg(prompt=prompt)
         
@@ -253,4 +270,106 @@ class CmdTarget(default_cmds.MuxCommand):
 
 
 
+class CmdGenStats(Command):
+    """
+    set the stats of a character
+
+    Usage: 
+      +genstats
+
+    This generates the stats of the current character. This can only be 
+    used during character generation.    
+    """
+
+    key = "+genstats"
+    help_category = "mush"
+
+    def func(self):
+        "This performs the actual command"
+
+        strength = random.randint(1, 18)
+        self.caller.db.strength = strength
+        self.caller.msg("Your Strength was set to %i." % strength)
+
+        dexterity = random.randint(1, 18)
+        self.caller.db.dexterity = dexterity
+        self.caller.msg("Your Dexterity was set to %i." % dexterity)
+
+        charisma = random.randint(1, 18)
+        self.caller.db.charisma = charisma
+        self.caller.msg("Your Charisma was set to %i." % charisma)
+
+        intelligence = random.randint(1, 18)
+        self.caller.db.intelligence = intelligence
+        self.caller.msg("Your Intelligence was set to %i." % intelligence)
+
+        stamina = random.randint(1, 18)
+        self.caller.db.stamina = stamina
+        self.caller.msg("Your Stamina was set to %i." % stamina)
+
+class CmdCreateNPC(Command):
+    """
+    create a new npc
+
+    Usage:
+    +createNPC <name>
+
+    Creates a new, named NPC.
+    """ 
+ ### Note the space after the key and aliases. Without it the argument "npc name" will end up with a space in front --SG 
+    key = "+createnpc " 
+    aliases = ["+createNPC "]
+    locks = "call:not perm(nonpcs)"
+    help_category = "mush" 
+
+    def func(self):
+        "creates the object and names it"
+        caller = self.caller
+        if not self.args:
+            caller.msg("Usage: +createNPC <name>")
+            return
+        if not caller.location:
+            # may not create npc when OOC
+            caller.msg("You must have a location to create an npc.")
+            return
+        # make name always start with capital letter
+        name = self.args.capitalize()
+        # create npc in caller's location
+        npc = create_object("characters.Character", 
+                      key=name, 
+                      location=caller.location,
+                      locks="edit:id(%i) and perm(Builders)" % caller.id)
+        # announce 
+        message = "%s created the NPC '%s'.\n"
+        caller.msg(message % ("You", name)) 
+        caller.location.msg_contents(message % (caller.key, name), 
+                                                exclude=caller)       
+
+       #Let's set the initial stats for the NPC  --SG
+
+       
+        strength = random.randint(1, 18)
+        npc.db.strength = strength
+        message = "%s's Strength was set to %i."
+        caller.msg(message % (name, strength))
+
+        dexterity = random.randint(1, 18)
+        npc.db.dexterity = dexterity
+        message = "%s's Dexterity was set to %i."
+        caller.msg(message % (name, dexterity))
+
+        charisma = random.randint(1, 18)
+        npc.db.charisma = charisma
+        message = "%s's Charisma was set to %i."
+        caller.msg(message % (name, charisma))
+
+        intelligence = random.randint(1, 18)
+        npc.db.intelligence = intelligence
+        message = "%s's Intelligence was set to %i."
+        caller.msg(message % (name, intelligence))
+
+        stamina = random.randint(1, 18)
+        npc.db.stamina = stamina
+        message = "%s's Stamina was set to %i.\n"
+        caller.msg(message % (name, stamina))
 

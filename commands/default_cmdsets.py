@@ -18,6 +18,11 @@ from evennia import default_cmds
 from commands.command import CmdAbilities
 from commands.command import CmdLook
 from commands.command import CmdTarget
+from commands.command import CmdGenStats
+from commands.command import CmdMyStats
+from commands.command import CmdCreateNPC
+from evennia import CmdSet
+from commands import command
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
     """
@@ -38,6 +43,9 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
 	self.add(CmdAbilities())
         self.add(CmdLook())
         self.add(CmdTarget())
+        self.add(CmdMyStats())
+  #      self.add(CmdCreateNPC())
+ #       self.add(CmdGenStats())
 
 class PlayerCmdSet(default_cmds.PlayerCmdSet):
     """
@@ -94,3 +102,22 @@ class SessionCmdSet(default_cmds.SessionCmdSet):
         #
         # any commands you add below will overload the default ones.
         #
+class ChargenCmdset(CmdSet):
+    """
+    This cmdset it used in character generation areas.
+    """
+    key = "Chargen"
+    def at_cmdset_creation(self):
+        "This is called at initialization"
+        self.add(CmdGenStats()) 
+
+
+class NPCCmdset(CmdSet):
+    """
+    This cmdset it used in NPC generation areas.
+    """
+    key = "NPCgen"
+    def at_cmdset_creation(self):
+        "This is called at initialization"
+        self.add(CmdCreateNPC())
+

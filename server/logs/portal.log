@@ -1144,3 +1144,679 @@
 2015-07-17 06:57:19+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
 2015-07-17 06:57:44+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
 2015-07-17 07:04:24+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 05:23:37+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:04:12+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38017) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:04:12+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fbd1c1d9440> will retry in 0 seconds
+2015-07-18 06:04:12+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fbd1c2aaab8>
+2015-07-18 06:04:13+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fbd1c2aaab8>
+2015-07-18 06:04:13+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38027) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:04:21+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:04:58+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:04:58+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38027) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:04:58+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fbd1c1d9440> will retry in 1 seconds
+2015-07-18 06:04:58+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fbd1c2aaab8>
+2015-07-18 06:04:58+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 06:04:58+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fbd1c1c0c20>
+2015-07-18 06:04:58+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 06:04:58+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fbd1c1c0680>
+2015-07-18 06:04:58+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fbd1c1c0b48>
+2015-07-18 06:04:58+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 06:04:58+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fbd1c2540e0>
+2015-07-18 06:04:58+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:04:58+0000 [-] Main loop terminated.
+2015-07-18 06:04:58+0000 [-] Server Shut Down.
+2015-07-18 06:08:54+0000 [-] Log opened.
+2015-07-18 06:08:54+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:08:54+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:08:54+0000 [-] ServerFactory starting on 4000
+2015-07-18 06:08:54+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f2df5b5b0e0>
+2015-07-18 06:08:54+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 06:08:54+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f2df5ac7680>
+2015-07-18 06:08:54+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f2df5ac7b48>
+2015-07-18 06:08:54+0000 [-] Site starting on 8000
+2015-07-18 06:08:54+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2df5ac7c20>
+2015-07-18 06:08:54+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:08:54+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f2df5ae0440> will retry in 1 seconds
+2015-07-18 06:08:54+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:08:56+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:08:56+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38029) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:10:05+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38029) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:10:05+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f2df5ae0440> will retry in 0 seconds
+2015-07-18 06:10:05+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:10:06+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:10:06+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38030) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:11:06+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38030) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:11:06+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f2df5ae0440> will retry in 1 seconds
+2015-07-18 06:11:06+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:11:07+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:11:07+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38031) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:13:04+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38031) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:13:04+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f2df5ae0440> will retry in 0 seconds
+2015-07-18 06:13:04+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:13:05+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:13:05+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38032) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:13:27+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:13:27+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38032) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:13:27+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f2df5ae0440> will retry in 1 seconds
+2015-07-18 06:13:27+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2df5bb1ab8>
+2015-07-18 06:13:27+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 06:13:27+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f2df5ac7c20>
+2015-07-18 06:13:27+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 06:13:27+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f2df5ac7680>
+2015-07-18 06:13:27+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f2df5ac7b48>
+2015-07-18 06:13:27+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 06:13:27+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f2df5b5b0e0>
+2015-07-18 06:13:27+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:13:27+0000 [-] Main loop terminated.
+2015-07-18 06:13:27+0000 [-] Server Shut Down.
+2015-07-18 06:14:52+0000 [-] Log opened.
+2015-07-18 06:14:52+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:14:52+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:14:52+0000 [-] ServerFactory starting on 4000
+2015-07-18 06:14:52+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7ffbb0e770e0>
+2015-07-18 06:14:52+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 06:14:52+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7ffbb0de3680>
+2015-07-18 06:14:52+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7ffbb0de3b48>
+2015-07-18 06:14:52+0000 [-] Site starting on 8000
+2015-07-18 06:14:52+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7ffbb0de3c20>
+2015-07-18 06:14:52+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7ffbb0ecdab8>
+2015-07-18 06:14:52+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38033) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:15:12+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:15:12+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38033) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:15:12+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7ffbb0dfc440> will retry in 1 seconds
+2015-07-18 06:15:12+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7ffbb0ecdab8>
+2015-07-18 06:15:12+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 06:15:12+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7ffbb0de3c20>
+2015-07-18 06:15:12+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 06:15:12+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7ffbb0de3680>
+2015-07-18 06:15:12+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7ffbb0de3b48>
+2015-07-18 06:15:12+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 06:15:12+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7ffbb0e770e0>
+2015-07-18 06:15:12+0000 [-] Main loop terminated.
+2015-07-18 06:15:12+0000 [-] Server Shut Down.
+2015-07-18 06:15:48+0000 [-] Log opened.
+2015-07-18 06:15:48+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:15:48+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:15:48+0000 [-] ServerFactory starting on 4000
+2015-07-18 06:15:48+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fcb1b7930e0>
+2015-07-18 06:15:48+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 06:15:48+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fcb1b6ff680>
+2015-07-18 06:15:48+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fcb1b6ffb48>
+2015-07-18 06:15:48+0000 [-] Site starting on 8000
+2015-07-18 06:15:48+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fcb1b6ffc20>
+2015-07-18 06:15:48+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fcb1b7e9ab8>
+2015-07-18 06:15:48+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fcb1b718440> will retry in 1 seconds
+2015-07-18 06:15:48+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fcb1b7e9ab8>
+2015-07-18 06:15:49+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fcb1b7e9ab8>
+2015-07-18 06:15:49+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38035) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:16:14+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:16:14+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38035) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:16:14+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fcb1b718440> will retry in 1 seconds
+2015-07-18 06:16:14+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fcb1b7e9ab8>
+2015-07-18 06:16:14+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 06:16:14+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fcb1b6ffc20>
+2015-07-18 06:16:14+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 06:16:14+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fcb1b6ff680>
+2015-07-18 06:16:14+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fcb1b6ffb48>
+2015-07-18 06:16:14+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 06:16:14+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fcb1b7930e0>
+2015-07-18 06:16:14+0000 [-] Main loop terminated.
+2015-07-18 06:16:14+0000 [-] Server Shut Down.
+2015-07-18 06:18:00+0000 [-] Log opened.
+2015-07-18 06:18:00+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:18:00+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:18:00+0000 [-] ServerFactory starting on 4000
+2015-07-18 06:18:00+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fcd125d20e0>
+2015-07-18 06:18:00+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 06:18:00+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fcd1253e680>
+2015-07-18 06:18:00+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fcd1253eb48>
+2015-07-18 06:18:00+0000 [-] Site starting on 8000
+2015-07-18 06:18:00+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fcd1253ec20>
+2015-07-18 06:18:00+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fcd12628ab8>
+2015-07-18 06:18:00+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38036) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:18:51+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:18:51+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38036) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:18:51+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fcd12557440> will retry in 1 seconds
+2015-07-18 06:18:51+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fcd12628ab8>
+2015-07-18 06:18:51+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 06:18:51+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fcd1253ec20>
+2015-07-18 06:18:51+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 06:18:51+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fcd1253e680>
+2015-07-18 06:18:51+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fcd1253eb48>
+2015-07-18 06:18:51+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 06:18:51+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fcd125d20e0>
+2015-07-18 06:18:51+0000 [-] Main loop terminated.
+2015-07-18 06:18:51+0000 [-] Server Shut Down.
+2015-07-18 06:20:25+0000 [-] Log opened.
+2015-07-18 06:20:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:20:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:20:25+0000 [-] ServerFactory starting on 4000
+2015-07-18 06:20:25+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fe2f5c580e0>
+2015-07-18 06:20:25+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 06:20:25+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fe2f5bc4680>
+2015-07-18 06:20:25+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fe2f5bc4b48>
+2015-07-18 06:20:25+0000 [-] Site starting on 8000
+2015-07-18 06:20:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe2f5bc4c20>
+2015-07-18 06:20:25+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:20:25+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 06:20:25+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:20:26+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:20:26+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38038) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:37:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38038) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:37:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 06:37:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:37:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:37:02+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 06:37:02+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:37:03+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:37:03+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38040) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:41:56+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:44:33+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 06:45:21+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38040) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:45:21+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 06:45:21+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:45:22+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:45:22+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 06:45:22+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:45:23+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 06:45:23+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38042) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 06:45:59+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:22:01+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:25:14+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:27:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:28:57+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38042) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:28:57+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 09:28:57+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:28:58+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:28:58+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38043) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:41:31+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38043) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:41:31+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 09:41:31+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:41:32+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:41:32+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38044) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:41:38+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:42:34+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38044) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:42:34+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 09:42:34+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:34+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 09:42:34+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:35+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:35+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38046) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:42:58+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38046) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:42:58+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 09:42:58+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:59+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:42:59+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 09:42:59+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:43:00+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:43:00+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38048) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:43:13+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38048) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:43:13+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 09:43:13+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:43:14+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:43:14+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38049) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:43:19+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:44:13+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:45:14+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38049) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:45:14+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 09:45:14+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:45:15+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:45:15+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38050) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:46:23+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 09:51:21+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38050) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 09:51:21+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 09:51:21+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:51:22+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 09:51:22+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38051) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:05:22+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:21:33+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:21:39+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38051) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:21:39+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 10:21:39+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:21:40+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:21:40+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38052) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:22:49+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38052) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:22:49+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 0 seconds
+2015-07-18 10:22:49+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:22:50+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:22:50+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 10:22:50+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:22:51+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:22:51+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38054) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:23:05+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:23:05+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38054) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:23:05+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe2f5bdd440> will retry in 1 seconds
+2015-07-18 10:23:05+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe2f5caeab8>
+2015-07-18 10:23:05+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:23:05+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe2f5bc4c20>
+2015-07-18 10:23:05+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:23:05+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fe2f5bc4680>
+2015-07-18 10:23:05+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fe2f5bc4b48>
+2015-07-18 10:23:05+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:23:05+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fe2f5c580e0>
+2015-07-18 10:23:05+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:23:05+0000 [-] Main loop terminated.
+2015-07-18 10:23:05+0000 [-] Server Shut Down.
+2015-07-18 10:25:01+0000 [-] Log opened.
+2015-07-18 10:25:01+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:25:01+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:25:01+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:25:01+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f455f493098>
+2015-07-18 10:25:01+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:25:01+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f455f3ff638>
+2015-07-18 10:25:01+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f455f3ffb00>
+2015-07-18 10:25:01+0000 [-] Site starting on 8000
+2015-07-18 10:25:01+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f455f3ffbd8>
+2015-07-18 10:25:01+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f455f4e9a70>
+2015-07-18 10:25:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38055) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:25:25+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:25:25+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38055) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:25:25+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f455f4183f8> will retry in 1 seconds
+2015-07-18 10:25:25+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f455f4e9a70>
+2015-07-18 10:25:25+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:25:25+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f455f3ffbd8>
+2015-07-18 10:25:25+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:25:25+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f455f3ff638>
+2015-07-18 10:25:25+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f455f3ffb00>
+2015-07-18 10:25:25+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:25:25+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f455f493098>
+2015-07-18 10:25:25+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:25:25+0000 [-] Main loop terminated.
+2015-07-18 10:25:25+0000 [-] Server Shut Down.
+2015-07-18 10:27:36+0000 [-] Log opened.
+2015-07-18 10:27:36+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:27:36+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:27:36+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:27:36+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fe878ef4170>
+2015-07-18 10:27:36+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:27:36+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fe878e60710>
+2015-07-18 10:27:36+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fe878e60bd8>
+2015-07-18 10:27:36+0000 [-] Site starting on 8000
+2015-07-18 10:27:36+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe878e60cb0>
+2015-07-18 10:27:36+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fe878f4ab48>
+2015-07-18 10:27:36+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38056) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:27:59+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:27:59+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38056) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:27:59+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fe878e784d0> will retry in 1 seconds
+2015-07-18 10:27:59+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fe878f4ab48>
+2015-07-18 10:27:59+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:27:59+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe878e60cb0>
+2015-07-18 10:27:59+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:27:59+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fe878e60710>
+2015-07-18 10:27:59+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fe878e60bd8>
+2015-07-18 10:27:59+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:27:59+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fe878ef4170>
+2015-07-18 10:27:59+0000 [-] Main loop terminated.
+2015-07-18 10:27:59+0000 [-] Server Shut Down.
+2015-07-18 10:32:55+0000 [-] Log opened.
+2015-07-18 10:32:55+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:32:55+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:32:55+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:32:55+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f23ab1d3170>
+2015-07-18 10:32:55+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:32:55+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f23ab13f710>
+2015-07-18 10:32:55+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f23ab13fbd8>
+2015-07-18 10:32:55+0000 [-] Site starting on 8000
+2015-07-18 10:32:55+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f23ab13fcb0>
+2015-07-18 10:32:55+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f23ab229b48>
+2015-07-18 10:32:55+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38057) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:40:18+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:40:18+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38057) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:40:18+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f23ab1574d0> will retry in 1 seconds
+2015-07-18 10:40:18+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f23ab229b48>
+2015-07-18 10:40:18+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:40:18+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f23ab13fcb0>
+2015-07-18 10:40:18+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:40:18+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f23ab13f710>
+2015-07-18 10:40:18+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f23ab13fbd8>
+2015-07-18 10:40:18+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:40:18+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f23ab1d3170>
+2015-07-18 10:40:18+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:40:18+0000 [-] Main loop terminated.
+2015-07-18 10:40:18+0000 [-] Server Shut Down.
+2015-07-18 10:41:00+0000 [-] Log opened.
+2015-07-18 10:41:00+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:41:00+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:41:00+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:41:00+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fbda917f170>
+2015-07-18 10:41:00+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:41:00+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fbda90eb710>
+2015-07-18 10:41:00+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fbda90ebbd8>
+2015-07-18 10:41:00+0000 [-] Site starting on 8000
+2015-07-18 10:41:00+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fbda90ebcb0>
+2015-07-18 10:41:00+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fbda91d5b48>
+2015-07-18 10:41:00+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38058) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:42:07+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:42:07+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38058) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:42:07+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fbda91034d0> will retry in 1 seconds
+2015-07-18 10:42:07+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fbda91d5b48>
+2015-07-18 10:42:07+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:42:07+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fbda90ebcb0>
+2015-07-18 10:42:07+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:42:07+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fbda90eb710>
+2015-07-18 10:42:07+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fbda90ebbd8>
+2015-07-18 10:42:07+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:42:07+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fbda917f170>
+2015-07-18 10:42:07+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:42:08+0000 [-] Main loop terminated.
+2015-07-18 10:42:08+0000 [-] Server Shut Down.
+2015-07-18 10:42:13+0000 [-] Log opened.
+2015-07-18 10:42:13+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:42:13+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:42:13+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:42:13+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3cb773c170>
+2015-07-18 10:42:13+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:42:13+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3cb76a8710>
+2015-07-18 10:42:13+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3cb76a8bd8>
+2015-07-18 10:42:13+0000 [-] Site starting on 8000
+2015-07-18 10:42:13+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3cb76a8cb0>
+2015-07-18 10:42:13+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f3cb7792b48>
+2015-07-18 10:42:13+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38059) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:44:49+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:44:49+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38059) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:44:49+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f3cb76c04d0> will retry in 1 seconds
+2015-07-18 10:44:49+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f3cb7792b48>
+2015-07-18 10:44:49+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:44:49+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3cb76a8cb0>
+2015-07-18 10:44:49+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:44:49+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3cb76a8710>
+2015-07-18 10:44:49+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3cb76a8bd8>
+2015-07-18 10:44:49+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:44:49+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3cb773c170>
+2015-07-18 10:44:49+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 10:44:49+0000 [-] Main loop terminated.
+2015-07-18 10:44:49+0000 [-] Server Shut Down.
+2015-07-18 10:44:54+0000 [-] Log opened.
+2015-07-18 10:44:54+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:44:54+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:44:54+0000 [-] ServerFactory starting on 4000
+2015-07-18 10:44:54+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f22a4b7f170>
+2015-07-18 10:44:54+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 10:44:54+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f22a4aeb710>
+2015-07-18 10:44:54+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f22a4aebbd8>
+2015-07-18 10:44:54+0000 [-] Site starting on 8000
+2015-07-18 10:44:54+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f22a4aebcb0>
+2015-07-18 10:44:54+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f22a4bd5b48>
+2015-07-18 10:44:54+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f22a4b034d0> will retry in 1 seconds
+2015-07-18 10:44:54+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f22a4bd5b48>
+2015-07-18 10:44:56+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f22a4bd5b48>
+2015-07-18 10:44:56+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38061) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:52:42+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:52:42+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38061) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 10:52:42+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f22a4b034d0> will retry in 1 seconds
+2015-07-18 10:52:42+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f22a4bd5b48>
+2015-07-18 10:52:42+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 10:52:42+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f22a4aebcb0>
+2015-07-18 10:52:42+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 10:52:42+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f22a4aeb710>
+2015-07-18 10:52:42+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f22a4aebbd8>
+2015-07-18 10:52:42+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 10:52:42+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f22a4b7f170>
+2015-07-18 10:52:42+0000 [-] Main loop terminated.
+2015-07-18 10:52:42+0000 [-] Server Shut Down.
+2015-07-18 21:39:30+0000 [-] Log opened.
+2015-07-18 21:39:30+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 21:39:30+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 21:39:30+0000 [-] ServerFactory starting on 4000
+2015-07-18 21:39:30+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fd8fd8a9170>
+2015-07-18 21:39:30+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 21:39:30+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fd8fd815710>
+2015-07-18 21:39:30+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fd8fd815bd8>
+2015-07-18 21:39:30+0000 [-] Site starting on 8000
+2015-07-18 21:39:30+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd8fd815cb0>
+2015-07-18 21:39:30+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 21:39:30+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 1 seconds
+2015-07-18 21:39:30+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 21:39:32+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 21:39:32+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38063) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:05:50+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38063) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:05:50+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 0 seconds
+2015-07-18 22:05:50+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:05:50+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:05:50+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 1 seconds
+2015-07-18 22:05:50+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:05:51+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:05:51+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38065) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:18:06+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38065) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:18:06+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 0 seconds
+2015-07-18 22:18:06+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:18:07+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:18:07+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 1 seconds
+2015-07-18 22:18:07+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:18:08+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:18:08+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38067) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:18:41+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:18:41+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38067) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:18:41+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fd8fd82d4d0> will retry in 1 seconds
+2015-07-18 22:18:41+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fd8fd8ffb48>
+2015-07-18 22:18:41+0000 [-] (TCP Port 8000 Closed)
+2015-07-18 22:18:41+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd8fd815cb0>
+2015-07-18 22:18:41+0000 [-] (TCP Port 8001 Closed)
+2015-07-18 22:18:41+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fd8fd815710>
+2015-07-18 22:18:41+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fd8fd815bd8>
+2015-07-18 22:18:41+0000 [-] (TCP Port 4000 Closed)
+2015-07-18 22:18:41+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fd8fd8a9170>
+2015-07-18 22:18:41+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 22:18:41+0000 [-] Main loop terminated.
+2015-07-18 22:18:41+0000 [-] Server Shut Down.
+2015-07-18 22:30:37+0000 [-] Log opened.
+2015-07-18 22:30:37+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:30:37+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:30:37+0000 [-] ServerFactory starting on 4000
+2015-07-18 22:30:37+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f4776458170>
+2015-07-18 22:30:37+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-18 22:30:37+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f47763c4710>
+2015-07-18 22:30:37+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f47763c4bd8>
+2015-07-18 22:30:37+0000 [-] Site starting on 8000
+2015-07-18 22:30:37+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f47763c4cb0>
+2015-07-18 22:30:37+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:30:37+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-18 22:30:37+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:30:39+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:30:39+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38069) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:32:55+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38069) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:32:55+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-18 22:32:55+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:32:56+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:32:56+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-18 22:32:56+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:32:57+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:32:57+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38071) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:33:38+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 22:36:09+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38071) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:36:09+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-18 22:36:09+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:36:10+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:36:10+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38072) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:36:29+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-18 22:38:05+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38072) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:38:05+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-18 22:38:05+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:38:06+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:38:06+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-18 22:38:06+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:38:07+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:38:07+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38074) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:50:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38074) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:50:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-18 22:50:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:50:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-18 22:50:02+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38075) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-18 22:50:08+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 01:12:34+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38075) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:12:34+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 01:12:34+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:12:35+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:12:35+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 01:12:35+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:12:36+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:12:36+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38077) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:25:07+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38077) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:25:07+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 01:25:07+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:25:08+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:25:08+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38078) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:25:12+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 01:25:34+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 01:28:03+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38078) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:28:03+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 01:28:03+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:28:04+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:28:04+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38079) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:36:38+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38079) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:36:38+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 01:36:38+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:36:39+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:36:39+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 01:36:39+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:36:40+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 01:36:40+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38081) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 01:36:47+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 01:42:03+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 02:05:35+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38081) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 02:05:35+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 02:05:35+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 02:05:36+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 02:05:36+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 02:05:36+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 02:05:37+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 02:05:37+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38083) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 02:36:31+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:11:12+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:13:26+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38083) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:13:26+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 03:13:26+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:13:27+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:13:27+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:13:27+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:13:28+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:13:28+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38085) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:15:18+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:43:48+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38085) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:43:48+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 03:43:48+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:43:49+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:43:49+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38086) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:43:53+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:46:00+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38086) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:46:00+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:46:00+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:46:01+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:46:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38087) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:46:05+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:48:24+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38087) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:48:24+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:48:24+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:48:26+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:48:26+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38088) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:48:28+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:50:01+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:52:28+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38088) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:52:28+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:52:28+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:52:29+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:52:29+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38089) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:54:35+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38089) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:54:35+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:54:35+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:54:36+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:54:36+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38090) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:55:10+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 03:57:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38090) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:57:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 03:57:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:57:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:57:02+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 03:57:02+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:57:03+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:57:03+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38092) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:58:41+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38092) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:58:41+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 03:58:41+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:58:42+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 03:58:42+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38093) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 03:58:46+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:00:46+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38093) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:00:46+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:00:46+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:00:47+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:00:47+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38094) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:00:52+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:17:29+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38094) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:17:29+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 04:17:29+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:17:30+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:17:30+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38095) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:20:32+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38095) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:20:32+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:20:32+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:20:33+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:20:33+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:20:33+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:20:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:20:34+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38097) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:20:37+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:21:16+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:21:25+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38097) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:21:25+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 04:21:25+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:21:26+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:21:26+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:21:26+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:21:27+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:21:27+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38099) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:24:18+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38099) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:24:18+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:24:18+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:24:19+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:24:19+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38100) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:25:11+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:25:55+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38100) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:25:55+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:25:55+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:25:57+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:25:57+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38101) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:31:55+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38101) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:31:55+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 04:31:55+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:31:56+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:31:56+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:31:56+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:31:57+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:31:57+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38103) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:33:17+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38103) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:33:17+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:33:17+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:33:18+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:33:18+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38104) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:33:21+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:46:52+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:48:01+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:52:32+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38104) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:52:32+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:52:32+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:52:33+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:52:33+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38105) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:53:22+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:54:03+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38105) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:54:03+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:54:03+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:54:04+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:54:04+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38106) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:55:00+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:55:04+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38106) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:55:04+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 04:55:04+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:55:05+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:55:05+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:55:05+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:55:06+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:55:06+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38108) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:58:00+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38108) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:58:00+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 04:58:00+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:58:01+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 04:58:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38109) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 04:58:04+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 04:59:04+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.

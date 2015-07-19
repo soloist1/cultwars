@@ -184,3 +184,1498 @@
 2015-07-17 03:27:37+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f30d8eb1fc8>
 2015-07-17 03:27:37+0000 [-] Main loop terminated.
 2015-07-17 03:27:37+0000 [-] Server Shut Down.
+2015-07-18 06:08:54+0000 [-] Log opened.
+2015-07-18 06:08:54+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:08:54+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:08:54+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:08:54+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f16fbc19e18>
+2015-07-18 06:08:54+0000 [-] Site starting on 5001
+2015-07-18 06:08:54+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f16fbb84248>
+2015-07-18 06:08:56+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38029))
+2015-07-18 06:10:05+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:10:05+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:10:05+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f16fbb84248>
+2015-07-18 06:10:05+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:10:05+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f16fbc19e18>
+2015-07-18 06:10:05+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38029))
+2015-07-18 06:10:05+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 06:10:05+0000 [-] Main loop terminated.
+2015-07-18 06:10:05+0000 [-] Server Shut Down.
+2015-07-18 06:10:06+0000 [-] Log opened.
+2015-07-18 06:10:06+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:10:06+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:10:06+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:10:06+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f2d1da7cf38>
+2015-07-18 06:10:06+0000 [-] Site starting on 5001
+2015-07-18 06:10:06+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2d1d9e6248>
+2015-07-18 06:10:06+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38030))
+2015-07-18 06:11:06+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:11:06+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:11:06+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f2d1d9e6248>
+2015-07-18 06:11:06+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:11:06+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f2d1da7cf38>
+2015-07-18 06:11:06+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38030))
+2015-07-18 06:11:06+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 06:11:06+0000 [-] Main loop terminated.
+2015-07-18 06:11:06+0000 [-] Server Shut Down.
+2015-07-18 06:11:07+0000 [-] Log opened.
+2015-07-18 06:11:07+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:11:07+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:11:07+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:11:07+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fda0dca3f38>
+2015-07-18 06:11:07+0000 [-] Site starting on 5001
+2015-07-18 06:11:07+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fda0dc0d248>
+2015-07-18 06:11:07+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38031))
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/unloggedin.py", line 332, in func
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     connection_screen = ansi.parse_ansi(utils.random_string_from_module(CONNECTION_SCREEN_MODULE))
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 872, in random_string_from_module
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     return random.choice(string_from_module(module))
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 859, in string_from_module
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     val = variable_from_module(module, variable=variable, default=default)
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 834, in variable_from_module
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = mod_import(module)
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/server/conf/connection_screens.py", line 37
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     % (settings.SERVERNAME)
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::]     ^
+2015-07-18 06:11:15+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: invalid syntax
+2015-07-18 06:13:04+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:13:04+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:13:04+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fda0dc0d248>
+2015-07-18 06:13:04+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:13:04+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fda0dca3f38>
+2015-07-18 06:13:04+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38031))
+2015-07-18 06:13:04+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 06:13:04+0000 [-] Main loop terminated.
+2015-07-18 06:13:04+0000 [-] Server Shut Down.
+2015-07-18 06:13:05+0000 [-] Log opened.
+2015-07-18 06:13:05+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:13:05+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:13:05+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:13:05+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fdcde0a2f38>
+2015-07-18 06:13:05+0000 [-] Site starting on 5001
+2015-07-18 06:13:05+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fdcde00c248>
+2015-07-18 06:13:05+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38032))
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/unloggedin.py", line 332, in func
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     connection_screen = ansi.parse_ansi(utils.random_string_from_module(CONNECTION_SCREEN_MODULE))
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 872, in random_string_from_module
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     return random.choice(string_from_module(module))
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 859, in string_from_module
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     val = variable_from_module(module, variable=variable, default=default)
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 834, in variable_from_module
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = mod_import(module)
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/server/conf/connection_screens.py", line 37
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     % (settings.SERVERNAME, utils.get_evennia_version() )
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::]     ^
+2015-07-18 06:13:11+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: invalid syntax
+2015-07-18 06:13:27+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38032))
+2015-07-18 06:13:27+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:13:27+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:13:27+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fdcde00c248>
+2015-07-18 06:13:27+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:13:27+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fdcde0a2f38>
+2015-07-18 06:13:27+0000 [-] Main loop terminated.
+2015-07-18 06:13:27+0000 [-] Server Shut Down.
+2015-07-18 06:14:52+0000 [-] Log opened.
+2015-07-18 06:14:52+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:14:52+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:14:52+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:14:52+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f66815b8e18>
+2015-07-18 06:14:52+0000 [-] Site starting on 5001
+2015-07-18 06:14:52+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f6681523248>
+2015-07-18 06:14:52+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38033))
+2015-07-18 06:15:12+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38033))
+2015-07-18 06:15:12+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:15:12+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:15:12+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f6681523248>
+2015-07-18 06:15:12+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:15:12+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f66815b8e18>
+2015-07-18 06:15:12+0000 [-] Main loop terminated.
+2015-07-18 06:15:12+0000 [-] Server Shut Down.
+2015-07-18 06:15:48+0000 [-] Log opened.
+2015-07-18 06:15:48+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:15:48+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:15:48+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:15:48+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f5f030a7e18>
+2015-07-18 06:15:48+0000 [-] Site starting on 5001
+2015-07-18 06:15:48+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f5f03012248>
+2015-07-18 06:15:49+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38035))
+2015-07-18 06:16:14+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38035))
+2015-07-18 06:16:14+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:16:14+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:16:14+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f5f03012248>
+2015-07-18 06:16:14+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:16:14+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f5f030a7e18>
+2015-07-18 06:16:14+0000 [-] Main loop terminated.
+2015-07-18 06:16:14+0000 [-] Server Shut Down.
+2015-07-18 06:18:00+0000 [-] Log opened.
+2015-07-18 06:18:00+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:18:00+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:18:00+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:18:00+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa5230ebe18>
+2015-07-18 06:18:00+0000 [-] Site starting on 5001
+2015-07-18 06:18:00+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa523056248>
+2015-07-18 06:18:00+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38036))
+2015-07-18 06:18:26+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 58393) (1 session(s) total)
+2015-07-18 06:18:44+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 58393) (0 sessions(s) remaining)
+2015-07-18 06:18:51+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38036))
+2015-07-18 06:18:51+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:18:51+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:18:51+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa523056248>
+2015-07-18 06:18:51+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:18:51+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa5230ebe18>
+2015-07-18 06:18:51+0000 [-] Main loop terminated.
+2015-07-18 06:18:51+0000 [-] Server Shut Down.
+2015-07-18 06:20:25+0000 [-] Log opened.
+2015-07-18 06:20:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:20:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:20:25+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:20:25+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f78c19a9e18>
+2015-07-18 06:20:25+0000 [-] Site starting on 5001
+2015-07-18 06:20:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f78c1914248>
+2015-07-18 06:20:26+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38038))
+2015-07-18 06:20:59+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 58400) (1 session(s) total)
+2015-07-18 06:37:01+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:37:01+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:37:01+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f78c1914248>
+2015-07-18 06:37:01+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:37:01+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f78c19a9e18>
+2015-07-18 06:37:01+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38038))
+2015-07-18 06:37:01+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 06:37:01+0000 [-] Main loop terminated.
+2015-07-18 06:37:01+0000 [-] Server Shut Down.
+2015-07-18 06:37:02+0000 [-] Log opened.
+2015-07-18 06:37:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:37:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:37:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:37:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f278fa79f38>
+2015-07-18 06:37:02+0000 [-] Site starting on 5001
+2015-07-18 06:37:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f278f9e3248>
+2015-07-18 06:37:03+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38040))
+2015-07-18 06:37:06+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 58400) (0 sessions(s) remaining)
+2015-07-18 06:40:45+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 58486) (1 session(s) total)
+2015-07-18 06:41:56+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 58486) (0 sessions(s) remaining)
+2015-07-18 06:44:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 58499) (1 session(s) total)
+2015-07-18 06:44:32+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 58499) (0 sessions(s) remaining)
+2015-07-18 06:45:21+0000 [-] Received SIGINT, shutting down.
+2015-07-18 06:45:21+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 06:45:21+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f278f9e3248>
+2015-07-18 06:45:21+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 06:45:21+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f278fa79f38>
+2015-07-18 06:45:21+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38040))
+2015-07-18 06:45:21+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 06:45:21+0000 [-] Main loop terminated.
+2015-07-18 06:45:21+0000 [-] Server Shut Down.
+2015-07-18 06:45:22+0000 [-] Log opened.
+2015-07-18 06:45:22+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 06:45:22+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 06:45:22+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 06:45:22+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f04ff9d0f38>
+2015-07-18 06:45:22+0000 [-] Site starting on 5001
+2015-07-18 06:45:22+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f04ff93a248>
+2015-07-18 06:45:23+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38042))
+2015-07-18 09:20:32+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62599) (1 session(s) total)
+2015-07-18 09:22:01+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62599) (0 sessions(s) remaining)
+2015-07-18 09:24:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62606) (1 session(s) total)
+2015-07-18 09:25:14+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62606) (0 sessions(s) remaining)
+2015-07-18 09:25:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62609) (1 session(s) total)
+2015-07-18 09:27:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 62609) (0 sessions(s) remaining)
+2015-07-18 09:28:01+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62632) (1 session(s) total)
+2015-07-18 09:28:50+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62632) (0 sessions(s) remaining)
+2015-07-18 09:28:57+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:28:57+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:28:57+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f04ff93a248>
+2015-07-18 09:28:57+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:28:57+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f04ff9d0f38>
+2015-07-18 09:28:57+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38042))
+2015-07-18 09:28:57+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:28:57+0000 [-] Main loop terminated.
+2015-07-18 09:28:57+0000 [-] Server Shut Down.
+2015-07-18 09:28:57+0000 [-] Log opened.
+2015-07-18 09:28:57+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:28:57+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:28:57+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:28:57+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fba39142f38>
+2015-07-18 09:28:57+0000 [-] Site starting on 5001
+2015-07-18 09:28:57+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fba390ac248>
+2015-07-18 09:28:58+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38043))
+2015-07-18 09:29:14+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62634) (1 session(s) total)
+2015-07-18 09:41:31+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:41:31+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:41:31+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fba390ac248>
+2015-07-18 09:41:31+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:41:31+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fba39142f38>
+2015-07-18 09:41:31+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38043))
+2015-07-18 09:41:31+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:41:31+0000 [-] Main loop terminated.
+2015-07-18 09:41:31+0000 [-] Server Shut Down.
+2015-07-18 09:41:31+0000 [-] Log opened.
+2015-07-18 09:41:31+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:41:31+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:41:31+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:41:31+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f8e81914f38>
+2015-07-18 09:41:31+0000 [-] Site starting on 5001
+2015-07-18 09:41:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f8e8187e248>
+2015-07-18 09:41:32+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38044))
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 159, in import_cmdset
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdsetclass = cmdsetclass(cmdsetobj)
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 41, in at_cmdset_creation
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(CmdGenStrength())
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'CmdGenStrength' is not defined
+2015-07-18 09:41:35+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet': "global name 'CmdGenStrength' is not defined".
+2015-07-18 09:41:38+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62634) (0 sessions(s) remaining)
+2015-07-18 09:42:33+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:42:34+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:42:34+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f8e8187e248>
+2015-07-18 09:42:34+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:42:34+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f8e81914f38>
+2015-07-18 09:42:34+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38044))
+2015-07-18 09:42:34+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:42:34+0000 [-] Main loop terminated.
+2015-07-18 09:42:34+0000 [-] Server Shut Down.
+2015-07-18 09:42:34+0000 [-] Log opened.
+2015-07-18 09:42:34+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:42:34+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:42:34+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:42:34+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd944e87f38>
+2015-07-18 09:42:34+0000 [-] Site starting on 5001
+2015-07-18 09:42:34+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd944df1248>
+2015-07-18 09:42:35+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38046))
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 21, in <module>
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdGenStregth
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: cannot import name CmdGenStregth
+2015-07-18 09:42:39+0000 [AMPProtocol,0,127.0.0.1] [EE] Error loading cmdset commands.default_cmdsets.UnloggedinCmdSet: "cannot import name CmdGenStregth"
+2015-07-18 09:42:58+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:42:58+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:42:58+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd944df1248>
+2015-07-18 09:42:58+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:42:58+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd944e87f38>
+2015-07-18 09:42:58+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38046))
+2015-07-18 09:42:58+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:42:58+0000 [-] Main loop terminated.
+2015-07-18 09:42:58+0000 [-] Server Shut Down.
+2015-07-18 09:42:59+0000 [-] Log opened.
+2015-07-18 09:42:59+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:42:59+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:42:59+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:42:59+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1e53e4bf38>
+2015-07-18 09:42:59+0000 [-] Site starting on 5001
+2015-07-18 09:42:59+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1e53db5248>
+2015-07-18 09:43:00+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38048))
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 21, in <module>
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdGenStregth
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: cannot import name CmdGenStregth
+2015-07-18 09:43:00+0000 [AMPProtocol,0,127.0.0.1] [EE] Error loading cmdset commands.default_cmdsets.UnloggedinCmdSet: "cannot import name CmdGenStregth"
+2015-07-18 09:43:13+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:43:13+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:43:13+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1e53db5248>
+2015-07-18 09:43:13+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:43:13+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1e53e4bf38>
+2015-07-18 09:43:13+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38048))
+2015-07-18 09:43:13+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:43:13+0000 [-] Main loop terminated.
+2015-07-18 09:43:13+0000 [-] Server Shut Down.
+2015-07-18 09:43:14+0000 [-] Log opened.
+2015-07-18 09:43:14+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:43:14+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:43:14+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:43:14+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f0417deaf38>
+2015-07-18 09:43:14+0000 [-] Site starting on 5001
+2015-07-18 09:43:14+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f0417d54248>
+2015-07-18 09:43:14+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38049))
+2015-07-18 09:43:38+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62662) (1 session(s) total)
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 276, in func
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::]     strength = random.randint(1, 18)
+2015-07-18 09:44:03+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'random' is not defined
+2015-07-18 09:44:13+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62662) (0 sessions(s) remaining)
+2015-07-18 09:45:14+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:45:14+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:45:14+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f0417d54248>
+2015-07-18 09:45:14+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:45:14+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f0417deaf38>
+2015-07-18 09:45:14+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38049))
+2015-07-18 09:45:14+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:45:14+0000 [-] Main loop terminated.
+2015-07-18 09:45:14+0000 [-] Server Shut Down.
+2015-07-18 09:45:15+0000 [-] Log opened.
+2015-07-18 09:45:15+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:45:15+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:45:15+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:45:15+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f12b7693f38>
+2015-07-18 09:45:15+0000 [-] Site starting on 5001
+2015-07-18 09:45:15+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f12b75fd248>
+2015-07-18 09:45:15+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38050))
+2015-07-18 09:45:26+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62668) (1 session(s) total)
+2015-07-18 09:46:23+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62668) (0 sessions(s) remaining)
+2015-07-18 09:51:21+0000 [-] Received SIGINT, shutting down.
+2015-07-18 09:51:21+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 09:51:21+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f12b75fd248>
+2015-07-18 09:51:21+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 09:51:21+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f12b7693f38>
+2015-07-18 09:51:21+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38050))
+2015-07-18 09:51:21+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 09:51:21+0000 [-] Main loop terminated.
+2015-07-18 09:51:21+0000 [-] Server Shut Down.
+2015-07-18 09:51:22+0000 [-] Log opened.
+2015-07-18 09:51:22+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 09:51:22+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 09:51:22+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 09:51:22+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fee463aef38>
+2015-07-18 09:51:22+0000 [-] Site starting on 5001
+2015-07-18 09:51:22+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fee46318248>
+2015-07-18 09:51:22+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38051))
+2015-07-18 09:51:36+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62678) (1 session(s) total)
+2015-07-18 10:05:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62678) (0 sessions(s) remaining)
+2015-07-18 10:05:53+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62732) (1 session(s) total)
+2015-07-18 10:21:33+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 62732) (0 sessions(s) remaining)
+2015-07-18 10:21:39+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:21:39+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:21:39+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fee46318248>
+2015-07-18 10:21:39+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:21:39+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fee463aef38>
+2015-07-18 10:21:39+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38051))
+2015-07-18 10:21:39+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 10:21:39+0000 [-] Main loop terminated.
+2015-07-18 10:21:39+0000 [-] Server Shut Down.
+2015-07-18 10:21:40+0000 [-] Log opened.
+2015-07-18 10:21:40+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:21:40+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:21:40+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:21:40+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f39befcdf38>
+2015-07-18 10:21:40+0000 [-] Site starting on 5001
+2015-07-18 10:21:40+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f39bef37248>
+2015-07-18 10:21:40+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38052))
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 99, in <module>
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::]     class ChargenCmdset(CmdSet):
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'CmdSet' is not defined
+2015-07-18 10:21:46+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet': "name 'CmdSet' is not defined".
+2015-07-18 10:22:49+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:22:49+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:22:49+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f39bef37248>
+2015-07-18 10:22:49+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:22:49+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f39befcdf38>
+2015-07-18 10:22:49+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38052))
+2015-07-18 10:22:49+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 10:22:49+0000 [-] Main loop terminated.
+2015-07-18 10:22:49+0000 [-] Server Shut Down.
+2015-07-18 10:22:50+0000 [-] Log opened.
+2015-07-18 10:22:50+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:22:50+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:22:50+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:22:50+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f05533c4f38>
+2015-07-18 10:22:50+0000 [-] Site starting on 5001
+2015-07-18 10:22:50+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f055332e248>
+2015-07-18 10:22:51+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38054))
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 99, in <module>
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::]     class ChargenCmdset(CmdSet):
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'CmdSet' is not defined
+2015-07-18 10:22:51+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet': "name 'CmdSet' is not defined".
+2015-07-18 10:23:05+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38054))
+2015-07-18 10:23:05+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:23:05+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:23:05+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f055332e248>
+2015-07-18 10:23:05+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:23:05+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f05533c4f38>
+2015-07-18 10:23:05+0000 [-] Main loop terminated.
+2015-07-18 10:23:05+0000 [-] Server Shut Down.
+2015-07-18 10:25:01+0000 [-] Log opened.
+2015-07-18 10:25:01+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:25:01+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:25:01+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:25:01+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f5fed112dd0>
+2015-07-18 10:25:01+0000 [-] Site starting on 5001
+2015-07-18 10:25:01+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f5fed079200>
+2015-07-18 10:25:01+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38055))
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 99, in <module>
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::]     class ChargenCmdset(CmdSet):
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'CmdSet' is not defined
+2015-07-18 10:25:06+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet': "name 'CmdSet' is not defined".
+2015-07-18 10:25:25+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38055))
+2015-07-18 10:25:25+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:25:25+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:25:25+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f5fed079200>
+2015-07-18 10:25:25+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:25:25+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f5fed112dd0>
+2015-07-18 10:25:25+0000 [-] Main loop terminated.
+2015-07-18 10:25:25+0000 [-] Server Shut Down.
+2015-07-18 10:27:36+0000 [-] Log opened.
+2015-07-18 10:27:36+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:27:36+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:27:36+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:27:36+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc9e5fb3ea8>
+2015-07-18 10:27:36+0000 [-] Site starting on 5001
+2015-07-18 10:27:36+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc9e5f1d2d8>
+2015-07-18 10:27:36+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38056))
+2015-07-18 10:27:59+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38056))
+2015-07-18 10:27:59+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:27:59+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:27:59+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc9e5f1d2d8>
+2015-07-18 10:27:59+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:27:59+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc9e5fb3ea8>
+2015-07-18 10:27:59+0000 [-] Main loop terminated.
+2015-07-18 10:27:59+0000 [-] Server Shut Down.
+2015-07-18 10:32:55+0000 [-] Log opened.
+2015-07-18 10:32:55+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:32:55+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:32:55+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:32:55+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7facd8e05ea8>
+2015-07-18 10:32:55+0000 [-] Site starting on 5001
+2015-07-18 10:32:55+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7facd8d6f2d8>
+2015-07-18 10:32:55+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38057))
+2015-07-18 10:33:04+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62838) (1 session(s) total)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 112, in create_object
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     new_object.save()
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/idmapper/models.py", line 370, in save
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     super(SharedMemoryModel, self).save(*args, **kwargs)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     force_update=force_update, update_fields=update_fields)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 747, in save_base
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     update_fields=update_fields, raw=raw, using=using)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 201, in send
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     response = receiver(signal=self, sender=sender, **named)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 76, in post_save
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     instance.at_first_save()
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/objects/objects.py", line 824, in at_first_save
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_object_creation()
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 45, in at_object_creation
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     self.cmdset.add(ChargenCmdset, permanent=True)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 368, in add
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset = cmdset(self.obj)
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 108, in at_cmdset_creation
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(commands.CmdGenStats())
+2015-07-18 10:38:02+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'commands' is not defined
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 112, in create_object
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     new_object.save()
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/idmapper/models.py", line 370, in save
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     super(SharedMemoryModel, self).save(*args, **kwargs)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     force_update=force_update, update_fields=update_fields)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 747, in save_base
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     update_fields=update_fields, raw=raw, using=using)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 201, in send
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     response = receiver(signal=self, sender=sender, **named)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 76, in post_save
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     instance.at_first_save()
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/objects/objects.py", line 824, in at_first_save
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_object_creation()
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 45, in at_object_creation
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     self.cmdset.add(ChargenCmdset, permanent=True)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 368, in add
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset = cmdset(self.obj)
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 108, in at_cmdset_creation
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(commands.CmdGenStats())
+2015-07-18 10:38:39+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'commands' is not defined
+2015-07-18 10:40:18+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38057))
+2015-07-18 10:40:18+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:40:18+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:40:18+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7facd8d6f2d8>
+2015-07-18 10:40:18+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:40:18+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7facd8e05ea8>
+2015-07-18 10:40:18+0000 [-] Main loop terminated.
+2015-07-18 10:40:18+0000 [-] Server Shut Down.
+2015-07-18 10:41:00+0000 [-] Log opened.
+2015-07-18 10:41:00+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:41:00+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:41:00+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:41:00+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa986098ea8>
+2015-07-18 10:41:00+0000 [-] Site starting on 5001
+2015-07-18 10:41:00+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa9860022d8>
+2015-07-18 10:41:00+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38058))
+2015-07-18 10:41:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62852) (1 session(s) total)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 112, in create_object
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     new_object.save()
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/idmapper/models.py", line 370, in save
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     super(SharedMemoryModel, self).save(*args, **kwargs)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     force_update=force_update, update_fields=update_fields)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 747, in save_base
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     update_fields=update_fields, raw=raw, using=using)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 201, in send
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     response = receiver(signal=self, sender=sender, **named)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 76, in post_save
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     instance.at_first_save()
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/objects/objects.py", line 824, in at_first_save
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_object_creation()
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 45, in at_object_creation
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     self.cmdset.add(ChargenCmdset, permanent=True)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 368, in add
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset = cmdset(self.obj)
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 108, in at_cmdset_creation
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(commands.CmdGenStats())
+2015-07-18 10:41:37+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'commands' is not defined
+2015-07-18 10:41:40+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 62852) (0 sessions(s) remaining)
+2015-07-18 10:41:49+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62855) (1 session(s) total)
+2015-07-18 10:42:08+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38058))
+2015-07-18 10:42:08+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:42:08+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:42:08+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa9860022d8>
+2015-07-18 10:42:08+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:42:08+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa986098ea8>
+2015-07-18 10:42:08+0000 [-] Main loop terminated.
+2015-07-18 10:42:08+0000 [-] Server Shut Down.
+2015-07-18 10:42:13+0000 [-] Log opened.
+2015-07-18 10:42:13+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:42:13+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:42:13+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:42:13+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fcb29e1aea8>
+2015-07-18 10:42:13+0000 [-] Site starting on 5001
+2015-07-18 10:42:13+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fcb29d842d8>
+2015-07-18 10:42:13+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38059))
+2015-07-18 10:42:24+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62856) (1 session(s) total)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 112, in create_object
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     new_object.save()
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/idmapper/models.py", line 370, in save
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     super(SharedMemoryModel, self).save(*args, **kwargs)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     force_update=force_update, update_fields=update_fields)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 747, in save_base
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     update_fields=update_fields, raw=raw, using=using)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 201, in send
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     response = receiver(signal=self, sender=sender, **named)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 76, in post_save
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     instance.at_first_save()
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/objects/objects.py", line 824, in at_first_save
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_object_creation()
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 45, in at_object_creation
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     self.cmdset.add(ChargenCmdset, permanent=True)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 368, in add
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset = cmdset(self.obj)
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 108, in at_cmdset_creation
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(commands.CmdGenStats())
+2015-07-18 10:42:36+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'commands' is not defined
+2015-07-18 10:44:49+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38059))
+2015-07-18 10:44:49+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:44:49+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:44:49+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fcb29d842d8>
+2015-07-18 10:44:49+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:44:49+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fcb29e1aea8>
+2015-07-18 10:44:49+0000 [-] Main loop terminated.
+2015-07-18 10:44:49+0000 [-] Server Shut Down.
+2015-07-18 10:44:54+0000 [-] Log opened.
+2015-07-18 10:44:54+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 10:44:54+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 10:44:54+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 10:44:54+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f486d156ea8>
+2015-07-18 10:44:54+0000 [-] Site starting on 5001
+2015-07-18 10:44:54+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f486d0c02d8>
+2015-07-18 10:44:56+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38061))
+2015-07-18 10:45:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 62862) (1 session(s) total)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 112, in create_object
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     new_object.save()
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/idmapper/models.py", line 370, in save
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     super(SharedMemoryModel, self).save(*args, **kwargs)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     force_update=force_update, update_fields=update_fields)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/db/models/base.py", line 747, in save_base
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     update_fields=update_fields, raw=raw, using=using)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 201, in send
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     response = receiver(signal=self, sender=sender, **named)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 76, in post_save
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     instance.at_first_save()
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/objects/objects.py", line 824, in at_first_save
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_object_creation()
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 45, in at_object_creation
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     self.cmdset.add(ChargenCmdset, permanent=True)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 368, in add
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset = cmdset(self.obj)
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdset.py", line 190, in __init__
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     self.at_cmdset_creation()
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 108, in at_cmdset_creation
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::]     self.add(commands.CmdGenStats())
+2015-07-18 10:45:22+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'commands' is not defined
+2015-07-18 10:45:25+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 62862) (0 sessions(s) remaining)
+2015-07-18 10:52:42+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38061))
+2015-07-18 10:52:42+0000 [-] Received SIGINT, shutting down.
+2015-07-18 10:52:42+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 10:52:42+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f486d0c02d8>
+2015-07-18 10:52:42+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 10:52:42+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f486d156ea8>
+2015-07-18 10:52:42+0000 [-] Main loop terminated.
+2015-07-18 10:52:42+0000 [-] Server Shut Down.
+2015-07-18 21:39:30+0000 [-] Log opened.
+2015-07-18 21:39:30+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 21:39:30+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 21:39:30+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 21:39:30+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f744632aea8>
+2015-07-18 21:39:30+0000 [-] Site starting on 5001
+2015-07-18 21:39:30+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f74462942d8>
+2015-07-18 21:39:32+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38063))
+2015-07-18 21:39:41+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 55789) (1 session(s) total)
+2015-07-18 22:05:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 55789) (0 sessions(s) remaining)
+2015-07-18 22:05:50+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:05:50+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:05:50+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f74462942d8>
+2015-07-18 22:05:50+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:05:50+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f744632aea8>
+2015-07-18 22:05:50+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38063))
+2015-07-18 22:05:50+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:05:50+0000 [-] Main loop terminated.
+2015-07-18 22:05:50+0000 [-] Server Shut Down.
+2015-07-18 22:05:50+0000 [-] Log opened.
+2015-07-18 22:05:50+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:05:50+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:05:50+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:05:50+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f53f0079fc8>
+2015-07-18 22:05:50+0000 [-] Site starting on 5001
+2015-07-18 22:05:50+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f53effe12d8>
+2015-07-18 22:05:51+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38065))
+2015-07-18 22:06:04+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55868) (1 session(s) total)
+2015-07-18 22:18:06+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:18:06+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:18:06+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f53effe12d8>
+2015-07-18 22:18:06+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:18:06+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f53f0079fc8>
+2015-07-18 22:18:06+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38065))
+2015-07-18 22:18:06+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:18:06+0000 [-] Main loop terminated.
+2015-07-18 22:18:06+0000 [-] Server Shut Down.
+2015-07-18 22:18:07+0000 [-] Log opened.
+2015-07-18 22:18:07+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:18:07+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:18:07+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:18:07+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f3620747fc8>
+2015-07-18 22:18:07+0000 [-] Site starting on 5001
+2015-07-18 22:18:07+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f36206af2d8>
+2015-07-18 22:18:08+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38067))
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:08+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.SessionCmdSet': "name 'self' is not defined".
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.PlayerCmdSet': "name 'self' is not defined".
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet': "name 'self' is not defined".
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 918, in class_from_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = import_module(testpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 12, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.default_cmdsets import ChargenCmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 918, in class_from_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = import_module(testpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 12, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.default_cmdsets import ChargenCmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 918, in class_from_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = import_module(testpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/rooms.py", line 12, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.default_cmdsets import ChargenCmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 154, in <module>
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     class CmdMyStats(Command):
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 164, in CmdMyStats
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg(string)
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: name 'self' is not defined
+2015-07-18 22:18:12+0000 [AMPProtocol,0,127.0.0.1] [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.ChargenCmdset': "name 'self' is not defined".
+2015-07-18 22:18:41+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38067))
+2015-07-18 22:18:41+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:18:41+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:18:41+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f36206af2d8>
+2015-07-18 22:18:41+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:18:41+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3620747fc8>
+2015-07-18 22:18:41+0000 [-] Main loop terminated.
+2015-07-18 22:18:41+0000 [-] Server Shut Down.
+2015-07-18 22:30:37+0000 [-] Log opened.
+2015-07-18 22:30:37+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:30:37+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:30:37+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:30:37+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb7f0808ea8>
+2015-07-18 22:30:37+0000 [-] Site starting on 5001
+2015-07-18 22:30:37+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb7f07722d8>
+2015-07-18 22:30:39+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38069))
+2015-07-18 22:30:57+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55911) (1 session(s) total)
+2015-07-18 22:31:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 55911) (0 sessions(s) remaining)
+2015-07-18 22:32:55+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:32:55+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:32:55+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb7f07722d8>
+2015-07-18 22:32:55+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:32:55+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb7f0808ea8>
+2015-07-18 22:32:55+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38069))
+2015-07-18 22:32:55+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:32:55+0000 [-] Main loop terminated.
+2015-07-18 22:32:55+0000 [-] Server Shut Down.
+2015-07-18 22:32:56+0000 [-] Log opened.
+2015-07-18 22:32:56+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:32:56+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:32:56+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:32:56+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f72915e2fc8>
+2015-07-18 22:32:56+0000 [-] Site starting on 5001
+2015-07-18 22:32:56+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f729154a2d8>
+2015-07-18 22:32:57+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38071))
+2015-07-18 22:33:05+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55938) (1 session(s) total)
+2015-07-18 22:33:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 55938) (0 sessions(s) remaining)
+2015-07-18 22:36:09+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:36:09+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:36:09+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f729154a2d8>
+2015-07-18 22:36:09+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:36:09+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f72915e2fc8>
+2015-07-18 22:36:09+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38071))
+2015-07-18 22:36:09+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:36:09+0000 [-] Main loop terminated.
+2015-07-18 22:36:09+0000 [-] Server Shut Down.
+2015-07-18 22:36:10+0000 [-] Log opened.
+2015-07-18 22:36:10+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:36:10+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:36:10+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:36:10+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fe7c7668fc8>
+2015-07-18 22:36:10+0000 [-] Site starting on 5001
+2015-07-18 22:36:10+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe7c75d02d8>
+2015-07-18 22:36:10+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38072))
+2015-07-18 22:36:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55944) (1 session(s) total)
+2015-07-18 22:36:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 55944) (0 sessions(s) remaining)
+2015-07-18 22:38:05+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:38:05+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:38:05+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe7c75d02d8>
+2015-07-18 22:38:05+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:38:05+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fe7c7668fc8>
+2015-07-18 22:38:05+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38072))
+2015-07-18 22:38:05+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:38:05+0000 [-] Main loop terminated.
+2015-07-18 22:38:05+0000 [-] Server Shut Down.
+2015-07-18 22:38:06+0000 [-] Log opened.
+2015-07-18 22:38:06+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:38:06+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:38:06+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:38:06+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f3a88654fc8>
+2015-07-18 22:38:06+0000 [-] Site starting on 5001
+2015-07-18 22:38:06+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3a885bc2d8>
+2015-07-18 22:38:07+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38074))
+2015-07-18 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55947) (1 session(s) total)
+2015-07-18 22:50:01+0000 [-] Received SIGINT, shutting down.
+2015-07-18 22:50:01+0000 [-] (TCP Port 5001 Closed)
+2015-07-18 22:50:01+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3a885bc2d8>
+2015-07-18 22:50:01+0000 [-] (TCP Port 5000 Closed)
+2015-07-18 22:50:01+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3a88654fc8>
+2015-07-18 22:50:01+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38074))
+2015-07-18 22:50:01+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-18 22:50:01+0000 [-] Main loop terminated.
+2015-07-18 22:50:01+0000 [-] Server Shut Down.
+2015-07-18 22:50:02+0000 [-] Log opened.
+2015-07-18 22:50:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-18 22:50:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-18 22:50:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-18 22:50:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f8b79c0ffc8>
+2015-07-18 22:50:02+0000 [-] Site starting on 5001
+2015-07-18 22:50:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f8b79b772d8>
+2015-07-18 22:50:02+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38075))
+2015-07-18 22:50:08+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 55947) (0 sessions(s) remaining)
+2015-07-18 22:50:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 55971) (1 session(s) total)
+2015-07-19 00:06:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 55971) (0 sessions(s) remaining)
+2015-07-19 01:12:34+0000 [-] Received SIGINT, shutting down.
+2015-07-19 01:12:34+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 01:12:34+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f8b79b772d8>
+2015-07-19 01:12:34+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 01:12:34+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f8b79c0ffc8>
+2015-07-19 01:12:34+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38075))
+2015-07-19 01:12:34+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 01:12:34+0000 [-] Main loop terminated.
+2015-07-19 01:12:34+0000 [-] Server Shut Down.
+2015-07-19 01:12:35+0000 [-] Log opened.
+2015-07-19 01:12:35+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 01:12:35+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 01:12:35+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 01:12:35+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fdbb78ddfc8>
+2015-07-19 01:12:35+0000 [-] Site starting on 5001
+2015-07-19 01:12:35+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fdbb78452d8>
+2015-07-19 01:12:36+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38077))
+2015-07-19 01:12:52+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 59887) (1 session(s) total)
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 728, in func
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]     report_to=caller)
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 84, in create_object
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 918, in class_from_module
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = import_module(testpath, package="evennia")
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-19 01:15:50+0000 [AMPProtocol,0,127.0.0.1] [::] ValueError: Empty module name
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 343, in func
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     npc = create_object("characters.Character",
+2015-07-19 01:24:36+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'create_object' is not defined
+2015-07-19 01:25:06+0000 [-] Received SIGINT, shutting down.
+2015-07-19 01:25:07+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 01:25:07+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fdbb78452d8>
+2015-07-19 01:25:07+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 01:25:07+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fdbb78ddfc8>
+2015-07-19 01:25:07+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38077))
+2015-07-19 01:25:07+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 01:25:07+0000 [-] Main loop terminated.
+2015-07-19 01:25:07+0000 [-] Server Shut Down.
+2015-07-19 01:25:08+0000 [-] Log opened.
+2015-07-19 01:25:08+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 01:25:08+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 01:25:08+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 01:25:08+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f186d691fc8>
+2015-07-19 01:25:08+0000 [-] Site starting on 5001
+2015-07-19 01:25:08+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f186d5f92d8>
+2015-07-19 01:25:08+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38078))
+2015-07-19 01:25:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 59887) (0 sessions(s) remaining)
+2015-07-19 01:25:20+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 59914) (1 session(s) total)
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 343, in func
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::]     npc = create_object("characters.Character",
+2015-07-19 01:25:30+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'create_object' is not defined
+2015-07-19 01:25:33+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 59914) (0 sessions(s) remaining)
+2015-07-19 01:28:03+0000 [-] Received SIGINT, shutting down.
+2015-07-19 01:28:03+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 01:28:03+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f186d5f92d8>
+2015-07-19 01:28:03+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 01:28:03+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f186d691fc8>
+2015-07-19 01:28:03+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38078))
+2015-07-19 01:28:03+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 01:28:03+0000 [-] Main loop terminated.
+2015-07-19 01:28:03+0000 [-] Server Shut Down.
+2015-07-19 01:28:04+0000 [-] Log opened.
+2015-07-19 01:28:04+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 01:28:04+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 01:28:04+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 01:28:04+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fe2a8296fc8>
+2015-07-19 01:28:04+0000 [-] Site starting on 5001
+2015-07-19 01:28:04+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe2a81fe2d8>
+2015-07-19 01:28:04+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38079))
+2015-07-19 01:28:13+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 59919) (1 session(s) total)
+2015-07-19 01:36:38+0000 [-] Received SIGINT, shutting down.
+2015-07-19 01:36:38+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 01:36:38+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe2a81fe2d8>
+2015-07-19 01:36:38+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 01:36:38+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fe2a8296fc8>
+2015-07-19 01:36:38+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38079))
+2015-07-19 01:36:38+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 01:36:38+0000 [-] Main loop terminated.
+2015-07-19 01:36:38+0000 [-] Server Shut Down.
+2015-07-19 01:36:39+0000 [-] Log opened.
+2015-07-19 01:36:39+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 01:36:39+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 01:36:39+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 01:36:39+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f815a847fc8>
+2015-07-19 01:36:39+0000 [-] Site starting on 5001
+2015-07-19 01:36:39+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f815a7af2d8>
+2015-07-19 01:36:40+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38081))
+2015-07-19 01:36:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 59919) (0 sessions(s) remaining)
+2015-07-19 01:41:09+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59958) (1 session(s) total)
+2015-07-19 01:42:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59958) (0 sessions(s) remaining)
+2015-07-19 02:05:35+0000 [-] Received SIGINT, shutting down.
+2015-07-19 02:05:35+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 02:05:35+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f815a7af2d8>
+2015-07-19 02:05:35+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 02:05:35+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f815a847fc8>
+2015-07-19 02:05:35+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38081))
+2015-07-19 02:05:35+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 02:05:35+0000 [-] Main loop terminated.
+2015-07-19 02:05:35+0000 [-] Server Shut Down.
+2015-07-19 02:05:36+0000 [-] Log opened.
+2015-07-19 02:05:36+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 02:05:36+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 02:05:36+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 02:05:36+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc5b1afefc8>
+2015-07-19 02:05:36+0000 [-] Site starting on 5001
+2015-07-19 02:05:36+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc5b1a662d8>
+2015-07-19 02:05:37+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38083))
+2015-07-19 02:05:51+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60238) (1 session(s) total)
+2015-07-19 02:36:31+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60238) (1 sessions(s) remaining)
+2015-07-19 02:36:31+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60478) (1 session(s) total)
+2015-07-19 02:38:25+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60478) (0 sessions(s) remaining)
+2015-07-19 03:10:19+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62705) (1 session(s) total)
+2015-07-19 03:11:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62705) (0 sessions(s) remaining)
+2015-07-19 03:13:26+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:13:26+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:13:26+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc5b1a662d8>
+2015-07-19 03:13:26+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:13:26+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc5b1afefc8>
+2015-07-19 03:13:26+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38083))
+2015-07-19 03:13:26+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:13:26+0000 [-] Main loop terminated.
+2015-07-19 03:13:26+0000 [-] Server Shut Down.
+2015-07-19 03:13:27+0000 [-] Log opened.
+2015-07-19 03:13:27+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:13:27+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:13:27+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:13:27+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f55df4befc8>
+2015-07-19 03:13:27+0000 [-] Site starting on 5001
+2015-07-19 03:13:27+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f55df4262d8>
+2015-07-19 03:13:28+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38085))
+2015-07-19 03:13:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 62709) (1 session(s) total)
+2015-07-19 03:15:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 62709) (0 sessions(s) remaining)
+2015-07-19 03:37:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63188) (1 session(s) total)
+2015-07-19 03:43:48+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:43:48+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:43:48+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f55df4262d8>
+2015-07-19 03:43:48+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:43:48+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f55df4befc8>
+2015-07-19 03:43:48+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38085))
+2015-07-19 03:43:48+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:43:48+0000 [-] Main loop terminated.
+2015-07-19 03:43:48+0000 [-] Server Shut Down.
+2015-07-19 03:43:49+0000 [-] Log opened.
+2015-07-19 03:43:49+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:43:49+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:43:49+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:43:49+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f121442ffc8>
+2015-07-19 03:43:49+0000 [-] Site starting on 5001
+2015-07-19 03:43:49+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f12143972d8>
+2015-07-19 03:43:49+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38086))
+2015-07-19 03:43:53+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63188) (0 sessions(s) remaining)
+2015-07-19 03:44:15+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63202) (1 session(s) total)
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 353, in func
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg("%s's Strength was set to %i." % name, strength)
+2015-07-19 03:44:37+0000 [AMPProtocol,0,127.0.0.1] [::] TypeError: not enough arguments for format string
+2015-07-19 03:46:00+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:46:00+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:46:00+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f12143972d8>
+2015-07-19 03:46:00+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:46:00+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f121442ffc8>
+2015-07-19 03:46:00+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38086))
+2015-07-19 03:46:00+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:46:00+0000 [-] Main loop terminated.
+2015-07-19 03:46:00+0000 [-] Server Shut Down.
+2015-07-19 03:46:01+0000 [-] Log opened.
+2015-07-19 03:46:01+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:46:01+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:46:01+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:46:01+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f3642986fc8>
+2015-07-19 03:46:01+0000 [-] Site starting on 5001
+2015-07-19 03:46:01+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f36428ee2d8>
+2015-07-19 03:46:01+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38087))
+2015-07-19 03:46:05+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63202) (0 sessions(s) remaining)
+2015-07-19 03:46:16+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63206) (1 session(s) total)
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 353, in func
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::]     self.caller.msg("%i's Strength was set to %i." % name, strength)
+2015-07-19 03:46:26+0000 [AMPProtocol,0,127.0.0.1] [::] TypeError: %d format: a number is required, not unicode
+2015-07-19 03:48:24+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:48:24+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:48:24+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f36428ee2d8>
+2015-07-19 03:48:24+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:48:24+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3642986fc8>
+2015-07-19 03:48:24+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38087))
+2015-07-19 03:48:24+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:48:24+0000 [-] Main loop terminated.
+2015-07-19 03:48:24+0000 [-] Server Shut Down.
+2015-07-19 03:48:25+0000 [-] Log opened.
+2015-07-19 03:48:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:48:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:48:25+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:48:25+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc2f4a55fc8>
+2015-07-19 03:48:25+0000 [-] Site starting on 5001
+2015-07-19 03:48:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc2f49bd2d8>
+2015-07-19 03:48:26+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38088))
+2015-07-19 03:48:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63206) (0 sessions(s) remaining)
+2015-07-19 03:48:41+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63209) (1 session(s) total)
+2015-07-19 03:50:01+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63209) (0 sessions(s) remaining)
+2015-07-19 03:52:28+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:52:28+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:52:28+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc2f49bd2d8>
+2015-07-19 03:52:28+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:52:28+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc2f4a55fc8>
+2015-07-19 03:52:28+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38088))
+2015-07-19 03:52:28+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:52:28+0000 [-] Main loop terminated.
+2015-07-19 03:52:28+0000 [-] Server Shut Down.
+2015-07-19 03:52:29+0000 [-] Log opened.
+2015-07-19 03:52:29+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:52:29+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:52:29+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:52:29+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f3782fbcfc8>
+2015-07-19 03:52:29+0000 [-] Site starting on 5001
+2015-07-19 03:52:29+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3782f242d8>
+2015-07-19 03:52:29+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38089))
+2015-07-19 03:52:40+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63217) (1 session(s) total)
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::]     npc.caller.db.strength = strength
+2015-07-19 03:53:16+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'Character' object has no attribute 'caller'
+2015-07-19 03:53:33+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63217) (0 sessions(s) remaining)
+2015-07-19 03:54:35+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:54:35+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:54:35+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3782f242d8>
+2015-07-19 03:54:35+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:54:35+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3782fbcfc8>
+2015-07-19 03:54:35+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38089))
+2015-07-19 03:54:35+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:54:35+0000 [-] Main loop terminated.
+2015-07-19 03:54:35+0000 [-] Server Shut Down.
+2015-07-19 03:54:36+0000 [-] Log opened.
+2015-07-19 03:54:36+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:54:36+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:54:36+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:54:36+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f69cc451fc8>
+2015-07-19 03:54:36+0000 [-] Site starting on 5001
+2015-07-19 03:54:36+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f69cc3b92d8>
+2015-07-19 03:54:36+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38090))
+2015-07-19 03:54:47+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63221) (1 session(s) total)
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::]     self.args.caller.db.strength = strength
+2015-07-19 03:55:00+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'unicode' object has no attribute 'caller'
+2015-07-19 03:55:10+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63221) (0 sessions(s) remaining)
+2015-07-19 03:57:01+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:57:01+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:57:01+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f69cc3b92d8>
+2015-07-19 03:57:01+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:57:01+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f69cc451fc8>
+2015-07-19 03:57:01+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38090))
+2015-07-19 03:57:01+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:57:02+0000 [-] Main loop terminated.
+2015-07-19 03:57:02+0000 [-] Server Shut Down.
+2015-07-19 03:57:02+0000 [-] Log opened.
+2015-07-19 03:57:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:57:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:57:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:57:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f0422164fc8>
+2015-07-19 03:57:02+0000 [-] Site starting on 5001
+2015-07-19 03:57:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f04220cc2d8>
+2015-07-19 03:57:03+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38092))
+2015-07-19 03:57:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63224) (1 session(s) total)
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::]     name.caller.db.strength = strength
+2015-07-19 03:57:42+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'unicode' object has no attribute 'caller'
+2015-07-19 03:58:41+0000 [-] Received SIGINT, shutting down.
+2015-07-19 03:58:41+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 03:58:41+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f04220cc2d8>
+2015-07-19 03:58:41+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 03:58:41+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f0422164fc8>
+2015-07-19 03:58:41+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38092))
+2015-07-19 03:58:41+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 03:58:41+0000 [-] Main loop terminated.
+2015-07-19 03:58:41+0000 [-] Server Shut Down.
+2015-07-19 03:58:42+0000 [-] Log opened.
+2015-07-19 03:58:42+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 03:58:42+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 03:58:42+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 03:58:42+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fdc677d4fc8>
+2015-07-19 03:58:42+0000 [-] Site starting on 5001
+2015-07-19 03:58:42+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fdc6773c2d8>
+2015-07-19 03:58:42+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38093))
+2015-07-19 03:58:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63224) (0 sessions(s) remaining)
+2015-07-19 03:58:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63226) (1 session(s) total)
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::]     name.db.strength = strength
+2015-07-19 03:59:12+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'unicode' object has no attribute 'db'
+2015-07-19 04:00:46+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:00:46+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:00:46+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fdc6773c2d8>
+2015-07-19 04:00:46+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:00:46+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fdc677d4fc8>
+2015-07-19 04:00:46+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38093))
+2015-07-19 04:00:46+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:00:46+0000 [-] Main loop terminated.
+2015-07-19 04:00:46+0000 [-] Server Shut Down.
+2015-07-19 04:00:47+0000 [-] Log opened.
+2015-07-19 04:00:47+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:00:47+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:00:47+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:00:47+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f5298462fc8>
+2015-07-19 04:00:47+0000 [-] Site starting on 5001
+2015-07-19 04:00:47+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f52983ca2d8>
+2015-07-19 04:00:47+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38094))
+2015-07-19 04:00:51+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63226) (0 sessions(s) remaining)
+2015-07-19 04:01:00+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63233) (1 session(s) total)
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::]     self.args.db.strength = strength
+2015-07-19 04:01:15+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'unicode' object has no attribute 'db'
+2015-07-19 04:17:29+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:17:29+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:17:29+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f52983ca2d8>
+2015-07-19 04:17:29+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:17:29+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f5298462fc8>
+2015-07-19 04:17:29+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38094))
+2015-07-19 04:17:29+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:17:29+0000 [-] Main loop terminated.
+2015-07-19 04:17:29+0000 [-] Server Shut Down.
+2015-07-19 04:17:30+0000 [-] Log opened.
+2015-07-19 04:17:30+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:17:30+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:17:30+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:17:30+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7ff4a57dafc8>
+2015-07-19 04:17:30+0000 [-] Site starting on 5001
+2015-07-19 04:17:30+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7ff4a57422d8>
+2015-07-19 04:17:30+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38095))
+2015-07-19 04:17:32+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63233) (0 sessions(s) remaining)
+2015-07-19 04:17:40+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63265) (1 session(s) total)
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 352, in func
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::]     name.db.strength = strength
+2015-07-19 04:18:19+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'unicode' object has no attribute 'db'
+2015-07-19 04:20:32+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:20:32+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:20:32+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7ff4a57422d8>
+2015-07-19 04:20:32+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:20:32+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7ff4a57dafc8>
+2015-07-19 04:20:32+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38095))
+2015-07-19 04:20:32+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:20:32+0000 [-] Main loop terminated.
+2015-07-19 04:20:32+0000 [-] Server Shut Down.
+2015-07-19 04:20:33+0000 [-] Log opened.
+2015-07-19 04:20:33+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:20:33+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:20:33+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:20:33+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa43e4fcfc8>
+2015-07-19 04:20:33+0000 [-] Site starting on 5001
+2015-07-19 04:20:33+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa43e4642d8>
+2015-07-19 04:20:34+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38097))
+2015-07-19 04:20:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63265) (0 sessions(s) remaining)
+2015-07-19 04:20:49+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63273) (1 session(s) total)
+2015-07-19 04:21:15+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63273) (0 sessions(s) remaining)
+2015-07-19 04:21:25+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:21:25+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:21:25+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa43e4642d8>
+2015-07-19 04:21:25+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:21:25+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa43e4fcfc8>
+2015-07-19 04:21:25+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38097))
+2015-07-19 04:21:25+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:21:25+0000 [-] Main loop terminated.
+2015-07-19 04:21:25+0000 [-] Server Shut Down.
+2015-07-19 04:21:27+0000 [-] Log opened.
+2015-07-19 04:21:27+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:21:27+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:21:27+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:21:27+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f2d666f4fc8>
+2015-07-19 04:21:27+0000 [-] Site starting on 5001
+2015-07-19 04:21:27+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2d6665c2d8>
+2015-07-19 04:21:27+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38099))
+2015-07-19 04:24:18+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:24:18+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:24:18+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f2d6665c2d8>
+2015-07-19 04:24:18+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:24:18+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f2d666f4fc8>
+2015-07-19 04:24:18+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38099))
+2015-07-19 04:24:18+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:24:18+0000 [-] Main loop terminated.
+2015-07-19 04:24:18+0000 [-] Server Shut Down.
+2015-07-19 04:24:19+0000 [-] Log opened.
+2015-07-19 04:24:19+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:24:19+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:24:19+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:24:19+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb1270e2fc8>
+2015-07-19 04:24:19+0000 [-] Site starting on 5001
+2015-07-19 04:24:19+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb12704a2d8>
+2015-07-19 04:24:19+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38100))
+2015-07-19 04:24:31+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63279) (1 session(s) total)
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 353, in func
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::]     caller.msg("%i's Strength was set to %i." % npc, strength)
+2015-07-19 04:24:45+0000 [AMPProtocol,0,127.0.0.1] [::] TypeError: %d format: a number is required, not Character
+2015-07-19 04:25:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63279) (0 sessions(s) remaining)
+2015-07-19 04:25:55+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:25:55+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:25:55+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb12704a2d8>
+2015-07-19 04:25:55+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:25:55+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb1270e2fc8>
+2015-07-19 04:25:55+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38100))
+2015-07-19 04:25:55+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:25:55+0000 [-] Main loop terminated.
+2015-07-19 04:25:55+0000 [-] Server Shut Down.
+2015-07-19 04:25:56+0000 [-] Log opened.
+2015-07-19 04:25:56+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:25:56+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:25:56+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:25:56+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc30c1bdfc8>
+2015-07-19 04:25:56+0000 [-] Site starting on 5001
+2015-07-19 04:25:56+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc30c1252d8>
+2015-07-19 04:25:57+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38101))
+2015-07-19 04:26:08+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63281) (1 session(s) total)
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 353, in func
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::]     caller.msg("%s's Strength was set to %i." % npc, strength)
+2015-07-19 04:26:29+0000 [AMPProtocol,0,127.0.0.1] [::] TypeError: not enough arguments for format string
+2015-07-19 04:27:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63281) (0 sessions(s) remaining)
+2015-07-19 04:31:55+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:31:55+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:31:55+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc30c1252d8>
+2015-07-19 04:31:55+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:31:55+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc30c1bdfc8>
+2015-07-19 04:31:55+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38101))
+2015-07-19 04:31:55+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:31:55+0000 [-] Main loop terminated.
+2015-07-19 04:31:55+0000 [-] Server Shut Down.
+2015-07-19 04:31:56+0000 [-] Log opened.
+2015-07-19 04:31:56+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:31:56+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:31:56+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:31:56+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f552d534fc8>
+2015-07-19 04:31:56+0000 [-] Site starting on 5001
+2015-07-19 04:31:56+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f552d49c2d8>
+2015-07-19 04:31:57+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38103))
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 373
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]     
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::]     ^
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: invalid syntax
+2015-07-19 04:32:15+0000 [AMPProtocol,0,127.0.0.1] [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet': "invalid syntax (command.py, line 373)".
+2015-07-19 04:33:17+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:33:17+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:33:17+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f552d49c2d8>
+2015-07-19 04:33:17+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:33:17+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f552d534fc8>
+2015-07-19 04:33:17+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38103))
+2015-07-19 04:33:17+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:33:17+0000 [-] Main loop terminated.
+2015-07-19 04:33:17+0000 [-] Server Shut Down.
+2015-07-19 04:33:18+0000 [-] Log opened.
+2015-07-19 04:33:18+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:33:18+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:33:18+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:33:18+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd7a3baefc8>
+2015-07-19 04:33:18+0000 [-] Site starting on 5001
+2015-07-19 04:33:18+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd7a3b162d8>
+2015-07-19 04:33:18+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38104))
+2015-07-19 04:33:29+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63298) (1 session(s) total)
+2015-07-19 04:46:52+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63298) (0 sessions(s) remaining)
+2015-07-19 04:47:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63366) (1 session(s) total)
+2015-07-19 04:48:01+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63366) (0 sessions(s) remaining)
+2015-07-19 04:52:32+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:52:32+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:52:32+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd7a3b162d8>
+2015-07-19 04:52:32+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:52:32+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd7a3baefc8>
+2015-07-19 04:52:32+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38104))
+2015-07-19 04:52:32+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:52:32+0000 [-] Main loop terminated.
+2015-07-19 04:52:32+0000 [-] Server Shut Down.
+2015-07-19 04:52:33+0000 [-] Log opened.
+2015-07-19 04:52:33+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:52:33+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:52:33+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:52:33+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc7b8762fc8>
+2015-07-19 04:52:33+0000 [-] Site starting on 5001
+2015-07-19 04:52:33+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc7b86ca2d8>
+2015-07-19 04:52:33+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38105))
+2015-07-19 04:52:44+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63380) (1 session(s) total)
+2015-07-19 04:53:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63380) (0 sessions(s) remaining)
+2015-07-19 04:54:03+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:54:03+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:54:03+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc7b86ca2d8>
+2015-07-19 04:54:03+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:54:03+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc7b8762fc8>
+2015-07-19 04:54:03+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38105))
+2015-07-19 04:54:03+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:54:03+0000 [-] Main loop terminated.
+2015-07-19 04:54:03+0000 [-] Server Shut Down.
+2015-07-19 04:54:04+0000 [-] Log opened.
+2015-07-19 04:54:04+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:54:04+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:54:04+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:54:04+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb322171fc8>
+2015-07-19 04:54:04+0000 [-] Site starting on 5001
+2015-07-19 04:54:04+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb3220d92d8>
+2015-07-19 04:54:04+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38106))
+2015-07-19 04:54:19+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63382) (1 session(s) total)
+2015-07-19 04:55:00+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63382) (0 sessions(s) remaining)
+2015-07-19 04:55:04+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:55:04+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:55:04+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb3220d92d8>
+2015-07-19 04:55:04+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:55:04+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb322171fc8>
+2015-07-19 04:55:04+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38106))
+2015-07-19 04:55:04+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:55:04+0000 [-] Main loop terminated.
+2015-07-19 04:55:04+0000 [-] Server Shut Down.
+2015-07-19 04:55:05+0000 [-] Log opened.
+2015-07-19 04:55:05+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:55:05+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:55:05+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:55:05+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f21dca4dfc8>
+2015-07-19 04:55:05+0000 [-] Site starting on 5001
+2015-07-19 04:55:05+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f21dc9b52d8>
+2015-07-19 04:55:06+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38108))
+2015-07-19 04:55:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63386) (1 session(s) total)
+2015-07-19 04:58:00+0000 [-] Received SIGINT, shutting down.
+2015-07-19 04:58:00+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 04:58:00+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f21dc9b52d8>
+2015-07-19 04:58:00+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 04:58:00+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f21dca4dfc8>
+2015-07-19 04:58:00+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38108))
+2015-07-19 04:58:00+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 04:58:00+0000 [-] Main loop terminated.
+2015-07-19 04:58:00+0000 [-] Server Shut Down.
+2015-07-19 04:58:01+0000 [-] Log opened.
+2015-07-19 04:58:01+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 04:58:01+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 04:58:01+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 04:58:01+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f016c2befc8>
+2015-07-19 04:58:01+0000 [-] Site starting on 5001
+2015-07-19 04:58:01+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f016c2262d8>
+2015-07-19 04:58:01+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38109))
+2015-07-19 04:58:04+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63386) (0 sessions(s) remaining)
+2015-07-19 04:58:41+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63390) (1 session(s) total)
+2015-07-19 04:59:04+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63390) (0 sessions(s) remaining)

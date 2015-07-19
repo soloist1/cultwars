@@ -33,10 +33,15 @@ class Character(DefaultCharacter):
         self.db.level = 1 
         self.db.HP = 10
         self.db.XP = 0
-#	self.db.MP = 5
-#        self.db.STA = 60
+	self.db.MP = 5
+        self.db.STA = 60
         self.db.STR = randint(1, 10)
         self.db.combat = randint(5, 10)
+        self.db.strength = 0
+        self.db.dexterity = 0
+        self.db.charisma = 0
+        self.db.intelligence = 0 
+        self.db.stamina = 0
 
     def get_abilities(self):
         """
@@ -53,6 +58,10 @@ class Character(DefaultCharacter):
         self.db.STA = 60
       
         return self.db.HP, self.db.MP, self.db.STA
+        
+    def get_my_stats(self):
+ 
+        return self.db.strength, self.db.dexterity, self.db.charisma, self.db.intelligence, self.db.stamina
 
     def at_after_move(self, source_location):
         """
