@@ -19,7 +19,7 @@ from evennia.settings_default import *
 ######################################################################
 # Evennia base server config
 ######################################################################
-
+TELNET_OOB_ENABLED = True
 # This is the name of your game. Make it catchy!
 SERVERNAME = "Cultwars"
 
@@ -63,7 +63,7 @@ DATABASES = {
 
 
 
-
+MULTISESSION_MODE = 1
 ######################################################################
 # Typeclasses and other paths
 ######################################################################

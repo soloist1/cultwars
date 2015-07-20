@@ -35,11 +35,14 @@ CONNECTION_SCREEN = \
  {ytarget -{n echoes target string
  {yabilities -{n shows some initial generic abilities
  {y+genstats -{r ONLY IN CREATION ROOM{n generates some base stats
- {ymystats -{n (alias - mstat) shows your base stats
+ {yscore -{n (alias - sc) shows your base stats
  {y+createnpc {rNPC NAME {n will spawn a new npc 
     initial stats will be rolled for the npc when created
  {y+npc {rNPC NAME{n = {rACTION (ex. say Hello.){n
     makes NPC perform action
+ {ygetsessionid -{n (alias - sid) Uhm, returns session id
+ {ytestmenu {rMENU NAME{n runs the new menu system, the first menu
+    is 'fmenu', for selecting a faction.
 
           {r**** {mNew Locations{r ****{n
 

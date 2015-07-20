@@ -1931,3 +1931,726 @@
 2015-07-19 09:25:05+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38134) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
 2015-07-19 09:25:11+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
 2015-07-19 09:26:55+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 15:21:37+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 17:44:37+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 20:31:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38134) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 20:31:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 20:31:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:31:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:31:02+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38140) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 20:32:59+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38140) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 20:32:59+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 20:32:59+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:33:00+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:33:00+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 20:33:00+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:33:01+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 20:33:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38142) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 20:33:20+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:05:11+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:06:03+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:25:49+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38142) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:25:49+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 21:25:49+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:25:50+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:25:50+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38143) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:28:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38143) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:28:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 21:28:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:28:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:28:02+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38144) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:28:06+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:28:24+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:35:02+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38144) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:35:02+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 21:35:02+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:35:03+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:35:03+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38145) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:35:28+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:38:48+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38145) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:38:48+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 21:38:48+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:38:49+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:38:49+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 21:38:49+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:38:49+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 21:38:49+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38147) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 21:39:06+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 21:39:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 22:18:26+0000 [-] AMP Error for MsgPortal2Server: Connection was closed cleanly.
+2015-07-19 22:20:22+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 22:20:50+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 22:21:27+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 22:36:39+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757ebdd0>
+2015-07-19 22:36:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757ebdd0>
+2015-07-19 22:36:39+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb9e0>
+2015-07-19 22:36:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb9e0>
+2015-07-19 22:36:39+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758081b8>
+2015-07-19 22:36:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758081b8>
+2015-07-19 22:36:39+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775808ab8>
+2015-07-19 22:36:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775808ab8>
+2015-07-19 22:36:40+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c638>
+2015-07-19 22:36:40+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c638>
+2015-07-19 22:36:40+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cc68>
+2015-07-19 22:36:40+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cc68>
+2015-07-19 22:36:47+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758122d8>
+2015-07-19 22:36:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758122d8>
+2015-07-19 22:36:47+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812950>
+2015-07-19 22:36:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812950>
+2015-07-19 22:36:47+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815170>
+2015-07-19 22:36:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815170>
+2015-07-19 22:36:47+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758158c0>
+2015-07-19 22:36:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758158c0>
+2015-07-19 22:36:53+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815ef0>
+2015-07-19 22:36:53+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815ef0>
+2015-07-19 22:36:55+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b710>
+2015-07-19 22:36:55+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b710>
+2015-07-19 22:36:55+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bfc8>
+2015-07-19 22:36:55+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bfc8>
+2015-07-19 22:36:55+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758206c8>
+2015-07-19 22:36:55+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758206c8>
+2015-07-19 22:37:04+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b320>
+2015-07-19 22:37:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b320>
+2015-07-19 22:37:05+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b638>
+2015-07-19 22:37:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b638>
+2015-07-19 22:37:12+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815248>
+2015-07-19 22:37:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815248>
+2015-07-19 22:37:12+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815b00>
+2015-07-19 22:37:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815b00>
+2015-07-19 22:37:41+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815a28>
+2015-07-19 22:37:41+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815a28>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812ab8>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812ab8>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812560>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812560>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758d6b90>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758d6b90>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cdd0>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cdd0>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fbb00>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fbb00>
+2015-07-19 22:37:46+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820ab8>
+2015-07-19 22:37:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820ab8>
+2015-07-19 22:37:48+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a51b8>
+2015-07-19 22:37:48+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a51b8>
+2015-07-19 22:37:48+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5cf8>
+2015-07-19 22:37:48+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5cf8>
+2015-07-19 22:37:48+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a85a8>
+2015-07-19 22:37:48+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a85a8>
+2015-07-19 22:37:48+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8dd0>
+2015-07-19 22:37:48+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8dd0>
+2015-07-19 22:37:50+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757af5a8>
+2015-07-19 22:37:50+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757af5a8>
+2015-07-19 22:37:50+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757aff80>
+2015-07-19 22:37:50+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757aff80>
+2015-07-19 22:37:52+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757afea8>
+2015-07-19 22:37:52+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757afea8>
+2015-07-19 22:37:56+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8a28>
+2015-07-19 22:37:56+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8a28>
+2015-07-19 22:37:56+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8b90>
+2015-07-19 22:37:56+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8b90>
+2015-07-19 22:38:12+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5f38>
+2015-07-19 22:38:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5f38>
+2015-07-19 22:38:12+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5a70>
+2015-07-19 22:38:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5a70>
+2015-07-19 22:38:28+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5830>
+2015-07-19 22:38:28+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5830>
+2015-07-19 22:38:28+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775855878>
+2015-07-19 22:38:28+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775855878>
+2015-07-19 22:38:36+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cbd8>
+2015-07-19 22:38:36+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cbd8>
+2015-07-19 22:38:36+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c200>
+2015-07-19 22:38:36+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c200>
+2015-07-19 22:38:42+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812320>
+2015-07-19 22:38:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812320>
+2015-07-19 22:38:42+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758127a0>
+2015-07-19 22:38:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758127a0>
+2015-07-19 22:38:46+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e60>
+2015-07-19 22:38:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e60>
+2015-07-19 22:38:46+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820bd8>
+2015-07-19 22:38:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820bd8>
+2015-07-19 22:38:54+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585def0>
+2015-07-19 22:38:54+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585def0>
+2015-07-19 22:38:54+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815368>
+2015-07-19 22:38:54+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815368>
+2015-07-19 22:38:58+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584db00>
+2015-07-19 22:38:58+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584db00>
+2015-07-19 22:38:58+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bf38>
+2015-07-19 22:38:58+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bf38>
+2015-07-19 22:38:58+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b24d0>
+2015-07-19 22:38:58+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b24d0>
+2015-07-19 22:39:00+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2ef0>
+2015-07-19 22:39:00+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2ef0>
+2015-07-19 22:39:00+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2878>
+2015-07-19 22:39:00+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2878>
+2015-07-19 22:39:00+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2098>
+2015-07-19 22:39:00+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2098>
+2015-07-19 22:39:01+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2d40>
+2015-07-19 22:39:01+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2d40>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820dd0>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820dd0>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585dcf8>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758807e8>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758807e8>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585dcf8>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812a28>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757e3fc8>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812a28>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757e3fc8>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815200>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775846f38>
+2015-07-19 22:39:07+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580ccf8>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775846f38>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580ccf8>
+2015-07-19 22:39:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815200>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a57a0>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5bd8>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8fc8>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a57a0>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5bd8>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8fc8>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bdd0>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bdd0>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757af248>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584db00>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757af248>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584db00>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b050>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b638>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b050>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b638>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8128>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8128>
+2015-07-19 22:39:08+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a87a0>
+2015-07-19 22:39:08+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a87a0>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c368>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c368>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477588c488>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758807e8>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584dbd8>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815e60>
+2015-07-19 22:39:18+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb878>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477588c488>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758807e8>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815e60>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477584dbd8>
+2015-07-19 22:39:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb878>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812cf8>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,1,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820d40>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2710>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812cf8>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820d40>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2710>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bbd40>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bbd40>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757be4d0>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757be4d0>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bed40>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bed40>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c15a8>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c15a8>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,2,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a53b0>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c440>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb5a8>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815440>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a53b0>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c440>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fb5a8>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815440>
+2015-07-19 22:39:19+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1dd0>
+2015-07-19 22:39:19+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1dd0>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477586b9e0>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477586b9e0>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1518>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1518>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bef80>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bef80>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758208c0>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758208c0>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812cb0>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812cb0>
+2015-07-19 22:39:42+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758127e8>
+2015-07-19 22:39:42+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758127e8>
+2015-07-19 22:39:45+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815fc8>
+2015-07-19 22:39:45+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815fc8>
+2015-07-19 22:39:45+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775880bd8>
+2015-07-19 22:39:45+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775880bd8>
+2015-07-19 22:39:45+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775855cf8>
+2015-07-19 22:39:45+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775855cf8>
+2015-07-19 22:39:47+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e18>
+2015-07-19 22:39:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e18>
+2015-07-19 22:39:47+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cab8>
+2015-07-19 22:39:47+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cab8>
+2015-07-19 22:39:50+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2ab8>
+2015-07-19 22:39:50+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2ab8>
+2015-07-19 22:39:50+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2320>
+2015-07-19 22:39:50+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2320>
+2015-07-19 22:39:52+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5830>
+2015-07-19 22:39:52+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5830>
+2015-07-19 22:39:53+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5f80>
+2015-07-19 22:39:53+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5f80>
+2015-07-19 22:39:59+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775829bd8>
+2015-07-19 22:39:59+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775829bd8>
+2015-07-19 22:39:59+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8c20>
+2015-07-19 22:39:59+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a8c20>
+2015-07-19 22:40:04+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a85f0>
+2015-07-19 22:40:04+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a85f0>
+2015-07-19 22:40:04+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775829f38>
+2015-07-19 22:40:04+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775829f38>
+2015-07-19 22:40:04+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a87a0>
+2015-07-19 22:40:04+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a87a0>
+2015-07-19 22:40:10+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2cf8>
+2015-07-19 22:40:10+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2cf8>
+2015-07-19 22:40:10+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2e18>
+2015-07-19 22:40:10+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2e18>
+2015-07-19 22:40:10+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2170>
+2015-07-19 22:40:10+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2170>
+2015-07-19 22:40:10+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775895ab8>
+2015-07-19 22:40:10+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775895ab8>
+2015-07-19 22:40:12+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477586db00>
+2015-07-19 22:40:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477586db00>
+2015-07-19 22:40:12+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812098>
+2015-07-19 22:40:12+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812098>
+2015-07-19 22:40:24+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820b90>
+2015-07-19 22:40:24+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820b90>
+2015-07-19 22:40:29+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cf80>
+2015-07-19 22:40:29+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580cf80>
+2015-07-19 22:40:29+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775873d88>
+2015-07-19 22:40:29+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775873d88>
+2015-07-19 22:40:40+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fbab8>
+2015-07-19 22:40:40+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757fbab8>
+2015-07-19 22:40:41+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757aff80>
+2015-07-19 22:40:41+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757aff80>
+2015-07-19 22:40:41+0000 [HTTPChannelWithXForwardedFor,0,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815830>
+2015-07-19 22:40:41+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775815830>
+2015-07-19 23:12:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:19:22+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38147) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:19:22+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 23:19:22+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:19:23+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:19:23+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 23:19:23+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:19:24+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:19:24+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38270) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:20:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5c20>
+2015-07-19 23:20:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5c20>
+2015-07-19 23:20:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585d050>
+2015-07-19 23:20:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477585d050>
+2015-07-19 23:20:13+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820878>
+2015-07-19 23:20:13+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775820878>
+2015-07-19 23:20:14+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757afdd0>
+2015-07-19 23:20:14+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757afdd0>
+2015-07-19 23:20:23+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757eb560>
+2015-07-19 23:20:23+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757eb560>
+2015-07-19 23:20:26+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812f80>
+2015-07-19 23:20:26+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812f80>
+2015-07-19 23:20:27+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e60>
+2015-07-19 23:20:27+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812e60>
+2015-07-19 23:20:28+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775879b90>
+2015-07-19 23:20:28+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775879b90>
+2015-07-19 23:20:29+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5ef0>
+2015-07-19 23:20:29+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a5ef0>
+2015-07-19 23:20:33+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c2d8>
+2015-07-19 23:20:33+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c2d8>
+2015-07-19 23:20:35+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c248>
+2015-07-19 23:20:35+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477580c248>
+2015-07-19 23:20:35+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2638>
+2015-07-19 23:20:35+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757b2638>
+2015-07-19 23:20:37+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775808200>
+2015-07-19 23:20:37+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775808200>
+2015-07-19 23:20:37+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a86c8>
+2015-07-19 23:20:37+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757a86c8>
+2015-07-19 23:20:37+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758c9d40>
+2015-07-19 23:20:37+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47758c9d40>
+2015-07-19 23:20:38+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1998>
+2015-07-19 23:20:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c1998>
+2015-07-19 23:20:39+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bba70>
+2015-07-19 23:20:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757bba70>
+2015-07-19 23:20:39+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bc68>
+2015-07-19 23:20:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581bc68>
+2015-07-19 23:20:39+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b8c0>
+2015-07-19 23:20:39+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b8c0>
+2015-07-19 23:20:46+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b4d0>
+2015-07-19 23:20:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f477581b4d0>
+2015-07-19 23:20:46+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c7638>
+2015-07-19 23:20:46+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757c7638>
+2015-07-19 23:20:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:21:18+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757be8c0>
+2015-07-19 23:21:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f47757be8c0>
+2015-07-19 23:21:18+0000 [HTTPChannelWithXForwardedFor,20,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812638>
+2015-07-19 23:21:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812638>
+2015-07-19 23:21:18+0000 [HTTPChannelWithXForwardedFor,20,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812a28>
+2015-07-19 23:21:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812a28>
+2015-07-19 23:21:18+0000 [HTTPChannelWithXForwardedFor,20,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812b48>
+2015-07-19 23:21:18+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f4775812b48>
+2015-07-19 23:34:39+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:36:07+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:36:50+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:38:00+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:44:44+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:45:34+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:49:32+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38270) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:49:32+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 23:49:32+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:49:33+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:49:33+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 23:49:33+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:49:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:49:34+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38297) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:54:07+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38297) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:54:07+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-19 23:54:07+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:54:08+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:54:08+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-19 23:54:08+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:54:09+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-19 23:54:09+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38299) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-19 23:54:11+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-19 23:54:46+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 00:09:22+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38299) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:09:22+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-20 00:09:22+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:09:23+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:09:23+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38300) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:09:56+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38300) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:09:56+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-20 00:09:56+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:09:58+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:09:58+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38301) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:10:00+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 00:10:25+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 00:28:33+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38301) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:28:33+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 0 seconds
+2015-07-20 00:28:33+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:28:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:28:34+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-20 00:28:34+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:28:35+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:28:35+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38303) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:30:53+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38303) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:30:53+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-20 00:30:53+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:30:55+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:30:55+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38304) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:31:07+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:31:07+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38304) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 00:31:07+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f47763dc4d0> will retry in 1 seconds
+2015-07-20 00:31:07+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f47764aeb48>
+2015-07-20 00:31:07+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 00:31:07+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f47763c4cb0>
+2015-07-20 00:31:07+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 00:31:07+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f47763c4710>
+2015-07-20 00:31:07+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f47763c4bd8>
+2015-07-20 00:31:07+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 00:31:07+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f4776458170>
+2015-07-20 00:31:07+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 00:31:07+0000 [-] Main loop terminated.
+2015-07-20 00:31:07+0000 [-] Server Shut Down.
+2015-07-20 00:31:13+0000 [-] Log opened.
+2015-07-20 00:31:13+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:31:13+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:31:13+0000 [-] ServerFactory starting on 4000
+2015-07-20 00:31:13+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f42fcbfc170>
+2015-07-20 00:31:13+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 00:31:13+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f42fcb68710>
+2015-07-20 00:31:13+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f42fcb68bd8>
+2015-07-20 00:31:13+0000 [-] Site starting on 8000
+2015-07-20 00:31:13+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f42fcb68cb0>
+2015-07-20 00:31:13+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 00:31:13+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38305) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 04:07:14+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38305) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 04:07:14+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f42fcb804d0> will retry in 0 seconds
+2015-07-20 04:07:14+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 04:07:15+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 04:07:15+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38306) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:46:42+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38306) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:46:42+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f42fcb804d0> will retry in 1 seconds
+2015-07-20 05:46:42+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 05:46:43+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 05:46:43+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38307) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:52:21+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38307) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:52:21+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f42fcb804d0> will retry in 0 seconds
+2015-07-20 05:52:21+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 05:52:22+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 05:52:22+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38308) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:52:33+0000 [-] Received SIGINT, shutting down.
+2015-07-20 05:52:33+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38308) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:52:33+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f42fcb804d0> will retry in 1 seconds
+2015-07-20 05:52:33+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f42fcc52b48>
+2015-07-20 05:52:33+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 05:52:33+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f42fcb68cb0>
+2015-07-20 05:52:33+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 05:52:33+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f42fcb68710>
+2015-07-20 05:52:33+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f42fcb68bd8>
+2015-07-20 05:52:33+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 05:52:33+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f42fcbfc170>
+2015-07-20 05:52:33+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 05:52:33+0000 [-] Main loop terminated.
+2015-07-20 05:52:33+0000 [-] Server Shut Down.
+2015-07-20 05:53:43+0000 [-] Log opened.
+2015-07-20 05:53:43+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 05:53:43+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 05:53:43+0000 [-] ServerFactory starting on 4000
+2015-07-20 05:53:43+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f11e506b170>
+2015-07-20 05:53:43+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 05:53:43+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f11e4fd7710>
+2015-07-20 05:53:43+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f11e4fd7bd8>
+2015-07-20 05:53:43+0000 [-] Site starting on 8000
+2015-07-20 05:53:43+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f11e4fd7cb0>
+2015-07-20 05:53:43+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f11e50c1b48>
+2015-07-20 05:53:43+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38309) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:57:51+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38309) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:57:51+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f11e4fef4d0> will retry in 0 seconds
+2015-07-20 05:57:51+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f11e50c1b48>
+2015-07-20 05:57:52+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f11e50c1b48>
+2015-07-20 05:57:52+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38310) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 05:57:58+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 05:59:22+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:02:17+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:02:17+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38310) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:02:17+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f11e4fef4d0> will retry in 1 seconds
+2015-07-20 06:02:17+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f11e50c1b48>
+2015-07-20 06:02:17+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:02:17+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f11e4fd7cb0>
+2015-07-20 06:02:17+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:02:17+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f11e4fd7710>
+2015-07-20 06:02:17+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f11e4fd7bd8>
+2015-07-20 06:02:17+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:02:17+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f11e506b170>
+2015-07-20 06:02:17+0000 [-] Main loop terminated.
+2015-07-20 06:02:17+0000 [-] Server Shut Down.
+2015-07-20 06:02:25+0000 [-] Log opened.
+2015-07-20 06:02:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:02:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:02:25+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:02:25+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d7d0b6170>
+2015-07-20 06:02:25+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:02:25+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d7d022710>
+2015-07-20 06:02:25+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3d7d022bd8>
+2015-07-20 06:02:25+0000 [-] Site starting on 8000
+2015-07-20 06:02:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3d7d022cb0>
+2015-07-20 06:02:25+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f3d7d10cb48>
+2015-07-20 06:02:25+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38311) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:21:26+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:21:26+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38311) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:21:26+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f3d7d03a4d0> will retry in 1 seconds
+2015-07-20 06:21:26+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f3d7d10cb48>
+2015-07-20 06:21:26+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:21:26+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3d7d022cb0>
+2015-07-20 06:21:26+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:21:26+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d7d022710>
+2015-07-20 06:21:26+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3d7d022bd8>
+2015-07-20 06:21:26+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:21:26+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d7d0b6170>
+2015-07-20 06:21:26+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:21:26+0000 [-] Main loop terminated.
+2015-07-20 06:21:26+0000 [-] Server Shut Down.
+2015-07-20 06:21:31+0000 [-] Log opened.
+2015-07-20 06:21:31+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:21:31+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:21:31+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:21:31+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d8e941098>
+2015-07-20 06:21:31+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:21:31+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d8e8ad638>
+2015-07-20 06:21:31+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3d8e8adb00>
+2015-07-20 06:21:31+0000 [-] Site starting on 8000
+2015-07-20 06:21:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3d8e8adbd8>
+2015-07-20 06:21:31+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f3d8e997a70>
+2015-07-20 06:21:31+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38312) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:23:15+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:23:15+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38312) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:23:15+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f3d8e8c63f8> will retry in 1 seconds
+2015-07-20 06:23:15+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f3d8e997a70>
+2015-07-20 06:23:15+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:23:15+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3d8e8adbd8>
+2015-07-20 06:23:15+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:23:15+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d8e8ad638>
+2015-07-20 06:23:15+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f3d8e8adb00>
+2015-07-20 06:23:15+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:23:15+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f3d8e941098>
+2015-07-20 06:23:15+0000 [-] Main loop terminated.
+2015-07-20 06:23:15+0000 [-] Server Shut Down.
+2015-07-20 06:24:07+0000 [-] Log opened.
+2015-07-20 06:24:07+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:24:07+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:24:07+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:24:07+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f02158a0098>
+2015-07-20 06:24:07+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:24:07+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f021580c638>
+2015-07-20 06:24:07+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f021580cb00>
+2015-07-20 06:24:07+0000 [-] Site starting on 8000
+2015-07-20 06:24:07+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f021580cbd8>
+2015-07-20 06:24:07+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f02158f6a70>
+2015-07-20 06:24:07+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38313) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:26:20+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:26:20+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38313) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:26:20+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f02158253f8> will retry in 1 seconds
+2015-07-20 06:26:20+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f02158f6a70>
+2015-07-20 06:26:20+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:26:20+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f021580cbd8>
+2015-07-20 06:26:20+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:26:20+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f021580c638>
+2015-07-20 06:26:20+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f021580cb00>
+2015-07-20 06:26:20+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:26:20+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f02158a0098>
+2015-07-20 06:26:20+0000 [-] Main loop terminated.
+2015-07-20 06:26:20+0000 [-] Server Shut Down.
+2015-07-20 06:26:28+0000 [-] Log opened.
+2015-07-20 06:26:28+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:26:28+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:26:28+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:26:28+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f2968eec170>
+2015-07-20 06:26:28+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:26:28+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7f2968e58710>
+2015-07-20 06:26:28+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7f2968e58bd8>
+2015-07-20 06:26:28+0000 [-] Site starting on 8000
+2015-07-20 06:26:28+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2968e58cb0>
+2015-07-20 06:26:28+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2968f42b48>
+2015-07-20 06:26:28+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f2968e704d0> will retry in 1 seconds
+2015-07-20 06:26:28+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2968f42b48>
+2015-07-20 06:26:30+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f2968f42b48>
+2015-07-20 06:26:30+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38315) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:27:56+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:27:56+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38315) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:27:56+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f2968e704d0> will retry in 1 seconds
+2015-07-20 06:27:56+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f2968f42b48>
+2015-07-20 06:27:56+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:27:56+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f2968e58cb0>
+2015-07-20 06:27:56+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:27:56+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f2968e58710>
+2015-07-20 06:27:56+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7f2968e58bd8>
+2015-07-20 06:27:56+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:27:56+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7f2968eec170>
+2015-07-20 06:27:56+0000 [-] Main loop terminated.
+2015-07-20 06:27:56+0000 [-] Server Shut Down.
+2015-07-20 06:28:03+0000 [-] Log opened.
+2015-07-20 06:28:03+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:28:03+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:28:03+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:28:03+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fc6538ef170>
+2015-07-20 06:28:03+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:28:03+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fc65385b710>
+2015-07-20 06:28:03+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fc65385bbd8>
+2015-07-20 06:28:03+0000 [-] Site starting on 8000
+2015-07-20 06:28:03+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc65385bcb0>
+2015-07-20 06:28:03+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fc653945b48>
+2015-07-20 06:28:03+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fc6538734d0> will retry in 1 seconds
+2015-07-20 06:28:03+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fc653945b48>
+2015-07-20 06:28:04+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fc653945b48>
+2015-07-20 06:28:04+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38317) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:30:25+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:30:25+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38317) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:30:25+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fc6538734d0> will retry in 1 seconds
+2015-07-20 06:30:25+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fc653945b48>
+2015-07-20 06:30:25+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:30:25+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc65385bcb0>
+2015-07-20 06:30:25+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:30:25+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fc65385b710>
+2015-07-20 06:30:25+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fc65385bbd8>
+2015-07-20 06:30:25+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:30:25+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fc6538ef170>
+2015-07-20 06:30:25+0000 [-] Main loop terminated.
+2015-07-20 06:30:25+0000 [-] Server Shut Down.
+2015-07-20 06:30:30+0000 [-] Log opened.
+2015-07-20 06:30:30+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:30:30+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:30:31+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:30:31+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fa59b018170>
+2015-07-20 06:30:31+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:30:31+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fa59af84710>
+2015-07-20 06:30:31+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fa59af84bd8>
+2015-07-20 06:30:31+0000 [-] Site starting on 8000
+2015-07-20 06:30:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa59af84cb0>
+2015-07-20 06:30:31+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fa59b06eb48>
+2015-07-20 06:30:31+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38318) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:33:09+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:33:09+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38318) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:33:09+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fa59af9c4d0> will retry in 1 seconds
+2015-07-20 06:33:09+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fa59b06eb48>
+2015-07-20 06:33:09+0000 [-] (TCP Port 8000 Closed)
+2015-07-20 06:33:09+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa59af84cb0>
+2015-07-20 06:33:09+0000 [-] (TCP Port 8001 Closed)
+2015-07-20 06:33:09+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fa59af84710>
+2015-07-20 06:33:09+0000 [-] Stopping factory <evennia.utils.txws.WebSocketFactory instance at 0x7fa59af84bd8>
+2015-07-20 06:33:09+0000 [-] (TCP Port 4000 Closed)
+2015-07-20 06:33:09+0000 [-] Stopping factory <twisted.internet.protocol.ServerFactory instance at 0x7fa59b018170>
+2015-07-20 06:33:09+0000 [-] Main loop terminated.
+2015-07-20 06:33:09+0000 [-] Server Shut Down.
+2015-07-20 06:33:15+0000 [-] Log opened.
+2015-07-20 06:33:15+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:33:15+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:33:15+0000 [-] ServerFactory starting on 4000
+2015-07-20 06:33:15+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fccba65f170>
+2015-07-20 06:33:15+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2015-07-20 06:33:15+0000 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x7fccba5cb710>
+2015-07-20 06:33:15+0000 [-] Starting factory <evennia.utils.txws.WebSocketFactory instance at 0x7fccba5cbbd8>
+2015-07-20 06:33:15+0000 [-] Site starting on 8000
+2015-07-20 06:33:15+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fccba5cbcb0>
+2015-07-20 06:33:15+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:33:15+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:33:15+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:33:17+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:33:17+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38320) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:35:53+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38320) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:35:53+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:35:53+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:35:54+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:35:54+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38321) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:36:00+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:37:09+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38321) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:37:09+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:37:09+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:37:10+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:37:10+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:37:10+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:37:10+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:37:10+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38323) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:38:17+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38323) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:38:17+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:38:17+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:38:18+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:38:18+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38324) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:41:34+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38324) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:41:34+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:41:34+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:41:35+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:41:35+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:41:35+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:41:36+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:41:36+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38326) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:48:15+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38326) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:48:15+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:48:15+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:48:16+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:48:16+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:48:16+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:48:17+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:48:17+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38328) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:49:37+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38328) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:49:37+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:49:37+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:49:39+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:49:39+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38329) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:49:43+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:53:34+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38329) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:53:34+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:53:34+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:53:35+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:53:35+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38330) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:53:39+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:56:45+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38330) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:56:45+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:56:45+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:56:46+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:56:46+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38331) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:56:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 06:59:45+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38331) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:59:45+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 0 seconds
+2015-07-20 06:59:45+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:59:46+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:59:46+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7fccba5e34d0> will retry in 1 seconds
+2015-07-20 06:59:46+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:59:47+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7fccba6b5b48>
+2015-07-20 06:59:47+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38333) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-20 06:59:51+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-20 07:02:33+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.

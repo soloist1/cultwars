@@ -22,6 +22,8 @@ from commands.command import CmdGenStats
 from commands.command import CmdMyStats
 from commands.command import CmdCreateNPC
 from commands.command import CmdNPC
+from commands.command import CmdGetSession
+from commands.command import CmdTestMenu
 from evennia import CmdSet
 from commands import command
 
@@ -47,6 +49,8 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         self.add(CmdMyStats())
         self.add(CmdCreateNPC())
         self.add(CmdNPC())
+        self.add(CmdGetSession())
+        self.add(CmdTestMenu())
 
 class PlayerCmdSet(default_cmds.PlayerCmdSet):
     """

@@ -9,7 +9,11 @@ from evennia import Command as BaseCommand
 from evennia import default_cmds
 from evennia import create_object
 from evennia import utils
+from evennia import OOB_HANDLER
 from world import rules
+from menus import *
+#from menus import factionmenu
+from evennia.utils.evmenu import EvMenu
 import random
 
 class Command(BaseCommand):
@@ -155,8 +159,8 @@ class CmdAbilities(Command):
 
 class CmdMyStats(Command):
 
-    key = "mystats"
-    aliases = ["mstat"]
+    key = "score"
+    aliases = ["sc"]
     lock = "cmd:all()"
     help_category = "General"
 
@@ -244,14 +248,25 @@ class CmdLook(MuxCommand):
 
        ## Command line prompt stuffz
         hitpoints, manapoints, stamina = self.caller.get_stats()
-        prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]-> " % (hitpoints, manapoints, stamina)
+        prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]> " % (hitpoints, manapoints, stamina)
         self.caller.msg(prompt=prompt)
-        
+ 
 
+
+class CmdGetSession(Command):
+
+
+        key = "getsessionid"
+        aliases = ["sid"]
+        def func(self):
+       ## Bad attempt at sending OOB msgs
+            sessid = self.caller.sessid.get()[0]
+            OOB_HANDLER.execute_cmd(sessid, "ECHO", "Test")
+            self.caller.msg("\nSession ID is '%s'. " % sessid)
 
 
 class CmdTarget(default_cmds.MuxCommand):
-            """
+            """f.caller
             Simple command example
 
             Usage: 
@@ -429,3 +444,30 @@ class CmdNPC(Command):
         npc.execute_cmd(self.cmdname)
         caller.msg("You told %s to do '%s'." % (npc.key, self.cmdname))
       #  npc.execute_cmd(self.cmdname, sessid=self.caller.sessid)
+
+# Menu nodes 
+
+
+# Menu command to create the menu
+
+class CmdTestMenu(Command):
+    """
+    Test menu
+
+    Usage:
+      testmenu <menumodule>
+
+    Starts a demo menu from a menu node definition module.
+
+    """
+    key = "testmenu"
+
+    def func(self):
+
+        if not self.args:
+            self.caller.msg("Usage: testmenu menumodule")
+            return
+        # start menu
+        EvMenu(self.caller, self.args.strip(), 
+               startnode="test_start_node", 
+               cmdset_mergetype="Replace")

@@ -1994,3 +1994,1087 @@
 2015-07-19 09:25:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 53868) (0 sessions(s) remaining)
 2015-07-19 09:26:08+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 53875) (1 session(s) total)
 2015-07-19 09:26:55+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 53875) (0 sessions(s) remaining)
+2015-07-19 14:07:27+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: Aidan1(player 6) ('70.117.8.84', 58771) (1 session(s) total)
+2015-07-19 14:20:05+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: Aidan1(player 6) ('70.117.8.84', 58771) (0 sessions(s) remaining)
+2015-07-19 14:20:13+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: Aidan1(player 6) ('70.117.8.84', 58854) (1 session(s) total)
+2015-07-19 14:20:27+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: Aidan1(player 6) ('70.117.8.84', 58854) (0 sessions(s) remaining)
+2015-07-19 14:21:06+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: Aidan1(player 6) ('70.117.8.84', 58860) (1 session(s) total)
+2015-07-19 15:21:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: Aidan1(player 6) ('70.117.8.84', 58860) (0 sessions(s) remaining)
+2015-07-19 16:44:24+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: Aidan1(player 6) ('70.117.8.84', 60047) (1 session(s) total)
+2015-07-19 17:44:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: Aidan1(player 6) ('70.117.8.84', 60047) (0 sessions(s) remaining)
+2015-07-19 20:31:01+0000 [-] Received SIGINT, shutting down.
+2015-07-19 20:31:01+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 20:31:01+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f56a168d2d8>
+2015-07-19 20:31:01+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 20:31:01+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f56a1725fc8>
+2015-07-19 20:31:01+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38134))
+2015-07-19 20:31:01+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 20:31:01+0000 [-] Main loop terminated.
+2015-07-19 20:31:01+0000 [-] Server Shut Down.
+2015-07-19 20:31:02+0000 [-] Log opened.
+2015-07-19 20:31:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 20:31:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 20:31:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 20:31:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa4ddad1fc8>
+2015-07-19 20:31:02+0000 [-] Site starting on 5001
+2015-07-19 20:31:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa4dda392d8>
+2015-07-19 20:31:02+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38140))
+2015-07-19 20:31:17+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 58454) (1 session(s) total)
+2015-07-19 20:32:59+0000 [-] Received SIGINT, shutting down.
+2015-07-19 20:32:59+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 20:32:59+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa4dda392d8>
+2015-07-19 20:32:59+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 20:32:59+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa4ddad1fc8>
+2015-07-19 20:32:59+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38140))
+2015-07-19 20:32:59+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 20:32:59+0000 [-] Main loop terminated.
+2015-07-19 20:32:59+0000 [-] Server Shut Down.
+2015-07-19 20:33:00+0000 [-] Log opened.
+2015-07-19 20:33:00+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 20:33:00+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 20:33:00+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 20:33:00+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f3f7746bfc8>
+2015-07-19 20:33:00+0000 [-] Site starting on 5001
+2015-07-19 20:33:00+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f3f773d32d8>
+2015-07-19 20:33:01+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38142))
+2015-07-19 20:33:20+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 58454) (0 sessions(s) remaining)
+2015-07-19 20:47:57+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 58485) (1 session(s) total)
+2015-07-19 21:05:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 58485) (1 sessions(s) remaining)
+2015-07-19 21:05:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 58807) (1 session(s) total)
+2015-07-19 21:06:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 58807) (0 sessions(s) remaining)
+2015-07-19 21:08:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: Aidan1(player 6) ('70.117.8.84', 62315) (1 session(s) total)
+2015-07-19 21:09:59+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: Aidan1(player 6) ('70.117.8.84', 62315) (0 sessions(s) remaining)
+2015-07-19 21:25:49+0000 [-] Received SIGINT, shutting down.
+2015-07-19 21:25:49+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 21:25:49+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3f773d32d8>
+2015-07-19 21:25:49+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 21:25:49+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3f7746bfc8>
+2015-07-19 21:25:49+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38142))
+2015-07-19 21:25:49+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 21:25:49+0000 [-] Main loop terminated.
+2015-07-19 21:25:49+0000 [-] Server Shut Down.
+2015-07-19 21:25:50+0000 [-] Log opened.
+2015-07-19 21:25:50+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 21:25:50+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 21:25:50+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 21:25:50+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f30b39d5fc8>
+2015-07-19 21:25:50+0000 [-] Site starting on 5001
+2015-07-19 21:25:50+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f30b393d2d8>
+2015-07-19 21:25:50+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38143))
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59297) (1 session(s) total)
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = obj.sessid.get()[0]
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'obj' is not defined
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = obj.sessid.get()[0]
+2015-07-19 21:26:07+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'obj' is not defined
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = obj.sessid.get()[0]
+2015-07-19 21:26:21+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'obj' is not defined
+2015-07-19 21:28:01+0000 [-] Received SIGINT, shutting down.
+2015-07-19 21:28:01+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 21:28:01+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f30b393d2d8>
+2015-07-19 21:28:01+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 21:28:01+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f30b39d5fc8>
+2015-07-19 21:28:01+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38143))
+2015-07-19 21:28:01+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 21:28:01+0000 [-] Main loop terminated.
+2015-07-19 21:28:01+0000 [-] Server Shut Down.
+2015-07-19 21:28:02+0000 [-] Log opened.
+2015-07-19 21:28:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 21:28:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 21:28:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 21:28:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb334fd5fc8>
+2015-07-19 21:28:02+0000 [-] Site starting on 5001
+2015-07-19 21:28:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb334f3d2d8>
+2015-07-19 21:28:02+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38144))
+2015-07-19 21:28:06+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59297) (0 sessions(s) remaining)
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59301) (1 session(s) total)
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.sessid.get()[0]
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'NoneType' object has no attribute 'get'
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.sessid.get()[0]
+2015-07-19 21:28:16+0000 [AMPProtocol,0,127.0.0.1] [::] AttributeError: 'NoneType' object has no attribute 'get'
+2015-07-19 21:28:23+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59301) (0 sessions(s) remaining)
+2015-07-19 21:35:01+0000 [-] Received SIGINT, shutting down.
+2015-07-19 21:35:02+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 21:35:02+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb334f3d2d8>
+2015-07-19 21:35:02+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 21:35:02+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb334fd5fc8>
+2015-07-19 21:35:02+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38144))
+2015-07-19 21:35:02+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 21:35:02+0000 [-] Main loop terminated.
+2015-07-19 21:35:02+0000 [-] Server Shut Down.
+2015-07-19 21:35:02+0000 [-] Log opened.
+2015-07-19 21:35:02+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 21:35:02+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 21:35:02+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 21:35:02+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f9907b65fc8>
+2015-07-19 21:35:02+0000 [-] Site starting on 5001
+2015-07-19 21:35:02+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f9907acd2d8>
+2015-07-19 21:35:03+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38145))
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59391) (1 session(s) total)
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 21:35:16+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 21:35:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59391) (0 sessions(s) remaining)
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59392) (1 session(s) total)
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 21:36:00+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 21:38:48+0000 [-] Received SIGINT, shutting down.
+2015-07-19 21:38:48+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 21:38:48+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f9907acd2d8>
+2015-07-19 21:38:48+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 21:38:48+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f9907b65fc8>
+2015-07-19 21:38:48+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38145))
+2015-07-19 21:38:48+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 21:38:48+0000 [-] Main loop terminated.
+2015-07-19 21:38:48+0000 [-] Server Shut Down.
+2015-07-19 21:38:49+0000 [-] Log opened.
+2015-07-19 21:38:49+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 21:38:49+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 21:38:49+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 21:38:49+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc2b08c5fc8>
+2015-07-19 21:38:49+0000 [-] Site starting on 5001
+2015-07-19 21:38:49+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc2b082d2d8>
+2015-07-19 21:38:49+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38147))
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59392) (1 sessions(s) remaining)
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59401) (1 session(s) total)
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 21:39:06+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59401) (1 sessions(s) remaining)
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59402) (1 session(s) total)
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 21:39:54+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59402) (1 sessions(s) remaining)
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59712) (1 session(s) total)
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 22:20:22+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 22:20:50+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59712) (0 sessions(s) remaining)
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 59723) (1 session(s) total)
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 22:21:15+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 22:21:27+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 59723) (0 sessions(s) remaining)
+2015-07-19 22:36:39+0000 [-] /root/mud/evennia/evennia/web/urls.py:39: django.utils.deprecation.RemovedInDjango19Warning: Default value of 'RedirectView.permanent' will change from True to False in Django 1.9. Set an explicit value to silence this warning.
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60498) (1 session(s) total)
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:03:07+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:12:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60498) (0 sessions(s) remaining)
+2015-07-19 23:19:22+0000 [-] Received SIGINT, shutting down.
+2015-07-19 23:19:22+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 23:19:22+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc2b082d2d8>
+2015-07-19 23:19:22+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 23:19:22+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc2b08c5fc8>
+2015-07-19 23:19:22+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38147))
+2015-07-19 23:19:22+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 23:19:22+0000 [-] Main loop terminated.
+2015-07-19 23:19:22+0000 [-] Server Shut Down.
+2015-07-19 23:19:23+0000 [-] Log opened.
+2015-07-19 23:19:23+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 23:19:23+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 23:19:23+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 23:19:23+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fdfd9a0bea8>
+2015-07-19 23:19:23+0000 [-] Site starting on 5001
+2015-07-19 23:19:23+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fdfd9970368>
+2015-07-19 23:19:24+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38270))
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60650) (1 session(s) total)
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:19:39+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:20:11+0000 [-] /root/mud/evennia/evennia/web/urls.py:39: django.utils.deprecation.RemovedInDjango19Warning: Default value of 'RedirectView.permanent' will change from True to False in Django 1.9. Set an explicit value to silence this warning.
+2015-07-19 23:20:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60650) (0 sessions(s) remaining)
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60729) (1 session(s) total)
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:33:46+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:34:39+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60729) (0 sessions(s) remaining)
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: God(player 1) ('68.235.165.3', 60735) (1 session(s) total)
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:34:46+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60745) (1 session(s) total)
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:36:23+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:36:49+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: God(player 1) ('68.235.165.3', 60735) (0 sessions(s) remaining)
+2015-07-19 23:36:57+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60746) (2 session(s) total)
+2015-07-19 23:37:55+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60745) (1 sessions(s) remaining)
+2015-07-19 23:38:00+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60746) (0 sessions(s) remaining)
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60748) (1 session(s) total)
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:38:09+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:43:53+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60769) (2 session(s) total)
+2015-07-19 23:44:44+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60769) (1 sessions(s) remaining)
+2015-07-19 23:45:34+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60748) (0 sessions(s) remaining)
+2015-07-19 23:49:32+0000 [-] Received SIGINT, shutting down.
+2015-07-19 23:49:32+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 23:49:32+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fdfd9970368>
+2015-07-19 23:49:32+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 23:49:32+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fdfd9a0bea8>
+2015-07-19 23:49:32+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38270))
+2015-07-19 23:49:32+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 23:49:32+0000 [-] Main loop terminated.
+2015-07-19 23:49:32+0000 [-] Server Shut Down.
+2015-07-19 23:49:33+0000 [-] Log opened.
+2015-07-19 23:49:33+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 23:49:33+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 23:49:33+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 23:49:33+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc8edc13ea8>
+2015-07-19 23:49:33+0000 [-] Site starting on 5001
+2015-07-19 23:49:33+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc8edb78368>
+2015-07-19 23:49:34+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38297))
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60790) (1 session(s) total)
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 252, in func
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::]     sessid = self.caller.sessid.get()[0]
+2015-07-19 23:49:51+0000 [AMPProtocol,0,127.0.0.1] [::] IndexError: list index out of range
+2015-07-19 23:54:07+0000 [-] Received SIGINT, shutting down.
+2015-07-19 23:54:07+0000 [-] (TCP Port 5001 Closed)
+2015-07-19 23:54:07+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc8edb78368>
+2015-07-19 23:54:07+0000 [-] (TCP Port 5000 Closed)
+2015-07-19 23:54:07+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc8edc13ea8>
+2015-07-19 23:54:07+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38297))
+2015-07-19 23:54:07+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-19 23:54:07+0000 [-] Main loop terminated.
+2015-07-19 23:54:07+0000 [-] Server Shut Down.
+2015-07-19 23:54:08+0000 [-] Log opened.
+2015-07-19 23:54:08+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-19 23:54:08+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-19 23:54:08+0000 [-] AmpServerFactory starting on 5000
+2015-07-19 23:54:08+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd39036bea8>
+2015-07-19 23:54:08+0000 [-] Site starting on 5001
+2015-07-19 23:54:08+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd3902d0368>
+2015-07-19 23:54:09+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38299))
+2015-07-19 23:54:11+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60790) (0 sessions(s) remaining)
+2015-07-19 23:54:24+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60801) (1 session(s) total)
+2015-07-19 23:54:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60801) (0 sessions(s) remaining)
+2015-07-19 23:55:25+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60805) (1 session(s) total)
+2015-07-20 00:09:22+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:09:22+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 00:09:22+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd3902d0368>
+2015-07-20 00:09:22+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 00:09:22+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd39036bea8>
+2015-07-20 00:09:22+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38299))
+2015-07-20 00:09:22+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 00:09:22+0000 [-] Main loop terminated.
+2015-07-20 00:09:22+0000 [-] Server Shut Down.
+2015-07-20 00:09:23+0000 [-] Log opened.
+2015-07-20 00:09:23+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:09:23+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:09:23+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 00:09:23+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc0b7849ea8>
+2015-07-20 00:09:23+0000 [-] Site starting on 5001
+2015-07-20 00:09:23+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc0b77ae368>
+2015-07-20 00:09:23+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38300))
+2015-07-20 00:09:56+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:09:56+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 00:09:56+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc0b77ae368>
+2015-07-20 00:09:56+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 00:09:56+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc0b7849ea8>
+2015-07-20 00:09:56+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38300))
+2015-07-20 00:09:56+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 00:09:56+0000 [-] Main loop terminated.
+2015-07-20 00:09:56+0000 [-] Server Shut Down.
+2015-07-20 00:09:57+0000 [-] Log opened.
+2015-07-20 00:09:57+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:09:57+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:09:57+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 00:09:57+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f62af87dea8>
+2015-07-20 00:09:57+0000 [-] Site starting on 5001
+2015-07-20 00:09:57+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f62af7e2368>
+2015-07-20 00:09:58+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38301))
+2015-07-20 00:10:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 60950) (2 session(s) total)
+2015-07-20 00:10:25+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 60950) (1 sessions(s) remaining)
+2015-07-20 00:28:33+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:28:33+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 00:28:33+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f62af7e2368>
+2015-07-20 00:28:33+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 00:28:33+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f62af87dea8>
+2015-07-20 00:28:33+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38301))
+2015-07-20 00:28:33+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 00:28:33+0000 [-] Main loop terminated.
+2015-07-20 00:28:33+0000 [-] Server Shut Down.
+2015-07-20 00:28:34+0000 [-] Log opened.
+2015-07-20 00:28:34+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:28:34+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:28:34+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 00:28:34+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f4d5d3ffea8>
+2015-07-20 00:28:34+0000 [-] Site starting on 5001
+2015-07-20 00:28:34+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f4d5d364368>
+2015-07-20 00:28:35+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38303))
+2015-07-20 00:28:46+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 61051) (2 session(s) total)
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 557, in func
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::]     EvMenu(self.caller, self.args.strip(),
+2015-07-20 00:29:28+0000 [AMPProtocol,0,127.0.0.1] [::] NameError: global name 'EvMenu' is not defined
+2015-07-20 00:30:53+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:30:53+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 00:30:53+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f4d5d364368>
+2015-07-20 00:30:53+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 00:30:53+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f4d5d3ffea8>
+2015-07-20 00:30:53+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38303))
+2015-07-20 00:30:53+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 00:30:53+0000 [-] Main loop terminated.
+2015-07-20 00:30:53+0000 [-] Server Shut Down.
+2015-07-20 00:30:54+0000 [-] Log opened.
+2015-07-20 00:30:54+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:30:54+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:30:54+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 00:30:54+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f166027bea8>
+2015-07-20 00:30:54+0000 [-] Site starting on 5001
+2015-07-20 00:30:54+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f16601e0368>
+2015-07-20 00:30:55+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38304))
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 61051) (1 sessions(s) remaining)
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/player.py", line 531, in func
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     player.disconnect_session_from_player(self.sessid)
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/players/players.py", line 178, in disconnect_session_from_player
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     session.sessionhandler.disconnect(session)
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/server/sessionhandler.py", line 372, in disconnect
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     session.at_disconnect()
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/server/serversession.py", line 127, in at_disconnect
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     player.unpuppet_object(sessid)
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/players/players.py", line 271, in unpuppet_object
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::]     raise RuntimeError("No puppet was found to disconnect from.")
+2015-07-20 00:30:57+0000 [AMPProtocol,0,127.0.0.1] [::] RuntimeError: No puppet was found to disconnect from.
+2015-07-20 00:31:07+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38304))
+2015-07-20 00:31:07+0000 [-] Received SIGINT, shutting down.
+2015-07-20 00:31:07+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 00:31:07+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f16601e0368>
+2015-07-20 00:31:07+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 00:31:07+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f166027bea8>
+2015-07-20 00:31:07+0000 [-] Unhandled error in Deferred:
+2015-07-20 00:31:07+0000 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "/root/mud/pyenv/local/lib/python2.7/site-packages/twisted/internet/base.py", line 847, in runUntilCurrent
+	    self.fireSystemEvent("shutdown")
+	  File "/root/mud/pyenv/local/lib/python2.7/site-packages/twisted/internet/base.py", line 640, in fireSystemEvent
+	    event.fireEvent()
+	  File "/root/mud/pyenv/local/lib/python2.7/site-packages/twisted/internet/base.py", line 411, in fireEvent
+	    result = callable(*args, **kwargs)
+	  File "/root/mud/pyenv/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1274, in unwindGenerator
+	    return _inlineCallbacks(None, gen, Deferred())
+	--- <exception caught here> ---
+	  File "/root/mud/pyenv/local/lib/python2.7/site-packages/twisted/internet/defer.py", line 1128, in _inlineCallbacks
+	    result = g.send(result)
+	  File "/root/mud/evennia/evennia/server/server.py", line 368, in shutdown
+	    for p in PlayerDB.get_all_cached_instances()]
+	  File "/root/mud/evennia/evennia/players/players.py", line 289, in unpuppet_all
+	    self.unpuppet_object(session.sessid)
+	  File "/root/mud/evennia/evennia/players/players.py", line 271, in unpuppet_object
+	    raise RuntimeError("No puppet was found to disconnect from.")
+	exceptions.RuntimeError: No puppet was found to disconnect from.
+	
+2015-07-20 00:31:07+0000 [-] Main loop terminated.
+2015-07-20 00:31:07+0000 [-] Server Shut Down.
+2015-07-20 00:31:13+0000 [-] Log opened.
+2015-07-20 00:31:13+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 00:31:13+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 00:31:13+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 00:31:13+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f9229860f38>
+2015-07-20 00:31:13+0000 [-] Site starting on 5001
+2015-07-20 00:31:13+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f92297c1368>
+2015-07-20 00:31:13+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38305))
+2015-07-20 00:31:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 61083) (1 session(s) total)
+2015-07-20 00:31:41+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), 's': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:31:51+0000 [-] cmd, options: s {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), 's': ('test_set_node', <function <lambda> at 0x7f9228ee8de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:31:51+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 00:31:57+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 00:31:57+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f92297726e0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f92297726e0>), 's': ('test_set_node', <function <lambda> at 0x7f92297726e0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:32:00+0000 [-] cmd, options: v {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f92297726e0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f92297726e0>), 's': ('test_set_node', <function <lambda> at 0x7f92297726e0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:32:00+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 00:32:15+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 00:32:15+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), 's': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:32:18+0000 [-] cmd, options: q {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), 's': ('test_set_node', <function <lambda> at 0x7f9228f0e5f0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 00:32:18+0000 [-] cmd, options: look {}
+2015-07-20 01:33:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 61083) (0 sessions(s) remaining)
+2015-07-20 04:07:14+0000 [-] Received SIGINT, shutting down.
+2015-07-20 04:07:14+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 04:07:14+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f92297c1368>
+2015-07-20 04:07:14+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 04:07:14+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f9229860f38>
+2015-07-20 04:07:14+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38305))
+2015-07-20 04:07:14+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 04:07:14+0000 [-] Main loop terminated.
+2015-07-20 04:07:14+0000 [-] Server Shut Down.
+2015-07-20 04:07:14+0000 [-] Log opened.
+2015-07-20 04:07:14+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 04:07:14+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 04:07:14+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 04:07:14+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fa01931aea8>
+2015-07-20 04:07:14+0000 [-] Site starting on 5001
+2015-07-20 04:07:14+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fa01927f368>
+2015-07-20 04:07:15+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38306))
+2015-07-20 04:07:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64519) (1 session(s) total)
+2015-07-20 04:07:37+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), 's': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 04:07:49+0000 [-] cmd, options: q {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), 's': ('test_set_node', <function <lambda> at 0x7fa01922d6e0>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 04:07:49+0000 [-] cmd, options: look {}
+2015-07-20 05:08:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64519) (0 sessions(s) remaining)
+2015-07-20 05:46:42+0000 [-] Received SIGINT, shutting down.
+2015-07-20 05:46:42+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 05:46:42+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fa01927f368>
+2015-07-20 05:46:42+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 05:46:42+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fa01931aea8>
+2015-07-20 05:46:42+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38306))
+2015-07-20 05:46:42+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 05:46:42+0000 [-] Main loop terminated.
+2015-07-20 05:46:42+0000 [-] Server Shut Down.
+2015-07-20 05:46:43+0000 [-] Log opened.
+2015-07-20 05:46:43+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 05:46:43+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 05:46:43+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 05:46:43+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd24111bea8>
+2015-07-20 05:46:43+0000 [-] Site starting on 5001
+2015-07-20 05:46:43+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd241080368>
+2015-07-20 05:46:43+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38307))
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 14, in <module>
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::]     from menus import charmenu
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named menus
+2015-07-20 05:46:48+0000 [AMPProtocol,0,127.0.0.1] [EE] Error loading cmdset commands.default_cmdsets.UnloggedinCmdSet: "No module named menus"
+2015-07-20 05:52:21+0000 [-] Received SIGINT, shutting down.
+2015-07-20 05:52:21+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 05:52:21+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd241080368>
+2015-07-20 05:52:21+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 05:52:21+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd24111bea8>
+2015-07-20 05:52:21+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38307))
+2015-07-20 05:52:21+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 05:52:21+0000 [-] Main loop terminated.
+2015-07-20 05:52:21+0000 [-] Server Shut Down.
+2015-07-20 05:52:22+0000 [-] Log opened.
+2015-07-20 05:52:22+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 05:52:22+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 05:52:22+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 05:52:22+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f7269706ea8>
+2015-07-20 05:52:22+0000 [-] Site starting on 5001
+2015-07-20 05:52:22+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f726966b368>
+2015-07-20 05:52:22+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38308))
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdsethandler.py", line 135, in import_cmdset
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]     module = import_module(modpath, package="evennia")
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/default_cmdsets.py", line 18, in <module>
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]     from commands.command import CmdAbilities
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 14
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]     from world import rules.charmenu
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::]                            ^
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: invalid syntax
+2015-07-20 05:52:22+0000 [AMPProtocol,0,127.0.0.1] [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.UnloggedinCmdSet': "invalid syntax (command.py, line 14)".
+2015-07-20 05:52:33+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38308))
+2015-07-20 05:52:33+0000 [-] Received SIGINT, shutting down.
+2015-07-20 05:52:33+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 05:52:33+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f726966b368>
+2015-07-20 05:52:33+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 05:52:33+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f7269706ea8>
+2015-07-20 05:52:33+0000 [-] Main loop terminated.
+2015-07-20 05:52:33+0000 [-] Server Shut Down.
+2015-07-20 05:53:43+0000 [-] Log opened.
+2015-07-20 05:53:43+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 05:53:43+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 05:53:43+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 05:53:43+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f97f5a97f38>
+2015-07-20 05:53:43+0000 [-] Site starting on 5001
+2015-07-20 05:53:43+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f97f59f8368>
+2015-07-20 05:53:43+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38309))
+2015-07-20 05:53:55+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64734) (1 session(s) total)
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 472, in func
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 05:54:12+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named charmenu
+2015-07-20 05:54:34+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), 's': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 05:55:38+0000 [-] cmd, options: quit {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), 's': ('test_set_node', <function <lambda> at 0x7f97f50b7140>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 05:55:38+0000 [-] cmd, options: look {}
+2015-07-20 05:57:51+0000 [-] Received SIGINT, shutting down.
+2015-07-20 05:57:51+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 05:57:51+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f97f59f8368>
+2015-07-20 05:57:51+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 05:57:51+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f97f5a97f38>
+2015-07-20 05:57:51+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38309))
+2015-07-20 05:57:51+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 05:57:51+0000 [-] Main loop terminated.
+2015-07-20 05:57:51+0000 [-] Server Shut Down.
+2015-07-20 05:57:52+0000 [-] Log opened.
+2015-07-20 05:57:52+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 05:57:52+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 05:57:52+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 05:57:52+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fde302b6ea8>
+2015-07-20 05:57:52+0000 [-] Site starting on 5001
+2015-07-20 05:57:52+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fde3021b368>
+2015-07-20 05:57:52+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38310))
+2015-07-20 05:57:57+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64734) (0 sessions(s) remaining)
+2015-07-20 05:58:40+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64741) (1 session(s) total)
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 472, in func
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 05:58:51+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named charmenu
+2015-07-20 05:59:22+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64741) (0 sessions(s) remaining)
+2015-07-20 06:02:17+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38310))
+2015-07-20 06:02:17+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:02:17+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:02:17+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fde3021b368>
+2015-07-20 06:02:17+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:02:17+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fde302b6ea8>
+2015-07-20 06:02:17+0000 [-] Main loop terminated.
+2015-07-20 06:02:17+0000 [-] Server Shut Down.
+2015-07-20 06:02:25+0000 [-] Log opened.
+2015-07-20 06:02:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:02:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:02:25+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:02:25+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1fab11bf38>
+2015-07-20 06:02:25+0000 [-] Site starting on 5001
+2015-07-20 06:02:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1fab07c368>
+2015-07-20 06:02:25+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38311))
+2015-07-20 06:02:52+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64750) (1 session(s) total)
+2015-07-20 06:02:57+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), 's': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:03:04+0000 [-] cmd, options: quit {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), 's': ('test_set_node', <function <lambda> at 0x7f1faa7a7de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:03:04+0000 [-] cmd, options: look {}
+2015-07-20 06:21:26+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38311))
+2015-07-20 06:21:26+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:21:26+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:21:26+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1fab07c368>
+2015-07-20 06:21:26+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:21:26+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1fab11bf38>
+2015-07-20 06:21:26+0000 [-] Main loop terminated.
+2015-07-20 06:21:26+0000 [-] Server Shut Down.
+2015-07-20 06:21:31+0000 [-] Log opened.
+2015-07-20 06:21:31+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:21:31+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:21:31+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:21:31+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fe63224be60>
+2015-07-20 06:21:31+0000 [-] Site starting on 5001
+2015-07-20 06:21:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe6321b7290>
+2015-07-20 06:21:31+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38312))
+2015-07-20 06:22:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64785) (1 session(s) total)
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:22:12+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named factionmenu
+2015-07-20 06:22:19+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64785) (0 sessions(s) remaining)
+2015-07-20 06:22:34+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64787) (1 session(s) total)
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:22:42+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named factionmenu
+2015-07-20 06:22:48+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64787) (0 sessions(s) remaining)
+2015-07-20 06:23:15+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38312))
+2015-07-20 06:23:15+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:23:15+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:23:15+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe6321b7290>
+2015-07-20 06:23:15+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:23:15+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fe63224be60>
+2015-07-20 06:23:15+0000 [-] Main loop terminated.
+2015-07-20 06:23:15+0000 [-] Server Shut Down.
+2015-07-20 06:24:07+0000 [-] Log opened.
+2015-07-20 06:24:07+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:24:07+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:24:07+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:24:07+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f17fd311e60>
+2015-07-20 06:24:07+0000 [-] Site starting on 5001
+2015-07-20 06:24:07+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f17fd27d290>
+2015-07-20 06:24:07+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38313))
+2015-07-20 06:24:20+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64791) (1 session(s) total)
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:24:28+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named factionmenu
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:24:36+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named charmenu
+2015-07-20 06:25:15+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64791) (0 sessions(s) remaining)
+2015-07-20 06:26:20+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38313))
+2015-07-20 06:26:20+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:26:20+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:26:20+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f17fd27d290>
+2015-07-20 06:26:20+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:26:20+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f17fd311e60>
+2015-07-20 06:26:20+0000 [-] Main loop terminated.
+2015-07-20 06:26:20+0000 [-] Server Shut Down.
+2015-07-20 06:26:28+0000 [-] Log opened.
+2015-07-20 06:26:28+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:26:28+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:26:28+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:26:28+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1eb7439f38>
+2015-07-20 06:26:28+0000 [-] Site starting on 5001
+2015-07-20 06:26:28+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1eb739a368>
+2015-07-20 06:26:30+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38315))
+2015-07-20 06:26:40+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64796) (1 session(s) total)
+2015-07-20 06:26:51+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), 's': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:26:58+0000 [-] cmd, options: quit {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), 's': ('test_set_node', <function <lambda> at 0x7f1eb6ac5de8>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:26:58+0000 [-] cmd, options: look {}
+2015-07-20 06:27:02+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64796) (0 sessions(s) remaining)
+2015-07-20 06:27:56+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38315))
+2015-07-20 06:27:56+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:27:56+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:27:56+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1eb739a368>
+2015-07-20 06:27:56+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:27:56+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1eb7439f38>
+2015-07-20 06:27:56+0000 [-] Main loop terminated.
+2015-07-20 06:27:56+0000 [-] Server Shut Down.
+2015-07-20 06:28:03+0000 [-] Log opened.
+2015-07-20 06:28:03+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:28:03+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:28:03+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:28:03+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f0fc9a93f38>
+2015-07-20 06:28:03+0000 [-] Site starting on 5001
+2015-07-20 06:28:03+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f0fc99f4368>
+2015-07-20 06:28:04+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38317))
+2015-07-20 06:28:13+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64800) (1 session(s) total)
+2015-07-20 06:28:27+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), '1': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), '3': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), 'view': ('test_view_node', None)}
+2015-07-20 06:28:41+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), '1': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), '3': ('test_set_node', <function <lambda> at 0x7f0fc99cb500>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc99cb668>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc99cb2a8>), 'view': ('test_view_node', None)}
+2015-07-20 06:28:41+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:29:03+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:29:03+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), '1': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), '3': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:06+0000 [-] cmd, options: r {'a': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), '1': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), '3': ('test_set_node', <function <lambda> at 0x7f0fc911ede8>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc911ec80>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc911eed8>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:06+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:29:12+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:29:12+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), '1': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), '3': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:17+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), '1': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), '3': ('test_set_node', <function <lambda> at 0x7f0fc9109050>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc91096e0>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc9109398>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:17+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 06:29:19+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 06:29:20+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), '1': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), '3': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:22+0000 [-] cmd, options: quit {'a': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), 'l': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), '1': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), '3': ('test_set_node', <function <lambda> at 0x7f0fc9109848>), 'r': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f0fc9109e60>), 'religious': ('test_set_node', <function <lambda> at 0x7f0fc9109c80>), 'view': ('test_view_node', None)}
+2015-07-20 06:29:22+0000 [-] cmd, options: look {}
+2015-07-20 06:29:44+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64800) (0 sessions(s) remaining)
+2015-07-20 06:30:25+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38317))
+2015-07-20 06:30:25+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:30:26+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:30:26+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f0fc99f4368>
+2015-07-20 06:30:26+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:30:26+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f0fc9a93f38>
+2015-07-20 06:30:26+0000 [-] Main loop terminated.
+2015-07-20 06:30:26+0000 [-] Server Shut Down.
+2015-07-20 06:30:31+0000 [-] Log opened.
+2015-07-20 06:30:31+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:30:31+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:30:31+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:30:31+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f11281d5f38>
+2015-07-20 06:30:31+0000 [-] Site starting on 5001
+2015-07-20 06:30:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1128136368>
+2015-07-20 06:30:31+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38318))
+2015-07-20 06:30:42+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64806) (1 session(s) total)
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:30:50+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named factionmenu
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:31:04+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: No module named charmenu
+2015-07-20 06:31:07+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64806) (0 sessions(s) remaining)
+2015-07-20 06:33:09+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38318))
+2015-07-20 06:33:09+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:33:09+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:33:09+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1128136368>
+2015-07-20 06:33:09+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:33:09+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f11281d5f38>
+2015-07-20 06:33:09+0000 [-] Main loop terminated.
+2015-07-20 06:33:09+0000 [-] Server Shut Down.
+2015-07-20 06:33:15+0000 [-] Log opened.
+2015-07-20 06:33:15+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:33:15+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:33:15+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:33:15+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1aa7b2ff38>
+2015-07-20 06:33:15+0000 [-] Site starting on 5001
+2015-07-20 06:33:15+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1aa7a90368>
+2015-07-20 06:33:17+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38320))
+2015-07-20 06:33:23+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64824) (1 session(s) total)
+2015-07-20 06:33:29+0000 [-] cmd, options: look {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), 's': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:33:31+0000 [-] cmd, options: quit {'quit': ('test_end_node', None), 'set': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), '3': ('test_end_node', None), '1': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), 's': ('test_set_node', <function <lambda> at 0x7f1aa71c0c80>), '2': ('test_view_node', None), 'q': ('test_end_node', None), 'v': ('test_view_node', None), 'view': ('test_view_node', None)}
+2015-07-20 06:33:31+0000 [-] cmd, options: look {}
+2015-07-20 06:33:38+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), 'l': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), '1': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), '3': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), 'r': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), 'religious': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), 'view': ('test_view_node', None)}
+2015-07-20 06:33:50+0000 [-] cmd, options: quit {'a': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), 'l': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), '1': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), '3': ('test_set_node', <function <lambda> at 0x7f1aa71831b8>), 'r': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f1aa71830c8>), 'religious': ('test_set_node', <function <lambda> at 0x7f1aa7183140>), 'view': ('test_view_node', None)}
+2015-07-20 06:33:50+0000 [-] cmd, options: look {}
+2015-07-20 06:35:52+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:35:53+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:35:53+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1aa7a90368>
+2015-07-20 06:35:53+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:35:53+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1aa7b2ff38>
+2015-07-20 06:35:53+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38320))
+2015-07-20 06:35:53+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:35:53+0000 [-] Main loop terminated.
+2015-07-20 06:35:53+0000 [-] Server Shut Down.
+2015-07-20 06:35:53+0000 [-] Log opened.
+2015-07-20 06:35:53+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:35:53+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:35:53+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:35:53+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fe2ea979ea8>
+2015-07-20 06:35:53+0000 [-] Site starting on 5001
+2015-07-20 06:35:53+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fe2ea8de368>
+2015-07-20 06:35:54+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38321))
+2015-07-20 06:35:59+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64824) (0 sessions(s) remaining)
+2015-07-20 06:36:07+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64830) (1 session(s) total)
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/menus/fmenu.py", line 4
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]     text = "{r""
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::]                ^
+2015-07-20 06:36:19+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: EOL while scanning string literal
+2015-07-20 06:36:31+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64830) (0 sessions(s) remaining)
+2015-07-20 06:37:09+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:37:09+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:37:09+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fe2ea8de368>
+2015-07-20 06:37:09+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:37:09+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fe2ea979ea8>
+2015-07-20 06:37:09+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38321))
+2015-07-20 06:37:09+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:37:09+0000 [-] Main loop terminated.
+2015-07-20 06:37:09+0000 [-] Server Shut Down.
+2015-07-20 06:37:10+0000 [-] Log opened.
+2015-07-20 06:37:10+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:37:10+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:37:10+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:37:10+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f265e595ea8>
+2015-07-20 06:37:10+0000 [-] Site starting on 5001
+2015-07-20 06:37:10+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f265e4fa368>
+2015-07-20 06:37:10+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38323))
+2015-07-20 06:37:25+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64833) (1 session(s) total)
+2015-07-20 06:37:39+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), 'l': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), '1': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), '3': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), 'r': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), 'religious': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), 'view': ('test_view_node', None)}
+2015-07-20 06:37:54+0000 [-] cmd, options: quit {'a': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), 'l': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), '1': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), '3': ('test_set_node', <function <lambda> at 0x7f265dc26c08>), 'r': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f265dc26c80>), 'religious': ('test_set_node', <function <lambda> at 0x7f265dc26cf8>), 'view': ('test_view_node', None)}
+2015-07-20 06:37:54+0000 [-] cmd, options: look {}
+2015-07-20 06:38:17+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:38:17+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:38:17+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f265e4fa368>
+2015-07-20 06:38:17+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:38:17+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f265e595ea8>
+2015-07-20 06:38:17+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38323))
+2015-07-20 06:38:17+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:38:17+0000 [-] Main loop terminated.
+2015-07-20 06:38:17+0000 [-] Server Shut Down.
+2015-07-20 06:38:18+0000 [-] Log opened.
+2015-07-20 06:38:18+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:38:18+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:38:18+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:38:18+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f5e2d0c4ea8>
+2015-07-20 06:38:18+0000 [-] Site starting on 5001
+2015-07-20 06:38:18+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f5e2d029368>
+2015-07-20 06:38:18+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38324))
+2015-07-20 06:38:21+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64833) (0 sessions(s) remaining)
+2015-07-20 06:38:28+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64837) (1 session(s) total)
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/commands/command.py", line 473, in func
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     cmdset_mergetype="Replace")
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 305, in __init__
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     self._menutree = self._parse_menufile(menufile)
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/evmenu.py", line 342, in _parse_menufile
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     module = mod_import(menufile)
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 767, in mod_import
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = __import__(module, fromlist=["None"])
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/menus/fmenu.py", line 11
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]     options = ({"key": ("Anarchist", "a"),
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::]           ^
+2015-07-20 06:38:39+0000 [AMPProtocol,0,127.0.0.1] [::] SyntaxError: invalid syntax
+2015-07-20 06:38:41+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64837) (0 sessions(s) remaining)
+2015-07-20 06:41:34+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:41:34+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:41:34+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f5e2d029368>
+2015-07-20 06:41:34+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:41:34+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f5e2d0c4ea8>
+2015-07-20 06:41:34+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38324))
+2015-07-20 06:41:34+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:41:34+0000 [-] Main loop terminated.
+2015-07-20 06:41:34+0000 [-] Server Shut Down.
+2015-07-20 06:41:35+0000 [-] Log opened.
+2015-07-20 06:41:35+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:41:35+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:41:35+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:41:35+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f56bba86ea8>
+2015-07-20 06:41:35+0000 [-] Site starting on 5001
+2015-07-20 06:41:35+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f56bb9eb368>
+2015-07-20 06:41:36+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38326))
+2015-07-20 06:42:16+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64848) (1 session(s) total)
+2015-07-20 06:42:23+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), '1': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), '3': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), 'view': ('test_view_node', None)}
+2015-07-20 06:42:52+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), '1': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), '3': ('test_set_node', <function <lambda> at 0x7f56bb117c08>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb117c80>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb117cf8>), 'view': ('test_view_node', None)}
+2015-07-20 06:42:52+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:43:00+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:43:00+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f56bb133320>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), '1': ('test_set_node', <function <lambda> at 0x7f56bb133320>), '3': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb133500>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb133500>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb133320>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb133500>), 'view': ('test_view_node', None)}
+2015-07-20 06:43:03+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f56bb133320>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), '1': ('test_set_node', <function <lambda> at 0x7f56bb133320>), '3': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb133500>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb133500>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb133320>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb133500>), 'view': ('test_view_node', None)}
+2015-07-20 06:43:03+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 06:43:08+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 06:43:08+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), '1': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), '3': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), 'view': ('test_view_node', None)}
+2015-07-20 06:43:11+0000 [-] cmd, options: quit {'a': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), 'l': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), '1': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), '3': ('test_set_node', <function <lambda> at 0x7f56bb0cf500>), 'r': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f56bb1337d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f56bb0cf0c8>), 'view': ('test_view_node', None)}
+2015-07-20 06:43:11+0000 [-] cmd, options: look {}
+2015-07-20 06:48:15+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:48:15+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:48:15+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f56bb9eb368>
+2015-07-20 06:48:15+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:48:15+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f56bba86ea8>
+2015-07-20 06:48:15+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38326))
+2015-07-20 06:48:15+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:48:15+0000 [-] Main loop terminated.
+2015-07-20 06:48:15+0000 [-] Server Shut Down.
+2015-07-20 06:48:16+0000 [-] Log opened.
+2015-07-20 06:48:16+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:48:16+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:48:16+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:48:16+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f053dca0ea8>
+2015-07-20 06:48:16+0000 [-] Site starting on 5001
+2015-07-20 06:48:16+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f053dc05368>
+2015-07-20 06:48:17+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38328))
+2015-07-20 06:48:27+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64848) (0 sessions(s) remaining)
+2015-07-20 06:48:35+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64859) (1 session(s) total)
+2015-07-20 06:48:41+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f053dbb30c8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f053d2e5f50>), 'l': ('test_set_node', <function <lambda> at 0x7f053d2e5f50>), '1': ('test_set_node', <function <lambda> at 0x7f053dbb30c8>), '3': ('test_set_node', <function <lambda> at 0x7f053d2e5f50>), 'r': ('test_set_node', <function <lambda> at 0x7f053d2e5ed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f053d2e5ed8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f053dbb30c8>), 'religious': ('test_set_node', <function <lambda> at 0x7f053d2e5ed8>), 'view': ('test_view_node', None)}
+2015-07-20 06:49:37+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:49:37+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:49:37+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f053dc05368>
+2015-07-20 06:49:37+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:49:37+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f053dca0ea8>
+2015-07-20 06:49:37+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38328))
+2015-07-20 06:49:37+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:49:37+0000 [-] Main loop terminated.
+2015-07-20 06:49:37+0000 [-] Server Shut Down.
+2015-07-20 06:49:38+0000 [-] Log opened.
+2015-07-20 06:49:38+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:49:38+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:49:38+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:49:38+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f7050acdea8>
+2015-07-20 06:49:38+0000 [-] Site starting on 5001
+2015-07-20 06:49:38+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f7050a32368>
+2015-07-20 06:49:39+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38329))
+2015-07-20 06:49:43+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64859) (0 sessions(s) remaining)
+2015-07-20 06:50:15+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64863) (1 session(s) total)
+2015-07-20 06:50:27+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f70509e0140>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'l': ('test_set_node', <function <lambda> at 0x7f7050113f50>), '1': ('test_set_node', <function <lambda> at 0x7f70509e0140>), '3': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'r': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f70509e0140>), 'religious': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:06+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f70509e0140>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'l': ('test_set_node', <function <lambda> at 0x7f7050113f50>), '1': ('test_set_node', <function <lambda> at 0x7f70509e0140>), '3': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'r': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f70509e0140>), 'religious': ('test_set_node', <function <lambda> at 0x7f7050113ed8>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:06+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:51:18+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:51:18+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f70501132a8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'l': ('test_set_node', <function <lambda> at 0x7f7050113f50>), '1': ('test_set_node', <function <lambda> at 0x7f70501132a8>), '3': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'r': ('test_set_node', <function <lambda> at 0x7f7050113758>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f7050113758>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f70501132a8>), 'religious': ('test_set_node', <function <lambda> at 0x7f7050113758>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:20+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f70501132a8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'l': ('test_set_node', <function <lambda> at 0x7f7050113f50>), '1': ('test_set_node', <function <lambda> at 0x7f70501132a8>), '3': ('test_set_node', <function <lambda> at 0x7f7050113f50>), 'r': ('test_set_node', <function <lambda> at 0x7f7050113758>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f7050113758>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f70501132a8>), 'religious': ('test_set_node', <function <lambda> at 0x7f7050113758>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:20+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 06:51:22+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 06:51:22+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), 'l': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), '1': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), '3': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), 'r': ('test_set_node', <function <lambda> at 0x7f705011c500>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f705011c500>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), 'religious': ('test_set_node', <function <lambda> at 0x7f705011c500>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:33+0000 [-] cmd, options: q {'a': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), 'quit': ('test_end_node', None), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), 'l': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), '1': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), '3': ('test_set_node', <function <lambda> at 0x7f705011c7d0>), 'r': ('test_set_node', <function <lambda> at 0x7f705011c500>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f705011c500>), 'anarchist': ('test_set_node', <function <lambda> at 0x7f705017ecf8>), 'religious': ('test_set_node', <function <lambda> at 0x7f705011c500>), 'view': ('test_view_node', None)}
+2015-07-20 06:51:33+0000 [-] cmd, options: look {}
+2015-07-20 06:53:34+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:53:34+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:53:34+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f7050a32368>
+2015-07-20 06:53:34+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:53:34+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f7050acdea8>
+2015-07-20 06:53:34+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38329))
+2015-07-20 06:53:34+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:53:34+0000 [-] Main loop terminated.
+2015-07-20 06:53:34+0000 [-] Server Shut Down.
+2015-07-20 06:53:35+0000 [-] Log opened.
+2015-07-20 06:53:35+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:53:35+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:53:35+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:53:35+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1b8dc2cea8>
+2015-07-20 06:53:35+0000 [-] Site starting on 5001
+2015-07-20 06:53:35+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1b8db91368>
+2015-07-20 06:53:35+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38330))
+2015-07-20 06:53:39+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64863) (0 sessions(s) remaining)
+2015-07-20 06:53:51+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64871) (1 session(s) total)
+2015-07-20 06:54:00+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:14+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d2decf8>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d2de320>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d2dec08>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:14+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:54:16+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:54:16+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:17+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d272140>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d272de8>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d2727d0>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:17+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 06:54:20+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 06:54:20+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:23+0000 [-] cmd, options: q {'a': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), 'quit': ('test_end_node', None), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), 'q': ('test_end_node', None), 'law enforcement': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), 'l': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), '1': ('test_set_node', <function <lambda> at 0x7f1b8d27b398>), '3': ('test_set_node', <function <lambda> at 0x7f1b8d27b230>), 'r': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), 'religious': ('test_set_node', <function <lambda> at 0x7f1b8d27b7d0>), 'view': ('test_view_node', None)}
+2015-07-20 06:54:23+0000 [-] cmd, options: look {}
+2015-07-20 06:56:45+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:56:45+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:56:45+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1b8db91368>
+2015-07-20 06:56:45+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:56:45+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1b8dc2cea8>
+2015-07-20 06:56:45+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38330))
+2015-07-20 06:56:45+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:56:45+0000 [-] Main loop terminated.
+2015-07-20 06:56:45+0000 [-] Server Shut Down.
+2015-07-20 06:56:46+0000 [-] Log opened.
+2015-07-20 06:56:46+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:56:46+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:56:46+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:56:46+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f0868abeea8>
+2015-07-20 06:56:46+0000 [-] Site starting on 5001
+2015-07-20 06:56:46+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f0868a23368>
+2015-07-20 06:56:46+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38331))
+2015-07-20 06:56:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64871) (0 sessions(s) remaining)
+2015-07-20 06:57:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64877) (1 session(s) total)
+2015-07-20 06:57:11+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f08689d1140>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f08689d1140>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), '1': ('test_set_node', <function <lambda> at 0x7f08689d1140>), '3': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 06:57:21+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f08689d1140>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f08689d1140>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), '1': ('test_set_node', <function <lambda> at 0x7f08689d1140>), '3': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0868103ed8>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 06:57:21+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 06:57:35+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 06:57:35+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f08681032a8>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f08681032a8>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f0868103758>), '1': ('test_set_node', <function <lambda> at 0x7f08681032a8>), '3': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r': ('test_set_node', <function <lambda> at 0x7f0868103758>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0868103758>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 06:57:37+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f08681032a8>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f08681032a8>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f0868103758>), '1': ('test_set_node', <function <lambda> at 0x7f08681032a8>), '3': ('test_set_node', <function <lambda> at 0x7f0868103f50>), 'r': ('test_set_node', <function <lambda> at 0x7f0868103758>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f0868103758>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 06:57:37+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 06:59:45+0000 [-] Received SIGINT, shutting down.
+2015-07-20 06:59:45+0000 [-] (TCP Port 5001 Closed)
+2015-07-20 06:59:45+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f0868a23368>
+2015-07-20 06:59:45+0000 [-] (TCP Port 5000 Closed)
+2015-07-20 06:59:45+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f0868abeea8>
+2015-07-20 06:59:45+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38331))
+2015-07-20 06:59:45+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-20 06:59:45+0000 [-] Main loop terminated.
+2015-07-20 06:59:45+0000 [-] Server Shut Down.
+2015-07-20 06:59:46+0000 [-] Log opened.
+2015-07-20 06:59:46+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-20 06:59:46+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-20 06:59:46+0000 [-] AmpServerFactory starting on 5000
+2015-07-20 06:59:46+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f2fd647aea8>
+2015-07-20 06:59:46+0000 [-] Site starting on 5001
+2015-07-20 06:59:46+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2fd63df368>
+2015-07-20 06:59:47+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38333))
+2015-07-20 06:59:51+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64877) (0 sessions(s) remaining)
+2015-07-20 07:00:12+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 64885) (1 session(s) total)
+2015-07-20 07:01:15+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:01:19+0000 [-] cmd, options: a {'a': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac96e0>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac9668>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:01:19+0000 [-] cmd, options: look {'back (default)': ('test_start_node', None)}
+2015-07-20 07:01:22+0000 [-] cmd, options:  {'back (default)': ('test_start_node', None)}
+2015-07-20 07:01:22+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:01:23+0000 [-] cmd, options: v {'a': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5ac0d70>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac0050>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac0230>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:01:23+0000 [-] cmd, options: look {'1': ('test_start_node', None)}
+2015-07-20 07:02:19+0000 [-] cmd, options: 1 {'1': ('test_start_node', None)}
+2015-07-20 07:02:19+0000 [-] cmd, options: look {'a': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:02:21+0000 [-] cmd, options: q {'a': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), 'quit': ('test_end_node', None), 'l) law enforcement': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'a) anarchist': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), 'q': ('test_end_node', None), 'l': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'r) religious': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '1': ('test_set_node', <function <lambda> at 0x7f2fd5b4faa0>), '3': ('test_set_node', <function <lambda> at 0x7f2fd5ac97d0>), 'r': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), '5': ('test_end_node', None), '4': ('test_view_node', None), 'v': ('test_view_node', None), '2': ('test_set_node', <function <lambda> at 0x7f2fd5ac95f0>), 'q) quit': ('test_end_node', None), 'v) view': ('test_view_node', None)}
+2015-07-20 07:02:21+0000 [-] cmd, options: look {}
+2015-07-20 07:02:33+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 64885) (0 sessions(s) remaining)
