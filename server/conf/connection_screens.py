@@ -43,6 +43,7 @@ CONNECTION_SCREEN = \
  {ygetsessionid -{n (alias - sid) Uhm, returns session id
  {ytestmenu {rMENU NAME{n runs the new menu system, the first menu
     is 'fmenu', for selecting a faction.
+  Added menu 'char2'.
 
           {r**** {mNew Locations{r ****{n
 
