@@ -51,6 +51,9 @@ CONNECTION_SCREEN = \
  
  {yEquipment Room {Wdbref #95 -{n west of Character Creation
 
+ {yWeather Room {Wdbref#135 -{n west of Infirmary
+    (kinda wonky right now, the ticks work every 60 seconds)
+
 
          {r**** {mFixes/Changes{r ****{n 
 

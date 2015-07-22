@@ -8,22 +8,25 @@ def test_start_node(caller):
 
     Choose your faction below.{n
     """
-    options = ({"key": ("{r1)-{y A{nnarchist", "a", "1"),
+    options = ({"key": ("{y A{nnarchist", "a"),
                 "desc": "Choose the Anarchist faction",
                 "exec": lambda caller: caller.attributes.add("faction", "Anarchist"),
-                "goto": "test_set_skilltree"},
-               {"key": ("{r2)-{y R{neligious", "r", "2"),
+            #    "exec": lambda callerm: caller.attributes.add("Meta", "Idealogical"),
+                "goto": "test_set_node"},
+               {"key": ("{y R{neligious", "r"),
                 "desc": "Choose the Religious faction",
                 "exec": lambda caller: caller.attributes.add("faction", "Religious"),
-                "goto": "test_set_skilltree"},
-               {"key": ("{r3)-{y L{naw Enforcement", "l", "3"),
+            #    "exec": lambda callerm: caller.attributes.add("Meta", "Spiritual"),
+                "goto": "test_set_node"},
+               {"key": ("{y L{naw Enforcement", "l"),
                 "desc": "Choose the Law Enforcement faction",
                 "exec": lambda caller: caller.attributes.add("faction", "Law Enforcement"),
-                "goto": "test_set_skilltree"},
-             #  {"key": ("{y V{niew", "v"),
-             #   "desc": "View your currently chosen faction.",
-             #   "goto": "test_view_node"},
-               {"key": ("{r4)-{y Q{nuit", "quit", "q", "Q", "4"),
+             #   "exec": lambda callerm: caller.attributes.add("Meta", "Judicial"),
+                "goto": "test_set_node"},
+               {"key": ("{y V{niew", "v"),
+                "desc": "View your currently chosen faction.",
+                "goto": "test_view_node"},
+               {"key": ("{y Q{nuit", "quit", "q", "Q"),
                 "desc": "Quit this menu.",
                 "goto": "test_end_node"},
                {"key": "_default",
@@ -33,63 +36,51 @@ def test_start_node(caller):
 
 def test_set_node(caller):
 
-    text = ("""
-    {m The characters faction was set to{y %s
-    {m Meta was set to{y %s {n
-    {m Skill tree was set to{y %s {n
-    ({wCheck it with examine after quitting the menu{n).
-
-    """ % (caller.db.faction, caller.db.Meta, caller.db.skilltree))
-
-    options = ({"key": ("{r1)-{y B{nack (default)", "_default", "1"),
-               "desc": "Back to main menu",
-               "goto": "test_start_node"})
-    return text, options
-
-
-def test_set_skilltree(caller):
     if caller.db.faction == 'Anarchist':
         caller.attributes.add("Meta", "Idealogical")
     elif caller.db.faction == 'Religious':
         caller.attributes.add("Meta", "Spiritual")
     elif caller.db.faction == 'Law Enforcement':
         caller.attributes.add("Meta", "Judicial"),
-
     text = ("""
     {m The characters faction was set to{y %s
     {m Meta was set to{y %s {n
-    
+    ({wCheck it with examine after quitting the menu{n).
 
-    {mThis is a {yTEST{m skill tree selection menu.
-    Choose your skill tree below.{n
     """ % (caller.db.faction, caller.db.Meta))
-    options = ({"key": ("{r1)-{yT{nechnological", "t", "1"),
+
+    # optional help text for this node
+    options = ({"key": ("{y B{nack (default)", "_default"),
+               "desc": "Back to main menu",
+               "goto": "test_start_node"},
+               {"key": ("{y S{nkills", "s"), 
+               "desc": "To skills menu",
+               "goto": "test_set_skills"})
+    return text, options
+
+
+def test_set_skills(caller):
+    text = """
+    {mThis is a {yTEST{m skills selection menu.
+
+    Nothing much happening here until it gets fleshed out.
+
+    Choose your skills below.{n
+    """
+    options = ({"key": ("{yt) {nTechnological", "t"),
                 "desc": "Choose the Technological skill tree",
                 "exec": lambda caller: caller.attributes.add("skilltree", "Technological"),
-                "goto": "test_skills_node"},
-               {"key": ("{r2)-{yN{natural", "n", "2"),
+                "goto": "test_set_node"},
+               {"key": ("{yn) {nNatural", "n"),
                 "desc": "Choose the Natural skill tree",
                 "exec": lambda caller: caller.attributes.add("skilltree", "Natural"),
-                "goto": "test_skills_node"},
-               {"key": ("{r3)-{yP{nhysical", "p", "3"),
+                "goto": "test_set_node"},
+               {"key": ("{yp) {nPhysical", "p"),
                 "desc": "Choose the Physical skill tree",
                 "exec": lambda caller: caller.attributes.add("skilltree", "Physical"),
-                "goto": "test_skills_node"})
+                "goto": "test_set_node"})
     return text, options
 
-def test_skills_node(caller):
-    text = ("""
-    {mYour faction is {y%s{m!
-    {mMeta is {y%s{m. {n
-    {mYour skill tree is {y%s{m. {n
-    
-    {mNow we choose some skill based on your skill tree. {n
-
-    """ % (caller.db.faction, caller.db.Meta, caller.db.skilltree))
-    options = ({"key": ("{r1)-{y B{nack (default)", "_default", "1"),
-               "desc": "Back to main menu",
-               "goto": "test_start_node"})
-    return text, options
 
 
 

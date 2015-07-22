@@ -3021,3 +3021,160 @@
 2015-07-21 06:46:44+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38431) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
 2015-07-21 06:46:50+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
 2015-07-21 06:52:10+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 03:53:05+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6e2cb0>
+2015-07-22 03:53:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6e2cb0>
+2015-07-22 03:53:05+0000 [HTTPChannelWithXForwardedFor,6,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6d1e60>
+2015-07-22 03:53:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6d1e60>
+2015-07-22 03:53:05+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef680>
+2015-07-22 03:53:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef680>
+2015-07-22 03:53:05+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef950>
+2015-07-22 03:53:05+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef950>
+2015-07-22 03:53:06+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691098>
+2015-07-22 03:53:06+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691098>
+2015-07-22 03:53:06+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691908>
+2015-07-22 03:53:06+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691908>
+2015-07-22 03:53:07+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6954d0>
+2015-07-22 03:53:07+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6954d0>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f695ea8>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6955a8>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f695ea8>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6955a8>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6c2cb0>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6c2cb0>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691950>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,8,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6914d0>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,6,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691128>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691950>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,7,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef998>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6914d0>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f691128>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6ef998>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,11,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69b950>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69b950>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,9,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69d200>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69dab8>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69d200>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f69dab8>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6a3320>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6a3320>
+2015-07-22 03:53:11+0000 [HTTPChannelWithXForwardedFor,10,68.235.165.3] Starting factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6a3a28>
+2015-07-22 03:53:11+0000 [ProxyClient,client] Stopping factory <twisted.web.proxy.ProxyClientFactory instance at 0x7f127f6a3a28>
+2015-07-22 03:59:20+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38431) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 03:59:20+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 03:59:20+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 03:59:21+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 03:59:21+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 03:59:21+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 03:59:21+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 03:59:21+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38457) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:01:54+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 04:23:36+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38457) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:23:36+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 04:23:36+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:23:37+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:23:37+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38458) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:26:17+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 04:29:54+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38458) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:29:54+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 04:29:54+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:29:55+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:29:55+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38459) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:32:45+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38459) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:32:45+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 04:32:45+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:32:46+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:32:46+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38460) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:32:51+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 04:39:28+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38460) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:39:28+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 04:39:28+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:39:29+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:39:29+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38461) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:39:32+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 04:41:19+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38461) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:41:19+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 04:41:19+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:41:20+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:41:20+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 04:41:20+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:41:21+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 04:41:21+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38463) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 04:41:23+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 05:57:20+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38463) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 05:57:20+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 05:57:20+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 05:57:21+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 05:57:21+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38464) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 05:57:46+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 05:58:24+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38464) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 05:58:24+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 05:58:24+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 05:58:25+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 05:58:25+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38465) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:00:33+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38465) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:00:33+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:00:33+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:00:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:00:34+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38466) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:00:37+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:11:36+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38466) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:11:36+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:11:36+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:11:37+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:11:37+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:11:37+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:11:38+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:11:38+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38468) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:11:40+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:21:20+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38468) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:21:20+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:21:20+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:21:21+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:21:21+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:21:21+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:21:22+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:21:22+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38470) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:21:25+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:22:35+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:24:14+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38470) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:24:14+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:24:14+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:24:15+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:24:15+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:24:15+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:24:15+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:24:15+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38472) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:39:01+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38472) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:39:01+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:39:01+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:39:02+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:39:02+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38473) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:39:08+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:40:32+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38473) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:40:32+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:40:32+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:40:33+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:40:33+0000 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:40:33+0000 [Uninitialized] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:40:34+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:40:34+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38475) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:40:39+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:41:31+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38475) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:41:31+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:41:31+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:41:32+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:41:32+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38476) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:41:34+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:46:15+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38476) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:46:15+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 0 seconds
+2015-07-22 06:46:15+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:46:16+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:46:16+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38477) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:46:20+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:49:59+0000 [AMPProtocol,client] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 38477) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:49:59+0000 [AMPProtocol,client] <twisted.internet.tcp.Connector instance at 0x7f128016e4d0> will retry in 1 seconds
+2015-07-22 06:49:59+0000 [AMPProtocol,client] Stopping factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:50:00+0000 [-] Starting factory <evennia.server.amp.AmpClientFactory instance at 0x7f1280240b48>
+2015-07-22 06:50:00+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38478) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2015-07-22 06:50:03+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
+2015-07-22 06:51:47+0000 [-] AMP Error for ServerAdmin: Connection was closed cleanly.
