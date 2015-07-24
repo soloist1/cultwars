@@ -4798,3 +4798,476 @@
 2015-07-22 06:50:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 54595) (0 sessions(s) remaining)
 2015-07-22 06:50:17+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 54603) (1 session(s) total)
 2015-07-22 06:51:47+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 54603) (0 sessions(s) remaining)
+2015-07-23 06:23:32+0000 [-] Received SIGINT, shutting down.
+2015-07-23 06:23:32+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 06:23:32+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f3d917abea8>
+2015-07-23 06:23:32+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 06:23:32+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f3d91892b48>
+2015-07-23 06:23:32+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38478))
+2015-07-23 06:23:32+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 06:23:32+0000 [-] Main loop terminated.
+2015-07-23 06:23:32+0000 [-] Server Shut Down.
+2015-07-23 06:23:34+0000 [-] Log opened.
+2015-07-23 06:23:34+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 06:23:34+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 06:23:34+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 06:23:34+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd56c390ef0>
+2015-07-23 06:23:34+0000 [-] Site starting on 5001
+2015-07-23 06:23:34+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd56c2c4dd0>
+2015-07-23 06:23:35+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38486))
+2015-07-23 06:23:42+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63380) (1 session(s) total)
+2015-07-23 06:51:29+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63380) (0 sessions(s) remaining)
+2015-07-23 06:54:16+0000 [-] Received SIGINT, shutting down.
+2015-07-23 06:54:16+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 06:54:16+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd56c2c4dd0>
+2015-07-23 06:54:16+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 06:54:16+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd56c390ef0>
+2015-07-23 06:54:16+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38486))
+2015-07-23 06:54:16+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 06:54:16+0000 [-] Main loop terminated.
+2015-07-23 06:54:16+0000 [-] Server Shut Down.
+2015-07-23 06:54:17+0000 [-] Log opened.
+2015-07-23 06:54:17+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 06:54:17+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 06:54:17+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 06:54:17+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f2bf33dbd88>
+2015-07-23 06:54:17+0000 [-] Site starting on 5001
+2015-07-23 06:54:17+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f2bf32f6dd0>
+2015-07-23 06:54:17+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38487))
+2015-07-23 06:54:31+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 63585) (1 session(s) total)
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 916, in class_from_module
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+2015-07-23 06:59:48+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: the path '[D[D[D[D[D[D[D[D[D[D[D[D[D' is not on the form modulepath.Classname.
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'weather.Weather'
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     weather.Weather
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.weather.Weather
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.weather.Weather
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.weather.Weather
+2015-07-23 07:00:00+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.weather.Weather
+2015-07-23 07:00:14+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 63585) (0 sessions(s) remaining)
+2015-07-23 15:45:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47033) (1 session(s) total)
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.weather.Weather'
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     scripts.weather.Weather
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.scripts.weather.Weather
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.scripts.weather.Weather
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.scripts.weather.Weather
+2015-07-23 15:52:13+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.scripts.weather.Weather
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'weather.Weather'
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     weather.Weather
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.weather.Weather
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.weather.Weather
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.weather.Weather
+2015-07-23 16:44:19+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.weather.Weather
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'typeclasses.scripts.weather.Weather'
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.scripts.weather.Weather
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.typeclasses.scripts.weather.Weather
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.typeclasses.scripts.weather.Weather
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.typeclasses.scripts.weather.Weather
+2015-07-23 17:19:26+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.typeclasses.scripts.weather.Weather
+2015-07-23 17:19:57+0000 [-] Received SIGINT, shutting down.
+2015-07-23 17:19:57+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 17:19:57+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f2bf32f6dd0>
+2015-07-23 17:19:57+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 17:19:57+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f2bf33dbd88>
+2015-07-23 17:19:57+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38487))
+2015-07-23 17:19:57+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 17:19:57+0000 [-] Main loop terminated.
+2015-07-23 17:19:57+0000 [-] Server Shut Down.
+2015-07-23 17:19:58+0000 [-] Log opened.
+2015-07-23 17:19:58+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 17:19:58+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 17:19:58+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 17:19:58+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fad3fdefd88>
+2015-07-23 17:19:58+0000 [-] Site starting on 5001
+2015-07-23 17:19:58+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fad3fd09dd0>
+2015-07-23 17:19:58+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38488))
+2015-07-23 17:20:02+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('50.56.249.206', 47033) (0 sessions(s) remaining)
+2015-07-23 17:20:10+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47034) (1 session(s) total)
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'typeclasses.scripts.weather.Weather'
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.scripts.weather.Weather
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.typeclasses.scripts.weather.Weather
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.typeclasses.scripts.weather.Weather
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.typeclasses.scripts.weather.Weather
+2015-07-23 17:20:50+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.typeclasses.scripts.weather.Weather
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.weather.Weather'
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     scripts.weather.Weather
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.scripts.weather.Weather
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.scripts.weather.Weather
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.scripts.weather.Weather
+2015-07-23 17:23:02+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.scripts.weather.Weather
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'weather.Weather'
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     weather.Weather
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.weather.Weather
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.weather.Weather
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.weather.Weather
+2015-07-23 17:23:18+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.weather.Weather
+2015-07-23 18:23:24+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('50.56.249.206', 47034) (0 sessions(s) remaining)
+2015-07-23 20:27:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47035) (1 session(s) total)
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'weather.Weather'
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     weather.Weather
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.weather.Weather
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.weather.Weather
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.weather.Weather
+2015-07-23 20:27:39+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.weather.Weather
+2015-07-23 21:28:24+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('50.56.249.206', 47035) (0 sessions(s) remaining)
+2015-07-23 22:07:30+0000 [-] Received SIGINT, shutting down.
+2015-07-23 22:07:30+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 22:07:30+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fad3fd09dd0>
+2015-07-23 22:07:30+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 22:07:30+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fad3fdefd88>
+2015-07-23 22:07:30+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38488))
+2015-07-23 22:07:30+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 22:07:30+0000 [-] Main loop terminated.
+2015-07-23 22:07:30+0000 [-] Server Shut Down.
+2015-07-23 22:07:31+0000 [-] Log opened.
+2015-07-23 22:07:31+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 22:07:31+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 22:07:31+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 22:07:31+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb112c870e0>
+2015-07-23 22:07:31+0000 [-] Site starting on 5001
+2015-07-23 22:07:31+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb112ba1ef0>
+2015-07-23 22:07:31+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38489))
+2015-07-23 22:11:19+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47036) (1 session(s) total)
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'weather.Weather'
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::] Paths searched:
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     weather.Weather
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclasses.weather.Weather
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.weather.Weather
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.weather.Weather
+2015-07-23 22:11:44+0000 [AMPProtocol,0,127.0.0.1] [::]     evennia.contrib.tutorial_examples.weather.Weather
+2015-07-23 22:14:43+0000 [-] Received SIGINT, shutting down.
+2015-07-23 22:14:43+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 22:14:43+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb112ba1ef0>
+2015-07-23 22:14:43+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 22:14:43+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb112c870e0>
+2015-07-23 22:14:43+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38489))
+2015-07-23 22:14:43+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 22:14:43+0000 [-] Main loop terminated.
+2015-07-23 22:14:43+0000 [-] Server Shut Down.
+2015-07-23 22:14:44+0000 [-] Log opened.
+2015-07-23 22:14:44+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 22:14:44+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 22:14:44+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 22:14:44+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f1ab7b7db48>
+2015-07-23 22:14:44+0000 [-] Site starting on 5001
+2015-07-23 22:14:44+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f1ab7a97e60>
+2015-07-23 22:14:44+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38490))
+2015-07-23 22:14:54+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('50.56.249.206', 47036) (0 sessions(s) remaining)
+2015-07-23 22:15:04+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47037) (1 session(s) total)
+2015-07-23 22:37:24+0000 [-] Received SIGINT, shutting down.
+2015-07-23 22:37:24+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 22:37:24+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f1ab7a97e60>
+2015-07-23 22:37:24+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 22:37:24+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f1ab7b7db48>
+2015-07-23 22:37:24+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38490))
+2015-07-23 22:37:24+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-23 22:37:24+0000 [-] Main loop terminated.
+2015-07-23 22:37:24+0000 [-] Server Shut Down.
+2015-07-23 22:37:25+0000 [-] Log opened.
+2015-07-23 22:37:25+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 22:37:25+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 22:37:25+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 22:37:25+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f31d67b2b48>
+2015-07-23 22:37:25+0000 [-] Site starting on 5001
+2015-07-23 22:37:25+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f31d66cce60>
+2015-07-23 22:37:26+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38492))
+2015-07-23 22:37:33+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38492))
+2015-07-23 22:37:33+0000 [-] Received SIGINT, shutting down.
+2015-07-23 22:37:33+0000 [-] (TCP Port 5001 Closed)
+2015-07-23 22:37:33+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f31d66cce60>
+2015-07-23 22:37:33+0000 [-] (TCP Port 5000 Closed)
+2015-07-23 22:37:33+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f31d67b2b48>
+2015-07-23 22:37:33+0000 [-] Main loop terminated.
+2015-07-23 22:37:33+0000 [-] Server Shut Down.
+2015-07-23 22:37:38+0000 [-] Log opened.
+2015-07-23 22:37:38+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-23 22:37:38+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-23 22:37:38+0000 [-] AmpServerFactory starting on 5000
+2015-07-23 22:37:38+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fd701acfc68>
+2015-07-23 22:37:38+0000 [-] Site starting on 5001
+2015-07-23 22:37:38+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fd7019db6c8>
+2015-07-23 22:37:40+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38494))
+2015-07-23 22:37:58+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('50.56.249.206', 47038) (1 session(s) total)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/cmdhandler.py", line 417, in _run_command
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     ret = yield cmd.func()
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/commands/default/building.py", line 2326, in func
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     ok = obj.scripts.add(self.rhs, autostart=True)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/scripts/scripthandler.py", line 75, in add
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     autostart=autostart)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/create.py", line 158, in create_script
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 918, in class_from_module
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     mod = import_module(testpath, package="evennia")
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     __import__(name)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/cultwars/typeclasses/weather.py", line 18, in <module>
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     class Script(DefaultScript):
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 107, in __new__
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     new_class = patched_new(cls, name, bases, attrs)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/django_new_patch.py", line 254, in patched_new
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     new_class._meta.apps.register_model(new_class._meta.app_label, new_class)
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/pyenv/local/lib/python2.7/site-packages/django/apps/registry.py", line 221, in register_model
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::]     (model_name, app_label, app_models[model_name], model))
+2015-07-23 22:38:18+0000 [AMPProtocol,0,127.0.0.1] [::] RuntimeError: Conflicting 'script' models in application 'typeclasses': <class 'scripts.Script'> and <class 'weather.Script'>.
+2015-07-23 23:39:38+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('50.56.249.206', 47038) (0 sessions(s) remaining)
+2015-07-24 06:19:37+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 51369) (1 session(s) total)
+2015-07-24 06:39:42+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38494))
+2015-07-24 06:39:42+0000 [-] Received SIGINT, shutting down.
+2015-07-24 06:39:42+0000 [-] (TCP Port 5001 Closed)
+2015-07-24 06:39:42+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fd7019db6c8>
+2015-07-24 06:39:42+0000 [-] (TCP Port 5000 Closed)
+2015-07-24 06:39:42+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fd701acfc68>
+2015-07-24 06:39:42+0000 [-] Main loop terminated.
+2015-07-24 06:39:42+0000 [-] Server Shut Down.
+2015-07-24 06:39:49+0000 [-] Log opened.
+2015-07-24 06:39:49+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-24 06:39:49+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-24 06:39:49+0000 [-] AmpServerFactory starting on 5000
+2015-07-24 06:39:49+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f8beb8a5c68>
+2015-07-24 06:39:49+0000 [-] Site starting on 5001
+2015-07-24 06:39:49+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f8beb7c0050>
+2015-07-24 06:39:50+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38498))
+2015-07-24 06:40:18+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 51502) (1 session(s) total)
+2015-07-24 06:50:04+0000 [-] Received SIGINT, shutting down.
+2015-07-24 06:50:04+0000 [-] (TCP Port 5001 Closed)
+2015-07-24 06:50:04+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f8beb7c0050>
+2015-07-24 06:50:04+0000 [-] (TCP Port 5000 Closed)
+2015-07-24 06:50:04+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f8beb8a5c68>
+2015-07-24 06:50:04+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38498))
+2015-07-24 06:50:04+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-24 06:50:04+0000 [-] Main loop terminated.
+2015-07-24 06:50:04+0000 [-] Server Shut Down.
+2015-07-24 06:50:05+0000 [-] Log opened.
+2015-07-24 06:50:05+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-24 06:50:05+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-24 06:50:05+0000 [-] AmpServerFactory starting on 5000
+2015-07-24 06:50:05+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f19f0febdd0>
+2015-07-24 06:50:05+0000 [-] Site starting on 5001
+2015-07-24 06:50:05+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f19f0f33050>
+2015-07-24 06:50:05+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38499))
+2015-07-24 06:50:10+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 51502) (0 sessions(s) remaining)
+2015-07-24 06:51:30+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38499))
+2015-07-24 06:51:30+0000 [-] Received SIGINT, shutting down.
+2015-07-24 06:51:30+0000 [-] (TCP Port 5001 Closed)
+2015-07-24 06:51:30+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7f19f0f33050>
+2015-07-24 06:51:30+0000 [-] (TCP Port 5000 Closed)
+2015-07-24 06:51:30+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7f19f0febdd0>
+2015-07-24 06:51:30+0000 [-] Main loop terminated.
+2015-07-24 06:51:30+0000 [-] Server Shut Down.
+2015-07-24 06:51:35+0000 [-] Log opened.
+2015-07-24 06:51:35+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-24 06:51:35+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-24 06:51:35+0000 [-] AmpServerFactory starting on 5000
+2015-07-24 06:51:35+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fb2462c9c68>
+2015-07-24 06:51:35+0000 [-] Site starting on 5001
+2015-07-24 06:51:35+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fb2461ced88>
+2015-07-24 06:51:36+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38501))
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.EmpScript'.
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.WindScript'.
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:51:38+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.RainScript'.
+2015-07-24 06:52:47+0000 [-] Received SIGINT, shutting down.
+2015-07-24 06:52:47+0000 [-] (TCP Port 5001 Closed)
+2015-07-24 06:52:47+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fb2461ced88>
+2015-07-24 06:52:47+0000 [-] (TCP Port 5000 Closed)
+2015-07-24 06:52:47+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fb2462c9c68>
+2015-07-24 06:52:47+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38501))
+2015-07-24 06:52:47+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-24 06:52:47+0000 [-] Main loop terminated.
+2015-07-24 06:52:47+0000 [-] Server Shut Down.
+2015-07-24 06:52:48+0000 [-] Log opened.
+2015-07-24 06:52:48+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-24 06:52:48+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-24 06:52:48+0000 [-] AmpServerFactory starting on 5000
+2015-07-24 06:52:48+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7fc02719fa28>
+2015-07-24 06:52:48+0000 [-] Site starting on 5001
+2015-07-24 06:52:48+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7fc0270a4d88>
+2015-07-24 06:52:49+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38502))
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.EmpScript'.
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.WindScript'.
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:52:49+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.RainScript'.
+2015-07-24 06:54:12+0000 [-] Received SIGINT, shutting down.
+2015-07-24 06:54:12+0000 [-] (TCP Port 5001 Closed)
+2015-07-24 06:54:12+0000 [-] Stopping factory <twisted.web.server.Site instance at 0x7fc0270a4d88>
+2015-07-24 06:54:12+0000 [-] (TCP Port 5000 Closed)
+2015-07-24 06:54:12+0000 [-] Stopping factory <evennia.server.amp.AmpServerFactory instance at 0x7fc02719fa28>
+2015-07-24 06:54:12+0000 [AMPProtocol,0,127.0.0.1] AMPProtocol connection lost (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38502))
+2015-07-24 06:54:12+0000 [-] AMP Error for PortalAdmin: Connection to the other side was lost in a non-clean fashion: Connection lost.
+2015-07-24 06:54:12+0000 [-] Main loop terminated.
+2015-07-24 06:54:12+0000 [-] Server Shut Down.
+2015-07-24 06:54:13+0000 [-] Log opened.
+2015-07-24 06:54:13+0000 [-] twistd 15.2.1 (/root/mud/pyenv/bin/python 2.7.6) starting up.
+2015-07-24 06:54:13+0000 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-07-24 06:54:13+0000 [-] AmpServerFactory starting on 5000
+2015-07-24 06:54:13+0000 [-] Starting factory <evennia.server.amp.AmpServerFactory instance at 0x7f18907f3a28>
+2015-07-24 06:54:13+0000 [-] Site starting on 5001
+2015-07-24 06:54:13+0000 [-] Starting factory <twisted.web.server.Site instance at 0x7f18906f8d88>
+2015-07-24 06:54:13+0000 [evennia.server.amp.AmpServerFactory] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 5000) PEER:IPv4Address(TCP, '127.0.0.1', 38503))
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.EmpScript'.
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.WindScript'.
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] Traceback (most recent call last):
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/typeclasses/models.py", line 250, in __init__
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]   File "/root/mud/evennia/evennia/utils/utils.py", line 942, in class_from_module
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::]     raise ImportError(err)
+2015-07-24 06:54:13+0000 [AMPProtocol,0,127.0.0.1] [::] ImportError: Could not load typeclass 'scripts.RainScript'.
+2015-07-24 06:54:33+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 51537) (1 session(s) total)
+2015-07-24 06:56:23+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 51537) (0 sessions(s) remaining)
+2015-07-24 06:56:47+0000 [AMPProtocol,0,127.0.0.1] [..] Logged in: testuser4(player 5) ('68.235.165.3', 51550) (1 session(s) total)
+2015-07-24 07:03:03+0000 [AMPProtocol,0,127.0.0.1] [..] Logged out: testuser4(player 5) ('68.235.165.3', 51550) (0 sessions(s) remaining)

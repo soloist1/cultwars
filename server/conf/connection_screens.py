@@ -59,5 +59,16 @@ CONNECTION_SCREEN = \
 
  Prompt now displays your true stats
  Workaround for capitalize() for npc generation, see comments
+
+         {r**** {mNew Scripts{r ****{n
+
+   {y@script {bhere{n = scripts.WindScript
+   {y@script {bhere{n = scripts.RainScript
+   {y@script {bhere{n = scripts.EmpScript{n
+
+ These are firing in the 'rainyroom' {Wdbref #138{n, every 60 seconds
+ in random order. {y@scripts{n - to view
+ {y@script/stop{b rainyroom{n = {mDBKEY{n - to stop.
+ 
 {b=============================================================={n"""\
  % (settings.SERVERNAME)

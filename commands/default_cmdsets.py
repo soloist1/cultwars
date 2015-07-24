@@ -26,6 +26,7 @@ from commands.command import CmdGetSession
 from commands.command import CmdTestMenu
 from evennia import CmdSet
 from commands import command
+from scripts import *
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
     """

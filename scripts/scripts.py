@@ -90,68 +90,23 @@ class Script(DefaultScript):
     """
     pass
 
-class RainScript(DefaultScript): 
+class Weather(DefaultScript): 
         "Displays weather info. Meant to be attached to a room."
         def at_script_creation(self):
             "Called once, during initial creation"
-            self.key = "rain_script"
-            self.desc = "Gives random rainy weather messages."
-            self.interval = 60  # every minute
+            self.key = "weather_script"
+            self.desc = "Gives random weather messages."
+            self.interval = 60 * 5 # every 5 minutes
             self.persistent = True
         def at_repeat(self):
             "called every self.interval seconds."        
             rand = random.random()
             if rand < 0.5:
-                rain = "A heavy downpour drenches you."
+                weather = "A faint breeze is felt."
             elif rand < 0.7:
-                rain = "Clouds sweep across the sky." 
+                weather = "Clouds sweep across the sky." 
             else:
-                rain = "There is a light drizzle of rain."
+                weather = "There is a light drizzle of rain."
             # send this message to everyone inside the object this
             # script is attached to (likely a room)
-            self.obj.msg_contents(rain)
-
-
-class WindScript(DefaultScript):
-        "Displays weather info (wind). Meant to be attached to a room."
-        def at_script_creation(self):
-            "Called once, during initial creation"
-            self.key = "wind_script"
-            self.desc = "Gives random windy weather messages."
-            self.interval = 60  # every minute
-            self.persistent = True
-        def at_repeat(self):
-            "called every self.interval seconds."
-            rand = random.random()
-            if rand < 0.5:
-                wind = "A powerful gust of wind impedes your movement."
-            elif rand < 0.7:
-                wind = "A light breeze is felt."   
-            else:
-                wind = "A steady blowing wind blows dust in your eyes, clouding your vision."
-            # send this message to everyone inside the object this
-            # script is attached to (likely a room)
-            self.obj.msg_contents(wind)
-
-class EmpScript(DefaultScript):
-        "Displays weather info (emp). Meant to be attached to a room."
-        def at_script_creation(self):
-            "Called once, during initial creation"
-            self.key = "emp_script"
-            self.desc = "Gives random windy weather messages."
-            self.interval = 60  # every minute
-            self.persistent = True
-        def at_repeat(self):
-            "called every self.interval seconds."
-            rand = random.random()
-            if rand < 0.5:
-                emp = "EMP storm beginning."
-            elif rand < 0.7:
-                emp = "EMP storm continues to rage."     
-            else:
-                emp = "The EMP storm has gotten bad enough to affect all electronics in the immediate area."
-            # send this message to everyone inside the object this
-            # script is attached to (likely a room)
-            self.obj.msg_contents(emp)
-
-
+            self.obj.msg_contents(weather)

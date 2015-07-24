@@ -12,6 +12,7 @@ from evennia import utils
 from evennia import OOB_HANDLER
 from world import rules
 from menus import *
+from scripts import *
 #from menus import factionmenu
 from evennia.utils.evmenu import EvMenu
 import random

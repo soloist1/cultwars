@@ -6,10 +6,13 @@ Rooms are simple containers that has no location of their own.
 """
 import random
 from evennia import DefaultRoom, TICKER_HANDLER
-from evennia import utils
+#from evennia import utils
 from characters import Character
 from npc import Npc
 from commands.default_cmdsets import ChargenCmdset
+from evennia import CmdSet, Command
+from evennia import utils, create_object, search_object
+from evennia import syscmdkeys, default_cmds
 
 
 class Room(DefaultRoom):
@@ -47,23 +50,27 @@ class ChargenRoom(Room):
 
 
 
-ECHOES = ["The sky is clear.", 
+ECHOES = ("The sky is clear.", 
               "Clouds gather overhead.",
               "It's starting to drizzle.",
               "A breeze of wind is felt.",
-              "The wind is picking up"] # etc  
+              "The wind is picking up",
+              "Shit, it's wet!") # etc  
 
 class WeatherRoom(DefaultRoom):
     "This room is ticked at regular intervals"        
 
     def at_object_creation(self):
         "called only when the object is first created"
-        TICKER_HANDLER.add(self, 60, hook_key="at_weather_update")
+        TICKER_HANDLER.add(self, 30, hook_key="at_weather_update")
 
     def at_weather_update(self, *args, **kwargs):
         "ticked at regular intervals"
-        echo = random.choice(ECHOES)
-        self.msg_contents(echo)
+       # echo = random.choice(ECHOES)
+       # self.msg_contents(echo)
+        if random.random() < 0.8:
+            # only update 80 % of the time
+            self.msg_contents("{w%s{n" % random.choice(ECHOES))
 
 #class NPCRoom(Room):
 
