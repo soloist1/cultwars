@@ -9,6 +9,7 @@ creation commands.
 """
 from random import randint
 from evennia import DefaultCharacter
+from commands.command import CmdMySkills
 
 class Character(DefaultCharacter):
     """
@@ -57,6 +58,9 @@ class Character(DefaultCharacter):
     def get_my_stats(self):
  
         return self.db.strength, self.db.dexterity, self.db.charisma, self.db.intelligence, self.db.stamina, self.db.hitpoints, self.db.manapoints
+
+    def get_my_skills(self):
+        return self.db.skills['Tracking'], self.db.skills['Botany'], self.db.skills['Crafting']
 
     def at_after_move(self, source_location):
         """

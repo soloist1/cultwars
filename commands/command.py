@@ -156,7 +156,17 @@ class CmdAbilities(Command):
          string = "XP: %s, HP: %s, MP: %s, COMBAT: %s, LEVEL: %s" % (xp, hitpoints, manapoints, combat, level)
          self.caller.msg(string)
 
+class CmdMySkills(Command):
 
+    key = "getskills"
+    aliases = ["getsk"]
+    lock = "cmd:all()"
+    help_category = "General"
+
+#### Notice the damn formatting of the message! --SG
+    def func(self):
+        for k,v in self.caller.db.skills.items():
+            self.caller.msg("{W" + k + "{n:{m " +v+ " ")
 
 class CmdMyStats(Command):
 
@@ -251,6 +261,8 @@ class CmdLook(MuxCommand):
         hitpoints, manapoints, stamina = self.caller.get_stats()
         prompt = "[{rHP:{y %s,{b MP:{y %s,{g STA:{y %s{n]> " % (hitpoints, manapoints, stamina)
         self.caller.msg(prompt=prompt)
+        
+        
  
 
 
@@ -260,7 +272,7 @@ class CmdGetSession(Command):
         key = "getsessionid"
         aliases = ["sid"]
         def func(self):
-       ## Bad attempt at sending OOB msgs
+       ## Bad attempt at sending OOB msgs -- This actually does send the OOB
             sessid = self.caller.sessid.get()[0]
             OOB_HANDLER.execute_cmd(sessid, "ECHO", "Test")
             self.caller.msg("\nSession ID is '%s'. " % sessid)

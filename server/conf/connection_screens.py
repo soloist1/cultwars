@@ -44,6 +44,7 @@ CONNECTION_SCREEN = \
  {ytestmenu {rMENU NAME{n runs the new menu system, the first menu
     is 'fmenu', for selecting a faction.
   Added menu 'char2'.
+ {ygetskills -{n shows you your initial static skills.
 
           {r**** {mNew Locations{r ****{n
 

@@ -1,4 +1,5 @@
 # Menu nodes 
+from commands.command import CmdMySkills
 
 def test_start_node(caller):
     text = """
@@ -20,9 +21,9 @@ def test_start_node(caller):
                 "desc": "Choose the Law Enforcement faction",
                 "exec": lambda caller: caller.attributes.add("faction", "Law Enforcement"),
                 "goto": "test_set_skilltree"},
-             #  {"key": ("{y V{niew", "v"),
-             #   "desc": "View your currently chosen faction.",
-             #   "goto": "test_view_node"},
+         #      {"key": ("{y V{niew", "v"),
+         #       "desc": "View your currently chosen faction.",
+         #       "goto": "test_view_node"},
                {"key": ("{r4)-{y Q{nuit", "quit", "q", "Q", "4"),
                 "desc": "Quit this menu.",
                 "goto": "test_end_node"},
@@ -78,14 +79,36 @@ def test_set_skilltree(caller):
     return text, options
 
 def test_skills_node(caller):
+
+
+#### This is *way* wrong, but will suffice for testing.
+#### Eventually a better system will need to be worked out.
+#### Skills and attributes will need to be designed into a character class --SG
+
+    if caller.db.skilltree == 'Technological':
+     caller.attributes.add("Skills", "3")
+     caller.db.skills = {'Computers':"1", 'Scavenging':"2", 'Targeting':"3"}  
+    elif caller.db.skilltree == 'Physical':
+     caller.db.skills = {'Grappling':"1", 'Hand to Hand':"2", 'Speed':"3"}
+    elif caller.db.skilltree == 'Natural':
+     caller.db.skills = {'Botany':"1", 'Tracking':"2", 'Crafting':"3"}
+
     text = ("""
     {mYour faction is {y%s{m!
     {mMeta is {y%s{m. {n
     {mYour skill tree is {y%s{m. {n
     
+    {mYour skills are:
     {mNow we choose some skill based on your skill tree. {n
 
     """ % (caller.db.faction, caller.db.Meta, caller.db.skilltree))
+    
+    for k,v in caller.db.skills.items():
+            caller.msg("{W" + k + "{n:{m " +v+ " ")
+   
+    
+
+          
     options = ({"key": ("{r1)-{y B{nack (default)", "_default", "1"),
                "desc": "Back to main menu",
                "goto": "test_start_node"})
@@ -97,8 +120,8 @@ def test_view_node(caller):
     text = ("""
     {mYour faction is {y%s{m!
     {mMeta is {y%s{m. {n
-
-    """ % (caller.db.faction, caller.db.Meta))
+    {m%s, %s, %s, %s, %s, %s 
+    """ % (caller.db.faction, caller.db.Meta, caller.db.skills))
     options = {"desc": "back to main",
                "goto": "test_start_node"}
     return text, options
